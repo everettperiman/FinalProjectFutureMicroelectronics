@@ -1,0 +1,269 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="true" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="simple.cat" TopCell="TopCell"/>
+    <ProcessFile Filename="layerEtchComparison_manyLayer.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="multiLayerComparison-Output" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="bigBounds" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="dfaken" AutoRev="true" Comments="" CreatedOn="Friday April 21, 2017 13:22:09" LastModified="Friday April 21, 2017 13:22:09" Revision="1421" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <material MaterialID="1" blue="0" green="128" name="/Nitrides/NITRIDE0" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="2" blue="50" green="243" name="/Nitrides/Si3N4_MLD" red="12" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="3" blue="137" green="26" name="/Nitrides/Si3N4_PECVD" red="122" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="4" blue="255" green="0" name="/Organics/RESIST" red="255" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="5" blue="255" green="255" name="/Oxides/OXIDET" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="6" blue="255" green="170" name="/Oxides/SIO2" red="85" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="7" blue="20" green="20" name="/Oxides/SiO2_HDP" red="111" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="8" blue="66" green="145" name="/Oxides/SiO2_Thermal" red="192" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="9" blue="67" green="185" name="/Oxides/HfOx" red="142" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="10" blue="250" green="155" name="/Oxides/SiO2_PECVD" red="205" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="11" blue="107" green="105" name="/Silicon/Polysilicon" red="255" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="12" blue="0" green="0" name="/Silicon/Silicon" red="255" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="13" blue="151" green="235" name="/Silicon/Si_Amorph" red="16" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="14" blue="66" green="48" name="/Silicon/Si_Xtal" red="97" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="15" blue="50" green="243" name="/Silicon/Si_Xtal_cond" red="12" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="18" blue="255" green="230" name="/Air_Fragment" red="255" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="250" blue="192" green="192" name="/Skirt" red="192" transparency="0.0" type="Dielectric" visibility="false"/>
+
+  <material MaterialID="253" blue="64" green="64" name="/Void" red="64" transparency="0.0" type="Dielectric" visibility="false"/>
+
+  <Dopants>
+    <Dopant Name="/PType/B">
+      <___Properties isEnable="true">
+        <type ___activeMember="acceptor" isExpanded="true"/>
+        <displayScaleType ___activeMember="logarithmic" isExpanded="true" uiHidden="true"/>
+        <diffusionProperties VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true">
+          <_MaterialNodeType_Oxides_MaterialLeafType_OXIDET UserDefinedName="/Oxides/OXIDET" isEnable="true" showHeader="true">
+            <activationEnergy ___expression="4.0" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="10.0" ___lastKnownValue="10.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Oxides_MaterialLeafType_OXIDET>
+          <_MaterialNodeType_Oxides_MaterialLeafType_SIO2 UserDefinedName="/Oxides/SIO2" isEnable="true" showHeader="true">
+            <activationEnergy ___expression="4.0" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="10.0" ___lastKnownValue="10.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Oxides_MaterialLeafType_SIO2>
+          <_MaterialNodeType_Silicon_MaterialLeafType_Silicon UserDefinedName="/Silicon/Silicon" isEnable="true" showHeader="true">
+            <activationEnergy ___expression="4.0" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="10" ___lastKnownValue="10.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon_MaterialLeafType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/PType/Ga">
+      <___Properties isEnable="true">
+        <type ___activeMember="acceptor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.5" ___lastKnownValue="3.5" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="3.6" ___lastKnownValue="3.6" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/NType/As">
+      <___Properties isEnable="true">
+        <type ___activeMember="donor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.56" ___lastKnownValue="3.56" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="0.32" ___lastKnownValue="0.32" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/NType/Sb">
+      <___Properties isEnable="true">
+        <type ___activeMember="donor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.95" ___lastKnownValue="3.95" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="5.6" ___lastKnownValue="5.6" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/Neutrals/Ge">
+      <___Properties isEnable="true">
+        <type ___activeMember="neutral"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.92" ___lastKnownValue="3.92" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="0.35" ___lastKnownValue="0.35" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+      </___Properties>
+    </Dopant>
+  </Dopants>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,90,90)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(4,0,76)" Name="" Position="(200.28,67.6992,271.237)" ProjType="Orthographic" UpVector="(0,0,1)" ViewHeight="104.4033020734787"/>
+  </View>
+
+  <InternalSceneGraphNode Comments="" Name="Default Zone" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 1(Wafer Setup)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 3 54 multiLayerComparison-Output/Default Zone/K53LS66X.iwaf 54 multiLayerComparison-Output/Default Zone/JSLW61V0.nwaf 54 multiLayerComparison-Output/Default Zone/K0AGHAYG.vwaf&#xA;" StepNumber="1" StepUUID="a7b9f943-58ee-4b2f-93fb-d3642bf315c7" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/K0AGHAYG.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/K0AGHAYG.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 2(Make docuemnt aware of Si_Xtal_cond)" StepNumber="2" StepUUID="b33120d0-d7da-427a-a8d0-172aeddc67c1" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/5PHO9R8A.vwaf&#xA;" StepNumber="1" StepUUID="5c4ac555-f30d-425b-b67a-bddfd5362f64" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/5PHO9R8A.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/5PHO9R8A.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/5PHO9R8A.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" Material="/Silicon/Si_Xtal_cond" MaterialID="15" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Si_Xtal_cond" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/5PHO9R8A.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.2(Remove Materials)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/CCJD17WB.vwaf&#xA;" StepNumber="2" StepUUID="a56d520f-debd-494f-953a-009ef46c5150" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/CCJD17WB.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/CCJD17WB.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/K53LS66X.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/CCJD17WB.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 2 54 multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf 54 multiLayerComparison-Output/Default Zone/HE3Q4XYI.vwaf&#xA;" StepNumber="3" StepUUID="c41ef8f3-3a76-4334-842c-cf72b2fdc9c5" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/HE3Q4XYI.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/HE3Q4XYI.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/HE3Q4XYI.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/WV4MP6RD.vwaf&#xA;" StepNumber="4" StepUUID="218e1dc9-c79d-4fef-afb3-0d0714159d4b" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/WV4MP6RD.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/WV4MP6RD.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/WV4MP6RD.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/5LFXYLP2.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/WV4MP6RD.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/XD6XCVOO.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 2 54 multiLayerComparison-Output/Default Zone/XD6XCVOO.iwaf 54 multiLayerComparison-Output/Default Zone/TQKRLRUC.vwaf&#xA;" StepNumber="5" StepUUID="1958a1d7-f520-489c-bbb8-b5050f580dac" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/TQKRLRUC.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/XD6XCVOO.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/TQKRLRUC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/XD6XCVOO.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/TQKRLRUC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/XD6XCVOO.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/TQKRLRUC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/XD6XCVOO.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/TQKRLRUC.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/LU615CBC.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 6(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 2 54 multiLayerComparison-Output/Default Zone/LU615CBC.iwaf 54 multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf&#xA;" StepNumber="6" StepUUID="3266b25c-1abe-4052-bcf2-6634ef8d95fd" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/LU615CBC.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/LU615CBC.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/LU615CBC.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/LU615CBC.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/LU615CBC.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/ALOCYTGT.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 7(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 2 54 multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf 54 multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf&#xA;" StepNumber="7" StepUUID="18cd3a27-9544-482d-9f8a-af7eea5e0478" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L6KYVK25.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/IBH0EB55.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 8(Deposit)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 2 54 multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf 54 multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf&#xA;" StepNumber="8" StepUUID="ab71701f-9510-49e2-ad84-50a1436854b5" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/JM8ACYYE.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 9(Diffusion)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf&#xA;" StepNumber="9" StepUUID="29b2e434-6fbb-40ad-9abc-7171de2ec4f7" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/R34KKUGN.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 10(Etch)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf&#xA;" StepNumber="10" StepUUID="17716f0e-1b62-4890-8860-417b171ce7e2" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Void" MaterialID="253" MaterialType="Dielectric" MicronScale="1.0" Name="/Void" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/1O2PP8GB.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 11(Expose Material)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf&#xA;" StepNumber="11" StepUUID="f273c9b6-e3d1-42e6-be77-27307f85952a" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Void" MaterialID="253" MaterialType="Dielectric" MicronScale="1.0" Name="/Void" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/X5GMOOPC.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 12(High-res New Basic Etch)" RestartWafers="22 serialization::archive 17 1 1 12 HiResNewEtch 1 1 54 multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf&#xA;" StepNumber="12" StepUUID="92ac235f-f13a-40bc-93f0-2351431898ec" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 14(Chnage Si_Xtal to Si_Xtal_cond)" StepNumber="14" StepUUID="e7147fa3-a562-475c-9f9c-f8b0caed9d37" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 14.1(Voxel Data Export)" RestartWafers="" StepNumber="1" StepUUID="86549100-44eb-4262-a92a-c8ac75aed8b4" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Skirt" MaterialID="250" MaterialType="Dielectric" MicronScale="1.0" Name="/Skirt" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/L4VTPB2J.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/FBMFQMSU.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode Comments="" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 14.2(Custom Python)" StepNumber="2" StepUUID="9a55d4f4-1f99-4abc-ba22-6a8397721bf5" Transparency="0.0" Visibility="false"/>
+      <InternalSceneGraphNode Comments="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 14.3(Voxel Data Import)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 3 54 multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf 54 multiLayerComparison-Output/Default Zone/GMYNSK1V.nwaf 54 multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf&#xA;" StepNumber="3" StepUUID="025f2b91-a40e-4483-bb40-72819e3cbbbb" Transparency="0.0" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" Material="/Nitrides/NITRIDE0" MaterialID="1" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/NITRIDE0" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" Material="/Organics/RESIST" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/RESIST" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" Material="/Oxides/OXIDET" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/OXIDET" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" Material="/Oxides/SIO2" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SIO2" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" Material="/Silicon/Polysilicon" MaterialID="11" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Polysilicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="multiLayerComparison-Output/Default Zone/U10MHAS3.iwaf" Material="/Silicon/Silicon" MaterialID="12" MaterialType="Conductor" MicronScale="1.0" Name="/Silicon/Silicon" Transparency="0.0" Type="Splat" VWAFFilename="multiLayerComparison-Output/Default Zone/39D9YBX6.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+  </InternalSceneGraphNode>
+
+  <Analyses/>
+
+</SceneGraph>

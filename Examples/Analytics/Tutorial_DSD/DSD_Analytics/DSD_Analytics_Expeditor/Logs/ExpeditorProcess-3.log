@@ -1,0 +1,124 @@
+2018-10-12 14:59:53.519; INFO; 13836; ExpeditorProcess-3; MainThread; Ignoring SIGNINT. Parent process will be responsible for killing this process
+2018-10-12 14:59:53.519; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 starting Run-3
+2018-10-12 14:59:53.529; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Pre-Run hooks.
+2018-10-12 14:59:53.529; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-3
+2018-10-12 14:59:53.529; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-3
+2018-10-12 14:59:53.529; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; There are no completed runs for Run-3. Starting full build.
+2018-10-12 14:59:53.529; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-3
+2018-10-12 14:59:53.529; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-3
+2018-10-12 14:59:53.529; INFO; 13836; ExpeditorProcess-3; MainThread; Copying .\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\14nmFinFET to C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R4 for Run-3
+2018-10-12 14:59:55.796; INFO; 13836; ExpeditorProcess-3; MainThread; Run-3: No completed runs to rebuild from
+2018-10-12 14:59:57.611; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=4.082; Id=Run-3
+2018-10-12 14:59:57.611; INFO; 13836; ExpeditorProcess-3; MainThread; Completed runs max match: Id=None, Prefix=None
+2018-10-12 14:59:57.611; INFO; 13836; ExpeditorProcess-3; MainThread; Unfinished runs max match: Id=Run-11, Prefix=[('2.1.9:thickness',), ('50.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('-4.0',), ('2.1.15:thickness',), ('45.0',), ('2.1.15:type.conformal.lateralRatio',)]
+2018-10-12 14:59:57.611; INFO; 13836; ExpeditorProcess-3; MainThread; Run-3 can used to restart Run-11
+2018-10-12 14:59:57.611; INFO; 13836; ExpeditorProcess-3; MainThread; Hence, NOT marking Run-3 for garbage collection
+2018-10-12 14:59:57.611; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-3
+2018-10-12 14:59:57.611; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Pre-run hooks
+2018-10-12 14:59:57.621; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Waiting normally
+2018-10-12 15:09:46.588; PROFILE; 13836; ExpeditorProcess-3; MainThread; Run=Run-3, Duration=588.977, StartTime=2018-10-12 18:59:57.611000, EndTime=2018-10-12 18:59:57.611000
+2018-10-12 15:09:46.588; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Post-Run hooks.
+2018-10-12 15:09:46.588; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-3
+2018-10-12 15:09:46.588; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-3
+2018-10-12 15:09:46.588; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-3
+2018-10-12 15:09:46.588; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Post-run hooks
+2018-10-12 15:09:46.598; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 finished Run-3
+2018-10-12 15:09:46.598; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 starting Run-7
+2018-10-12 15:09:46.608; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Pre-Run hooks.
+2018-10-12 15:09:46.608; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-7
+2018-10-12 15:09:46.608; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-7
+2018-10-12 15:09:46.618; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-7 will be restarted from Run-0
+2018-10-12 15:09:46.618; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.01; Id=Run-7
+2018-10-12 15:09:46.618; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.01; Id=Run-7
+2018-10-12 15:09:46.618; INFO; 13836; ExpeditorProcess-3; MainThread; Copying C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R1 to C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R8 for Run-7
+2018-10-12 15:09:48.898; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-7 will be rebuilt based on C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R1
+2018-10-12 15:09:53.917; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=7.3; Id=Run-7
+2018-10-12 15:09:53.920; INFO; 13836; ExpeditorProcess-3; MainThread; Completed runs max match: Id=Run-3, Prefix=[('2.1.9:thickness',), ('50.0',), ('2.1.9:lithography.dimensionalBias.xBias',)]
+2018-10-12 15:09:53.920; INFO; 13836; ExpeditorProcess-3; MainThread; Unfinished runs max match: Id=Run-19, Prefix=[('2.1.9:thickness',), ('50.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('4.0',), ('2.1.15:thickness',), ('35.0',), ('2.1.15:type.conformal.lateralRatio',)]
+2018-10-12 15:09:53.920; INFO; 13836; ExpeditorProcess-3; MainThread; Run-7 can used to restart Run-19
+2018-10-12 15:09:53.920; INFO; 13836; ExpeditorProcess-3; MainThread; Hence, NOT marking Run-7 for garbage collection
+2018-10-12 15:09:53.920; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.002; Id=Run-7
+2018-10-12 15:09:53.920; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Pre-run hooks
+2018-10-12 15:09:53.927; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Waiting normally
+2018-10-12 15:17:26.220; PROFILE; 13836; ExpeditorProcess-3; MainThread; Run=Run-7, Duration=452.299, StartTime=2018-10-12 19:09:53.922000, EndTime=2018-10-12 19:09:53.922000
+2018-10-12 15:17:26.221; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Post-Run hooks.
+2018-10-12 15:17:26.223; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-7
+2018-10-12 15:17:26.223; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.001; Id=Run-7
+2018-10-12 15:17:26.224; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setDuration; Duration=0.001; Id=Run-7
+2018-10-12 15:17:26.224; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Post-run hooks
+2018-10-12 15:17:26.239; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 finished Run-7
+2018-10-12 15:17:26.239; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 starting Run-11
+2018-10-12 15:17:26.250; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Pre-Run hooks.
+2018-10-12 15:17:26.252; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-11
+2018-10-12 15:17:26.252; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-11
+2018-10-12 15:17:26.253; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-11 will be restarted from Run-3
+2018-10-12 15:17:26.253; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.001; Id=Run-11
+2018-10-12 15:17:26.253; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.001; Id=Run-11
+2018-10-12 15:17:26.253; INFO; 13836; ExpeditorProcess-3; MainThread; Copying C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R4 to C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R12 for Run-11
+2018-10-12 15:17:28.618; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-11 will be rebuilt based on C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R4
+2018-10-12 15:17:33.661; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=7.408; Id=Run-11
+2018-10-12 15:17:33.661; INFO; 13836; ExpeditorProcess-3; MainThread; Completed runs max match: Id=Run-3, Prefix=[('2.1.9:thickness',), ('50.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('-4.0',), ('2.1.15:thickness',), ('45.0',), ('2.1.15:type.conformal.lateralRatio',)]
+2018-10-12 15:17:33.661; INFO; 13836; ExpeditorProcess-3; MainThread; Unfinished runs max match: Id=Run-15, Prefix=[('2.1.9:thickness',), ('50.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('-4.0',), ('2.1.15:thickness',)]
+2018-10-12 15:17:33.661; INFO; 13836; ExpeditorProcess-3; MainThread; There already exists a run (Run-3) that can be used in place of Run-11 for restarting Run-15
+2018-10-12 15:17:33.661; INFO; 13836; ExpeditorProcess-3; MainThread; Marking Run-11 for garbage collection
+2018-10-12 15:17:33.661; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.001; Id=Run-11
+2018-10-12 15:17:33.661; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Pre-run hooks
+2018-10-12 15:17:33.668; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Waiting normally
+2018-10-12 15:23:11.759; PROFILE; 13836; ExpeditorProcess-3; MainThread; Run=Run-11, Duration=338.097, StartTime=2018-10-12 19:17:33.663000, EndTime=2018-10-12 19:17:33.663000
+2018-10-12 15:23:11.762; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Post-Run hooks.
+2018-10-12 15:23:11.762; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-11
+2018-10-12 15:23:11.763; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-11
+2018-10-12 15:23:11.763; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setDuration; Duration=0.001; Id=Run-11
+2018-10-12 15:23:11.763; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Post-run hooks
+2018-10-12 15:23:11.779; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 finished Run-11
+2018-10-12 15:23:11.779; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 starting Run-14
+2018-10-12 15:23:11.796; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Pre-Run hooks.
+2018-10-12 15:23:11.796; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-14
+2018-10-12 15:23:11.796; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-14
+2018-10-12 15:23:11.796; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-14 will be restarted from Run-4
+2018-10-12 15:23:11.796; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-14
+2018-10-12 15:23:11.796; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.001; Id=Run-14
+2018-10-12 15:23:11.796; INFO; 13836; ExpeditorProcess-3; MainThread; Copying C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R5 to C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R15 for Run-14
+2018-10-12 15:23:14.377; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-14 will be rebuilt based on C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R5
+2018-10-12 15:23:19.200; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=7.403; Id=Run-14
+2018-10-12 15:23:19.200; INFO; 13836; ExpeditorProcess-3; MainThread; Completed runs max match: Id=Run-4, Prefix=[('2.1.9:thickness',), ('90.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('4.0',), ('2.1.15:thickness',), ('45.0',), ('2.1.15:type.conformal.lateralRatio',)]
+2018-10-12 15:23:19.201; INFO; 13836; ExpeditorProcess-3; MainThread; Unfinished runs max match: Id=Run-10, Prefix=[('2.1.9:thickness',), ('90.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('4.0',), ('2.1.15:thickness',)]
+2018-10-12 15:23:19.201; INFO; 13836; ExpeditorProcess-3; MainThread; There already exists a run (Run-4) that can be used in place of Run-14 for restarting Run-10
+2018-10-12 15:23:19.201; INFO; 13836; ExpeditorProcess-3; MainThread; Marking Run-14 for garbage collection
+2018-10-12 15:23:19.201; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.001; Id=Run-14
+2018-10-12 15:23:19.201; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Pre-run hooks
+2018-10-12 15:23:19.250; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Waiting normally
+2018-10-12 15:30:06.276; PROFILE; 13836; ExpeditorProcess-3; MainThread; Run=Run-14, Duration=407.072, StartTime=2018-10-12 19:23:19.204000, EndTime=2018-10-12 19:23:19.204000
+2018-10-12 15:30:06.276; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Post-Run hooks.
+2018-10-12 15:30:06.278; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-14
+2018-10-12 15:30:06.279; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.001; Id=Run-14
+2018-10-12 15:30:06.279; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setDuration; Duration=0.001; Id=Run-14
+2018-10-12 15:30:06.279; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Post-run hooks
+2018-10-12 15:30:06.290; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 finished Run-14
+2018-10-12 15:30:06.290; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 starting Run-18
+2018-10-12 15:30:06.309; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Pre-Run hooks.
+2018-10-12 15:30:06.311; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-18
+2018-10-12 15:30:06.311; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-18
+2018-10-12 15:30:06.311; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-18 will be restarted from Run-6
+2018-10-12 15:30:06.311; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-18
+2018-10-12 15:30:06.311; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-18
+2018-10-12 15:30:06.312; INFO; 13836; ExpeditorProcess-3; MainThread; Copying C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R7 to C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R19 for Run-18
+2018-10-12 15:30:09.19; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Run-18 will be rebuilt based on C:\Users\began\Documents\Product_80\New_Tutorial\DSD\DSD_Analytics\DSD_Analytics_Expeditor\DSD_Analytics_Expeditor-Runs\R7
+2018-10-12 15:30:14.53; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=7.743; Id=Run-18
+2018-10-12 15:30:14.55; INFO; 13836; ExpeditorProcess-3; MainThread; Completed runs max match: Id=Run-6, Prefix=[('2.1.9:thickness',), ('90.0',), ('2.1.9:lithography.dimensionalBias.xBias',), ('-4.0',), ('2.1.15:thickness',), ('45.0',), ('2.1.15:type.conformal.lateralRatio',)]
+2018-10-12 15:30:14.55; INFO; 13836; ExpeditorProcess-3; MainThread; Unfinished runs max match: Id=Run-16, Prefix=[('2.1.9:thickness',), ('90.0',), ('2.1.9:lithography.dimensionalBias.xBias',)]
+2018-10-12 15:30:14.55; INFO; 13836; ExpeditorProcess-3; MainThread; There already exists a run (Run-6) that can be used in place of Run-18 for restarting Run-16
+2018-10-12 15:30:14.55; INFO; 13836; ExpeditorProcess-3; MainThread; Marking Run-18 for garbage collection
+2018-10-12 15:30:14.55; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.001; Id=Run-18
+2018-10-12 15:30:14.55; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Pre-run hooks
+2018-10-12 15:30:14.62; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; Waiting normally
+2018-10-12 15:38:45.421; PROFILE; 13836; ExpeditorProcess-3; MainThread; Run=Run-18, Duration=511.363, StartTime=2018-10-12 19:30:14.058000, EndTime=2018-10-12 19:30:14.058000
+2018-10-12 15:38:45.421; INFO; 13836; ExpeditorProcess-3; MainThread; Started running Post-Run hooks.
+2018-10-12 15:38:45.421; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-18
+2018-10-12 15:38:45.421; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-18
+2018-10-12 15:38:45.421; PROFILE; 13836; ExpeditorProcess-3; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-18
+2018-10-12 15:38:45.421; INFO; 13836; ExpeditorProcess-3; MainThread; Finished running all the Post-run hooks
+2018-10-12 15:38:45.421; SHOW_USER; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3 finished Run-18
+2018-10-12 15:38:45.421; INFO; 13836; ExpeditorProcess-3; MainThread; ExpeditorProcess-3: Exiting.
+2018-10-12 15:38:45.421; INFO; 13836; ExpeditorProcess-3; MainThread; process shutting down
+2018-10-12 15:38:45.437; INFO; 13836; ExpeditorProcess-3; MainThread; process exiting with exitcode 0

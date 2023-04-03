@@ -1,0 +1,1053 @@
+
+<___Document DocApp="SEMulator3D" DocBuildTag="" DocType="vanalysis" DocVersion="10.3.0.0">
+
+  <___Properties isEnable="true">
+    <masterPassword ___text=""/>
+    <filePassword ___text="" readonly="true"/>
+    <fileAccessRestriction ___text="" readonly="true"/>
+    <processFile RelativeFileName="./14nmFinFET.vproc" ___text="C:/Users/qauser/Desktop/external/Examples/Semiconductor/14nmFinFET/14nmFinFET.vproc"/>
+  </___Properties>
+
+  <___Parser UUID="d6097682-7336-4a90-a957-a02a6bd07652" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
+    <___Item Automatic="true" UUID="f9e7c264-f260-403b-a38f-7ba3223ea775" ___Name="Auto" ___Type="VariableGroup">
+      <___Item Automatic="true" UUID="0680aa31-87f8-4689-81b1-105e951b2304" ___Name="CD_MAND_DEV" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="03a9d885-58ed-4bd2-bc38-f843004bf787" ___Name="CD_MAND_FIN" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="feba6ac7-ef9a-4335-9993-f433da23a0c8" ___Name="DIBL" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="7c49e26d-a0be-4866-ad5c-f3122ba88860" ___Name="Ioff" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="0a31dab4-441d-4ecd-a4cb-aa10331cf29d" ___Name="Ioff_Lin" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="a0417c6c-6be0-4089-86f9-c3c9e0319481" ___Name="Ion" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="db1eb166-1702-44c5-ac25-9ef30eb544ca" ___Name="Ion_Lin" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="d85366d5-3ce8-4461-b37d-d092d552489d" ___Name="ModelResolution" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="66b17234-2ea7-446f-bb8e-7a015a193f80" ___Name="SH_MAND_FIN" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="6fd9a407-1d56-4037-b063-b5b3dc6ab84d" ___Name="SP_FINPP_BOTSI" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="8c023c48-adbf-4abd-af5a-2304e491e303" ___Name="SS" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="4e99f866-dcf1-4126-999f-27694e9ba274" ___Name="SS_Lin" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="8fd1ec66-227a-489e-85d8-bd412e8b22b7" ___Name="THK_PADNIT_DEP" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="80746248-8ffd-4978-be08-66b0776c973d" ___Name="THK_PADOX_DEP" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="b9fea885-43d7-4055-a4d0-f7a6414860de" ___Name="THK_SacOx_Gate" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="597a92f2-8e40-4fc9-9637-bc9059f0e97f" ___Name="VT" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="70da7295-84af-4345-97ef-fabd47db2b1f" ___Name="VT_Lin" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+    </___Item>
+    <___Item UUID="4f1eaea6-3cdc-43eb-9f42-a5b9b5d00753" ___Name="Device" ___Type="VariableGroup" isExpanded="true">
+      <___Item UUID="a0a0bfc3-79a7-4d01-826f-59bd0ce38982" ___Name="EMG" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="4.61" ___lastKnownValue="4.61" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          <isExposed ___expression="false" isExpanded="true"/>
+        </___Properties>
+      </___Item>
+      <___Item UUID="a0a0bfc3-79a7-4d01-826f-59bd0ce38982" ___Name="NWFOffset" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="-0.45" ___lastKnownValue="-0.45" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          <isExposed ___expression="true" isExpanded="true"/>
+        </___Properties>
+      </___Item>
+      <___Item UUID="a0a0bfc3-79a7-4d01-826f-59bd0ce38982" ___Name="PWFOffset" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0.45" ___lastKnownValue="0.45" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          <isExposed ___expression="true" isExpanded="true"/>
+        </___Properties>
+      </___Item>
+      <___Item UUID="a0a0bfc3-79a7-4d01-826f-59bd0ce38982" ___Name="VdsSat" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0.9" ___lastKnownValue="0.9" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          <isExposed ___expression="true" isExpanded="true"/>
+        </___Properties>
+      </___Item>
+      <___Item UUID="a0a0bfc3-79a7-4d01-826f-59bd0ce38982" ___Name="VdsLin" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0.05" ___lastKnownValue="0.05" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          <isExposed ___expression="true" isExpanded="true"/>
+        </___Properties>
+      </___Item>
+      <___Item UUID="a0a0bfc3-79a7-4d01-826f-59bd0ce38982" ___Name="HKPerm" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="17" ___lastKnownValue="17.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          <isExposed ___expression="true" isExpanded="true"/>
+        </___Properties>
+      </___Item>
+    </___Item>
+    <___Item UUID="bf870cd3-edc9-4772-9ceb-1216ec202170" ___Name="Vdrain" ___Type="Variable">
+      <___Properties isEnable="true">
+        <value ___expression="1.2" ___lastKnownValue="1.2" ___unitConversionExpr="" ___unitName="nounit"/>
+        <isExposed ___expression="false"/>
+      </___Properties>
+    </___Item>
+    <___Item UUID="4ddec2c3-018e-46ce-9dea-4cd48643f301" ___Name="Vdrain_Lin" ___Type="Variable">
+      <___Properties isEnable="true">
+        <value ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit"/>
+        <isExposed ___expression="false"/>
+      </___Properties>
+    </___Item>
+  </___Parser>
+
+  <___DocumentTree UUID="a9af7b9f-ddec-40ba-9593-dd74967be445" ___Name="Analysis Root" ___Type="AnalysisRoot" isExpanded="true">
+    <___Properties isEnable="true">
+      <stepName ___text=""/>
+      <stepAction ___text="" readonly="true"/>
+      <skipMask isEnable="false" showHeader="true">
+        <name ___text="" readonly="true"/>
+      </skipMask>
+      <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      <uiProcessStepSpacer ___text="" extraSpace="true"/>
+    </___Properties>
+    <___Item UUID="be00f95d-3937-4dcb-aef9-5ccf0657c406" ___Name="Name Ports1" ___Type="NamePorts">
+      <___Properties isEnable="true">
+        <stepName ___text="NFET Ports" isExpanded="true"/>
+        <stepAction ___text="Name Ports (Electrical Analysis, 3D Export)" icon=":/icons/NamePorts" isExpanded="true" readonly="true" stepType="NamePorts"/>
+        <skipMask isEnable="false" isExpanded="true" showHeader="true">
+          <name ___text="" isExpanded="true" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <runAfterStep UUID="864dce15-8951-41e3-84d9-c24ef9da933a" ___text="4: Extract Devices" isExpanded="true"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="NFET1" isExpanded="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <ports ArrayElementSequenceNumber="3" Modified="16:17:25.629" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="2" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" isExpanded="true">
+          <e1 ___activeMember="materialInterface " ___displayName="NSource" isArrayElement="true" isExpanded="true">
+            <patchOnModelingBoundary isEnable="true" isExpanded="true">
+              <coordinates isEnable="true" isExpanded="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+              </coordinates>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </patchOnModelingBoundary>
+            <materialInterface isEnable="true" isExpanded="true">
+              <materials VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true">
+                <_MaterialNodeType_Metals UserDefinedName="/Metals/" isEnable="true">
+                  <side ___activeMember="side1"/>
+                </_MaterialNodeType_Metals>
+                <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true">
+                  <side ___activeMember="side2"/>
+                </_MaterialNodeType_Silicon>
+              </materials>
+              <location ___activeMember="anchorPoint " isExpanded="true" showHeader="true">
+                <boxAtLayoutPin isEnable="true">
+                  <pinName ___text=""/>
+                  <mask ___text=""/>
+                  <cellname ___activeMember="allCells"/>
+                  <zElevation ___activeMember="highest ">
+                    <highest isEnable="true"/>
+                    <specific isEnable="true">
+                      <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </specific>
+                  </zElevation>
+                  <boxSize isEnable="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </boxSize>
+                  <previousName ___text="" uiHidden="true"/>
+                </boxAtLayoutPin>
+                <boundingBox isEnable="true" isExpanded="true">
+                  <corner1 isEnable="true" isExpanded="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  </corner1>
+                  <corner2 isEnable="true" isExpanded="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  </corner2>
+                </boundingBox>
+                <anchorPoint isEnable="true" isExpanded="true">
+                  <x ___expression="594" ___lastKnownValue="594.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  <y ___expression="172" ___lastKnownValue="172.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  <z ___expression="86" ___lastKnownValue="86.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                </anchorPoint>
+                <overlappingMask isEnable="true">
+                  <mask ___text=""/>
+                </overlappingMask>
+              </location>
+              <side3Material VersionNumber="9.4.0.0" uiHidden="true" uiHideChildNodes="true"/>
+              <side2MaxThickness ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </materialInterface>
+            <cutPlane isEnable="true">
+              <coordinates isEnable="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </coordinates>
+              <normal isEnable="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </normal>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </cutPlane>
+          </e1>
+          <e2 ___activeMember="materialInterface " ___displayName="NDrain" isArrayElement="true" isExpanded="true">
+            <patchOnModelingBoundary isEnable="true" isExpanded="true">
+              <coordinates isEnable="true" isExpanded="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+              </coordinates>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </patchOnModelingBoundary>
+            <materialInterface isEnable="true" isExpanded="true">
+              <materials VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true">
+                <_MaterialNodeType_Metals UserDefinedName="/Metals/" isEnable="true">
+                  <side ___activeMember="side1"/>
+                </_MaterialNodeType_Metals>
+                <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true">
+                  <side ___activeMember="side2"/>
+                </_MaterialNodeType_Silicon>
+              </materials>
+              <location ___activeMember="anchorPoint " isExpanded="true" showHeader="true">
+                <boxAtLayoutPin isEnable="true">
+                  <pinName ___text=""/>
+                  <mask ___text=""/>
+                  <cellname ___activeMember="allCells"/>
+                  <zElevation ___activeMember="highest ">
+                    <highest isEnable="true"/>
+                    <specific isEnable="true">
+                      <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </specific>
+                  </zElevation>
+                  <boxSize isEnable="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </boxSize>
+                  <previousName ___text="" uiHidden="true"/>
+                </boxAtLayoutPin>
+                <boundingBox isEnable="true" isExpanded="true">
+                  <corner1 isEnable="true" isExpanded="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  </corner1>
+                  <corner2 isEnable="true" isExpanded="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  </corner2>
+                </boundingBox>
+                <anchorPoint isEnable="true" isExpanded="true">
+                  <x ___expression="594" ___lastKnownValue="594.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  <y ___expression="258" ___lastKnownValue="258.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  <z ___expression="86" ___lastKnownValue="86.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                </anchorPoint>
+                <overlappingMask isEnable="true">
+                  <mask ___text=""/>
+                </overlappingMask>
+              </location>
+              <side3Material VersionNumber="9.4.0.0" uiHidden="true" uiHideChildNodes="true"/>
+              <side2MaxThickness ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </materialInterface>
+            <cutPlane isEnable="true">
+              <coordinates isEnable="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </coordinates>
+              <normal isEnable="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </normal>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </cutPlane>
+          </e2>
+          <e3 ___activeMember="materialInterface " ___displayName="NGate" isArrayElement="true" isExpanded="true">
+            <patchOnModelingBoundary isEnable="true" isExpanded="true">
+              <coordinates isEnable="true" isExpanded="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+              </coordinates>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </patchOnModelingBoundary>
+            <materialInterface isEnable="true" isExpanded="true">
+              <materials VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true">
+                <_MaterialNodeType_Metals UserDefinedName="/Metals/" isEnable="true">
+                  <side ___activeMember="side1"/>
+                </_MaterialNodeType_Metals>
+                <_MaterialNodeType_Oxides_MaterialLeafType_HfOx UserDefinedName="/Oxides/HfOx" isEnable="true">
+                  <side ___activeMember="side2"/>
+                </_MaterialNodeType_Oxides_MaterialLeafType_HfOx>
+              </materials>
+              <location ___activeMember="anchorPoint " isExpanded="true" showHeader="true">
+                <boxAtLayoutPin isEnable="true">
+                  <pinName ___text=""/>
+                  <mask ___text=""/>
+                  <cellname ___activeMember="allCells"/>
+                  <zElevation ___activeMember="highest ">
+                    <highest isEnable="true"/>
+                    <specific isEnable="true">
+                      <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </specific>
+                  </zElevation>
+                  <boxSize isEnable="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </boxSize>
+                  <previousName ___text="" uiHidden="true"/>
+                </boxAtLayoutPin>
+                <boundingBox isEnable="true" isExpanded="true">
+                  <corner1 isEnable="true" isExpanded="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  </corner1>
+                  <corner2 isEnable="true" isExpanded="true" showHeader="true">
+                    <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  </corner2>
+                </boundingBox>
+                <anchorPoint isEnable="true" isExpanded="true">
+                  <x ___expression="594" ___lastKnownValue="594.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  <y ___expression="215" ___lastKnownValue="215.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                  <z ___expression="86" ___lastKnownValue="86.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                </anchorPoint>
+                <overlappingMask isEnable="true">
+                  <mask ___text=""/>
+                </overlappingMask>
+              </location>
+              <side3Material VersionNumber="9.4.0.0" uiHidden="true" uiHideChildNodes="true"/>
+              <side2MaxThickness ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </materialInterface>
+            <cutPlane isEnable="true">
+              <coordinates isEnable="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </coordinates>
+              <normal isEnable="true" showHeader="true">
+                <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </normal>
+              <namePortsTypeSpacer ___text="" extraSpace="true"/>
+            </cutPlane>
+          </e3>
+        </ports>
+        <stopBuildWhenPortInvalid ___expression="true"/>
+      </___Properties>
+    </___Item>
+    <___Item UUID="efd45b6c-5a9d-48bd-ae92-c3caa5b30d3a" ___Name="Device Simulation111" ___Type="DeviceSimulation">
+      <___Properties isEnable="true">
+        <stepName ___text="NMOS IdVg (Vd=1.2)" isExpanded="true"/>
+        <stepAction ___text="Device Simulation (Electrical Analysis)" icon=":/icons/DeviceSimulation" isExpanded="true" readonly="true" stepType="DeviceSimulation"/>
+        <skipMask isEnable="false" isExpanded="true" showHeader="true">
+          <name ___text="" isExpanded="true" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <runAfterStep UUID="864dce15-8951-41e3-84d9-c24ef9da933a" ___text="4: Extract Devices" isExpanded="true"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="NFET1" isExpanded="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <temperature ___expression="300.0" ___lastKnownValue="300.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <semiconductorMaterials VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isExpanded="true"/>
+        </semiconductorMaterials>
+        <relativePermittivity ___expression="11.7" ___lastKnownValue="11.7" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <elelctronAffinitiy ___expression="4.05" ___lastKnownValue="4.05" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <bandGap ___expression="1.1245" ___lastKnownValue="1.1245" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+        <Nc ___expression="3.2316e19" ___lastKnownValue="3.2316e+19" ___unitConversionExpr="" ___unitName="nounit"/>
+        <Nv ___expression="1.812e19" ___lastKnownValue="1.812e+19" ___unitConversionExpr="" ___unitName="nounit"/>
+        <mobility isEnable="true" isExpanded="true" showHeader="true">
+          <electron isEnable="true" isExpanded="true" showHeader="true">
+            <low ___expression="1360" ___lastKnownValue="1360.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            <high ___expression="92" ___lastKnownValue="92.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          </electron>
+          <hole isEnable="true" isExpanded="true" showHeader="true">
+            <low ___expression="461.2" ___lastKnownValue="461.2" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            <high ___expression="54.3" ___lastKnownValue="54.3" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          </hole>
+        </mobility>
+        <fieldDepenedentMobility isEnable="false" isExpanded="true" showHeader="true">
+          <velocitySaturation ___expression="1.035e7" ___lastKnownValue="10350000.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true" readonly="true" showHeader="true"/>
+        </fieldDepenedentMobility>
+        <SRH isEnable="false" showHeader="true">
+          <taun ___expression="1e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <taup ___expression="1e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <fieldDep ___expression="false" readonly="true"/>
+        </SRH>
+        <BBT isEnable="false" showHeader="true">
+          <F0 ___expression="1.9e7" ___lastKnownValue="19000000.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <Bfac ___expression="4e14" ___lastKnownValue="400000000000000.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <sigma ___expression="2.5" ___lastKnownValue="2.5" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+        </BBT>
+        <carrierSelection ___activeMember="both" isExpanded="true"/>
+        <DeviceSimulationSpcacer3 ___text="" extraSpace="true" isExpanded="true"/>
+        <nodeDefinition Modified="15:08:17.496" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+          <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeName ___text="NSourceNode" isExpanded="true"/>
+            <ports Modified="14:32:09.677" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" ___text="NSource" isArrayElement="true" isExpanded="true"/>
+            </ports>
+            <nodeTypeSelection ___activeMember="voltage" isExpanded="true"/>
+            <nodeValue isEnable="true" isExpanded="true">
+              <initialValue ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            </nodeValue>
+          </e1>
+          <e2 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeName ___text="NDrainNode" isExpanded="true"/>
+            <ports Modified="14:32:25.562" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" ___text="NDrain" isArrayElement="true" isExpanded="true"/>
+            </ports>
+            <nodeTypeSelection ___activeMember="voltage" isExpanded="true"/>
+            <nodeValue isEnable="true" isExpanded="true">
+              <initialValue ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            </nodeValue>
+          </e2>
+          <e3 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeName ___text="NGateNode" isExpanded="true"/>
+            <ports Modified="14:32:47.243" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" ___text="NGate" isArrayElement="true" isExpanded="true"/>
+            </ports>
+            <nodeTypeSelection ___activeMember="voltage" isExpanded="true"/>
+            <nodeValue isEnable="true" isExpanded="true">
+              <initialValue ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            </nodeValue>
+          </e3>
+        </nodeDefinition>
+        <DeviceSimulationSpacer4 ___text="" extraSpace="true" isExpanded="true"/>
+        <biasDefinition Modified="14:34:27.428" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+          <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeToSweep ___text="NDrainNode" isExpanded="true"/>
+            <segments Modified="12:04:08.288" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <endValue ___expression="Vdrain" ___lastKnownValue="1.2" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <stepSize ___expression="0.4" ___lastKnownValue="0.4" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+              </e1>
+            </segments>
+            <acAnalysis isEnable="false" showHeader="true">
+              <acNode PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" readonly="true" showHeader="true"/>
+              <freq ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </acAnalysis>
+            <metrologies PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true"/>
+          </e1>
+          <e2 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeToSweep ___text="NGateNode" isExpanded="true"/>
+            <segments Modified="14:34:32.232" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <endValue ___expression="1.8" ___lastKnownValue="1.8" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <stepSize ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+              </e1>
+            </segments>
+            <acAnalysis isEnable="false" showHeader="true">
+              <acNode PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" readonly="true" showHeader="true"/>
+              <freq ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </acAnalysis>
+            <metrologies Modified="17:01:55.637" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="VT" isExpanded="true"/>
+                <type ___activeMember="thresholdVoltage " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <thresholdCurrent ___expression="5e-5" ___lastKnownValue="5e-05" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true">
+                    <currentNode ___text=""/>
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                    <interpolation ___activeMember="linear"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true">
+                    <currentNode ___text=""/>
+                    <subThresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e1>
+              <e2 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="Ioff" isExpanded="true"/>
+                <type ___activeMember="currentAtVoltage " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="" isExpanded="true"/>
+                    <thresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <sweepVoltage ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                    <interpolation ___activeMember="log" isExpanded="true"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true">
+                    <currentNode ___text=""/>
+                    <subThresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e2>
+              <e3 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="Ion" isExpanded="true"/>
+                <type ___activeMember="currentAtVoltage " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="" isExpanded="true"/>
+                    <thresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <sweepVoltage ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                    <interpolation ___activeMember="linear" isExpanded="true"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true" isExpanded="true">
+                    <currentNode ___text="NDrainNode" isExpanded="true"/>
+                    <subThresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e3>
+              <e4 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="SS" isExpanded="true"/>
+                <type ___activeMember="subthresholdSwing " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="" isExpanded="true"/>
+                    <thresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true">
+                    <currentNode ___text=""/>
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                    <interpolation ___activeMember="linear"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <subThresholdCurrent ___expression="1e-8" ___lastKnownValue="1e-08" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e4>
+            </metrologies>
+          </e2>
+        </biasDefinition>
+        <uiSpacer5 ___text="" extraSpace="true" isExpanded="true"/>
+        <threeDFieldOutputEnum ___activeMember="phi_n_p"/>
+        <eleholcurrent ___expression="false" showHeader="false"/>
+        <advanced isEnable="false" isExpanded="true" showHeader="true">
+          <tolerance ___expression="1.0e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true" readonly="true"/>
+          <iterationLimit ___expression="100" ___lastKnownValue="100.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true" readonly="true"/>
+          <maxCutbacks ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <linearSolver ___activeMember="iterativeSolver_bicg " readonly="true">
+            <iterativeSolver_bicg isEnable="true" readonly="true">
+              <tolerance ___expression="1e-4" ___lastKnownValue="0.0001" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+              <maxIterations ___expression="1000" ___lastKnownValue="1000.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </iterativeSolver_bicg>
+            <iterativeSolver isEnable="true">
+              <tolerance ___expression="1e-4" ___lastKnownValue="0.0001" ___unitConversionExpr="" ___unitName="nounit"/>
+              <maxIterationsBeforeRestart ___expression="250" ___lastKnownValue="250.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <maxIterations ___expression="1000" ___lastKnownValue="1000.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </iterativeSolver>
+            <directSolver isEnable="true"/>
+          </linearSolver>
+          <currentCriteria isEnable="true" readonly="true" showHeader="true">
+            <minCurrent ___expression="1.0e-11" ___lastKnownValue="9.999999999999999e-12" ___unitConversionExpr="" ___unitName="nounit" readonly="true" showHeader="true"/>
+            <currRelErr ___expression="1.0e-2" ___lastKnownValue="0.01" ___unitConversionExpr="" ___unitName="nounit" readonly="true" showHeader="true"/>
+          </currentCriteria>
+        </advanced>
+      </___Properties>
+    </___Item>
+    <___Item UUID="2cfd9239-1f3a-4d69-8625-4d4a34a29d75" ___Name="Device Simulation1111" ___Type="DeviceSimulation">
+      <___Properties isEnable="true">
+        <stepName ___text="NMOS IdVg (Vd=0.1)" isExpanded="true"/>
+        <stepAction ___text="Device Simulation (Electrical Analysis)" icon=":/icons/DeviceSimulation" isExpanded="true" readonly="true" stepType="DeviceSimulation"/>
+        <skipMask isEnable="false" isExpanded="true" showHeader="true">
+          <name ___text="" isExpanded="true" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <runAfterStep UUID="864dce15-8951-41e3-84d9-c24ef9da933a" ___text="4: Extract Devices" isExpanded="true"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="NFET1" isExpanded="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <temperature ___expression="300.0" ___lastKnownValue="300.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <semiconductorMaterials VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isExpanded="true"/>
+        </semiconductorMaterials>
+        <relativePermittivity ___expression="11.7" ___lastKnownValue="11.7" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <elelctronAffinitiy ___expression="4.05" ___lastKnownValue="4.05" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <bandGap ___expression="1.1245" ___lastKnownValue="1.1245" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+        <Nc ___expression="3.2316e19" ___lastKnownValue="3.2316e+19" ___unitConversionExpr="" ___unitName="nounit"/>
+        <Nv ___expression="1.812e19" ___lastKnownValue="1.812e+19" ___unitConversionExpr="" ___unitName="nounit"/>
+        <mobility isEnable="true" isExpanded="true" showHeader="true">
+          <electron isEnable="true" isExpanded="true" showHeader="true">
+            <low ___expression="1360" ___lastKnownValue="1360.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            <high ___expression="92" ___lastKnownValue="92.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          </electron>
+          <hole isEnable="true" isExpanded="true" showHeader="true">
+            <low ___expression="461.2" ___lastKnownValue="461.2" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            <high ___expression="54.3" ___lastKnownValue="54.3" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+          </hole>
+        </mobility>
+        <fieldDepenedentMobility isEnable="false" isExpanded="true" showHeader="true">
+          <velocitySaturation ___expression="1.035e7" ___lastKnownValue="10350000.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true" readonly="true" showHeader="true"/>
+        </fieldDepenedentMobility>
+        <SRH isEnable="false" showHeader="true">
+          <taun ___expression="1e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <taup ___expression="1e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <fieldDep ___expression="false" readonly="true"/>
+        </SRH>
+        <BBT isEnable="false" showHeader="true">
+          <F0 ___expression="1.9e7" ___lastKnownValue="19000000.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <Bfac ___expression="4e14" ___lastKnownValue="400000000000000.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <sigma ___expression="2.5" ___lastKnownValue="2.5" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+        </BBT>
+        <carrierSelection ___activeMember="both" isExpanded="true"/>
+        <DeviceSimulationSpcacer3 ___text="" extraSpace="true" isExpanded="true"/>
+        <nodeDefinition Modified="15:08:17.496" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+          <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeName ___text="NSourceNode" isExpanded="true"/>
+            <ports Modified="14:32:09.677" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" ___text="NSource" isArrayElement="true" isExpanded="true"/>
+            </ports>
+            <nodeTypeSelection ___activeMember="voltage" isExpanded="true"/>
+            <nodeValue isEnable="true" isExpanded="true">
+              <initialValue ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            </nodeValue>
+          </e1>
+          <e2 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeName ___text="NDrainNode" isExpanded="true"/>
+            <ports Modified="14:32:25.562" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" ___text="NDrain" isArrayElement="true" isExpanded="true"/>
+            </ports>
+            <nodeTypeSelection ___activeMember="voltage" isExpanded="true"/>
+            <nodeValue isEnable="true" isExpanded="true">
+              <initialValue ___expression="Vdrain_Lin" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            </nodeValue>
+          </e2>
+          <e3 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeName ___text="NGateNode" isExpanded="true"/>
+            <ports Modified="14:32:47.243" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" ___text="NGate" isArrayElement="true" isExpanded="true"/>
+            </ports>
+            <nodeTypeSelection ___activeMember="voltage" isExpanded="true"/>
+            <nodeValue isEnable="true" isExpanded="true">
+              <initialValue ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+            </nodeValue>
+          </e3>
+        </nodeDefinition>
+        <DeviceSimulationSpacer4 ___text="" extraSpace="true" isExpanded="true"/>
+        <biasDefinition Modified="17:10:30.599" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+          <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+            <nodeToSweep ___text="NGateNode" isExpanded="true"/>
+            <segments Modified="14:34:32.232" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <endValue ___expression="1.8" ___lastKnownValue="1.8" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <stepSize ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+              </e1>
+            </segments>
+            <acAnalysis isEnable="false" showHeader="true">
+              <acNode PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" readonly="true" showHeader="true"/>
+              <freq ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </acAnalysis>
+            <metrologies Modified="17:01:55.637" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" isExpanded="true" showHeader="true">
+              <e1 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="VT_Lin" isExpanded="true"/>
+                <type ___activeMember="thresholdVoltage " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <thresholdCurrent ___expression="5e-5" ___lastKnownValue="5e-05" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true">
+                    <currentNode ___text=""/>
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                    <interpolation ___activeMember="linear"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true">
+                    <currentNode ___text=""/>
+                    <subThresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e1>
+              <e2 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="Ioff_Lin" isExpanded="true"/>
+                <type ___activeMember="currentAtVoltage " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="" isExpanded="true"/>
+                    <thresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <sweepVoltage ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                    <interpolation ___activeMember="log" isExpanded="true"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true">
+                    <currentNode ___text=""/>
+                    <subThresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e2>
+              <e3 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="Ion_Lin" isExpanded="true"/>
+                <type ___activeMember="currentAtVoltage " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="" isExpanded="true"/>
+                    <thresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <sweepVoltage ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                    <interpolation ___activeMember="linear" isExpanded="true"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true" isExpanded="true">
+                    <currentNode ___text="NDrainNode" isExpanded="true"/>
+                    <subThresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e3>
+              <e4 ___displayName="" isArrayElement="true" isEnable="true" isExpanded="true">
+                <name ___text="SS_Lin" isExpanded="true"/>
+                <type ___activeMember="subthresholdSwing " isExpanded="true">
+                  <thresholdVoltage isEnable="true" isExpanded="true">
+                    <currentNode ___text="" isExpanded="true"/>
+                    <thresholdCurrent ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </thresholdVoltage>
+                  <currentAtVoltage isEnable="true">
+                    <currentNode ___text=""/>
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                    <interpolation ___activeMember="linear"/>
+                  </currentAtVoltage>
+                  <subthresholdSwing isEnable="true" isExpanded="true">
+                    <currentNode ___text="NSourceNode" isExpanded="true"/>
+                    <subThresholdCurrent ___expression="1e-8" ___lastKnownValue="1e-08" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true" isExpanded="true"/>
+                  </subthresholdSwing>
+                  <capAtVoltage isEnable="true">
+                    <sweepVoltage ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+                  </capAtVoltage>
+                </type>
+              </e4>
+            </metrologies>
+          </e1>
+        </biasDefinition>
+        <uiSpacer5 ___text="" extraSpace="true" isExpanded="true"/>
+        <threeDFieldOutputEnum ___activeMember="phi_n_p"/>
+        <eleholcurrent ___expression="false" showHeader="false"/>
+        <advanced isEnable="false" isExpanded="true" showHeader="true">
+          <tolerance ___expression="1.0e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true" readonly="true"/>
+          <iterationLimit ___expression="100" ___lastKnownValue="100.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true" readonly="true"/>
+          <maxCutbacks ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+          <linearSolver ___activeMember="iterativeSolver_bicg " readonly="true">
+            <iterativeSolver_bicg isEnable="true" readonly="true">
+              <tolerance ___expression="1e-4" ___lastKnownValue="0.0001" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+              <maxIterations ___expression="1000" ___lastKnownValue="1000.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </iterativeSolver_bicg>
+            <iterativeSolver isEnable="true">
+              <tolerance ___expression="1e-4" ___lastKnownValue="0.0001" ___unitConversionExpr="" ___unitName="nounit"/>
+              <maxIterationsBeforeRestart ___expression="250" ___lastKnownValue="250.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <maxIterations ___expression="1000" ___lastKnownValue="1000.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </iterativeSolver>
+            <directSolver isEnable="true"/>
+          </linearSolver>
+          <currentCriteria isEnable="false" readonly="true" showHeader="true">
+            <minCurrent ___expression="1.0e-11" ___lastKnownValue="9.999999999999999e-12" ___unitConversionExpr="" ___unitName="nounit" readonly="true" showHeader="true"/>
+            <currRelErr ___expression="1.0e-2" ___lastKnownValue="0.01" ___unitConversionExpr="" ___unitName="nounit" readonly="true" showHeader="true"/>
+          </currentCriteria>
+        </advanced>
+      </___Properties>
+    </___Item>
+    <___Item Comment="DIBL = -(Vt_Saturated - Vt_Linear)/(Vdrain_Saturated - Vdrain_Linear)" UUID="60035037-87e8-450c-9071-11c4ed9a8a4b" ___Name="Define Compound Metrology1" ___Type="DefineCompoundMetrology">
+      <___Properties isEnable="true">
+        <stepName ___text="Extract DIBL"/>
+        <stepAction ___text="Define Compound Metrology (Automation)" icon=":/icons/DefineCompoundMetrology" readonly="true" stepType="DefineCompoundMetrology"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <runAfterStep UUID="864dce15-8951-41e3-84d9-c24ef9da933a" ___text="4: Extract Devices"/>
+        <expressions PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1">
+          <e1 ___displayName="New Value" isArrayElement="true" isEnable="true">
+            <parameterName ___text="DIBL"/>
+            <expression ___expression="- (AutoVT - AutoVT_Lin) / (Vdrain - Vdrain_Lin)" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </e1>
+        </expressions>
+      </___Properties>
+    </___Item>
+    <___Item Comment="Exports 3D field data along a line for a previous Device Simulation step.  Useful for creating band diagrams from the electrostatic potential.&#xA;&#xA;Given a line segment from Start Point to End Point, values will be extracted for each point in the device simulation voltage sweep.  For instance, if a simulation has 3 voltages steps, the output .csv file will have first have columns for the (X,Y,Z) location of the point along the line, and then 3 columns of data, one for each of the voltage steps.  This is shown shown below for an extraction from Start point [-14,-4,39] to end point [-11,-4,39] for a simulation with 3 voltage points in the sweep:&#xA;&#xA;X, Y, Z, 1, 2, 3&#xA;-14.000000, -4.000000, 39.000000, 0.594072, 0.594072, 0.594072,&#xA;-13.000000, -4.000000, 39.000000, 0.585575, 0.585576, 0.585577&#xA;-12.000000, -4.000000, 39.000000, 0.523921, 0.523929, 0.523936,&#xA;-11.000000, -4.000000, 39.000000, 0.45846, 0.458484, 0.458504, &#xA;&#xA;If File Name Prefix = 'LineOut', and Field Name = 'Potential', then the output file will be LineOutPotential.csv&#xA;&#xA;See the IV output file to determine the voltages corresponding to each of the columns in the file generated here. For instance, for the column labeled &quot;2&quot; in the example above, see the row with Index = 2 in the IVresults .csv file from the Device Simulation step." UUID="75aaa812-b9bf-499a-856f-371c959d09f4" ___Name="Custom Python1122112111311" ___Type="CustomPython">
+      <___Properties isEnable="true">
+        <stepName ___text="Device 1D Field Export" isExpanded="true"/>
+        <stepAction ___text="Custom Python" icon=":/icons/CustomPython" isExpanded="true" readonly="true" stepType="CustomPython"/>
+        <skipMask isEnable="false" isExpanded="true" showHeader="true">
+          <name ___text="" isExpanded="true" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true" isExpanded="true"/>
+        <runAfterStep UUID="864dce15-8951-41e3-84d9-c24ef9da933a" ___text="4: Extract Devices" isExpanded="true"/>
+        <pythonModule ___text="DevSimFieldAlongLine" isExpanded="true"/>
+        <pythonFunction ___text="DevSimFieldAlongLine" isExpanded="true"/>
+        <uiCustomPythonSpacer1 ___text="" extraSpace="true" isExpanded="true"/>
+        <pythonParameters ArrayElementSequenceNumber="18" Modified="16:13:09.580" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="2" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" isExpanded="true">
+          <e1 ___activeMember="custom " ___displayName="Step Number" isArrayElement="true" isExpanded="true">
+            <custom isEnable="true" isExpanded="true">
+              <comment ___text="Device Simulation step number" isExpanded="true"/>
+              <value ___text="'A-2'" isExpanded="true"/>
+            </custom>
+            <expression isEnable="true">
+              <comment ___text=""/>
+              <value ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </expression>
+            <mask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </mask>
+            <material isEnable="true">
+              <comment ___text=""/>
+              <materials VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </material>
+            <dopant isEnable="true">
+              <comment ___text=""/>
+              <dopants VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </dopant>
+            <wafer isEnable="true">
+              <comment ___text=""/>
+              <wafer VersionNumber="9.4.0.0" ___text="Wafer2"/>
+            </wafer>
+            <outputWafer isEnable="true">
+              <comment ___text=""/>
+              <wafer ___text=""/>
+            </outputWafer>
+            <outputMask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </outputMask>
+          </e1>
+          <e2 ___activeMember="custom " ___displayName="Field Name" isArrayElement="true" isExpanded="true">
+            <custom isEnable="true" isExpanded="true">
+              <comment ___text="Field Name of interest (can be only part of whole name)" isExpanded="true"/>
+              <value ___text="'Potential'" isExpanded="true"/>
+            </custom>
+            <expression isEnable="true">
+              <comment ___text=""/>
+              <value ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </expression>
+            <mask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </mask>
+            <material isEnable="true">
+              <comment ___text=""/>
+              <materials VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </material>
+            <dopant isEnable="true">
+              <comment ___text=""/>
+              <dopants VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </dopant>
+            <wafer isEnable="true">
+              <comment ___text=""/>
+              <wafer VersionNumber="9.4.0.0" ___text="Wafer2"/>
+            </wafer>
+            <outputWafer isEnable="true">
+              <comment ___text=""/>
+              <wafer ___text=""/>
+            </outputWafer>
+            <outputMask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </outputMask>
+          </e2>
+          <e3 ___activeMember="custom " ___displayName="Start Point" isArrayElement="true" isExpanded="true">
+            <custom isEnable="true" isExpanded="true">
+              <comment ___text="Starting point for line to extract along" isExpanded="true"/>
+              <value ___text="[596,185,75]" isExpanded="true"/>
+            </custom>
+            <expression isEnable="true">
+              <comment ___text=""/>
+              <value ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </expression>
+            <mask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </mask>
+            <material isEnable="true">
+              <comment ___text=""/>
+              <materials VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </material>
+            <dopant isEnable="true">
+              <comment ___text=""/>
+              <dopants VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </dopant>
+            <wafer isEnable="true">
+              <comment ___text=""/>
+              <wafer VersionNumber="9.4.0.0" ___text="Wafer2"/>
+            </wafer>
+            <outputWafer isEnable="true">
+              <comment ___text=""/>
+              <wafer ___text=""/>
+            </outputWafer>
+            <outputMask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </outputMask>
+          </e3>
+          <e4 ___activeMember="custom " ___displayName="End Point" isArrayElement="true" isExpanded="true">
+            <custom isEnable="true" isExpanded="true">
+              <comment ___text="End point for line to extract along" isExpanded="true"/>
+              <value ___text="[596,245,75]" isExpanded="true"/>
+            </custom>
+            <expression isEnable="true">
+              <comment ___text=""/>
+              <value ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </expression>
+            <mask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </mask>
+            <material isEnable="true">
+              <comment ___text=""/>
+              <materials VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </material>
+            <dopant isEnable="true">
+              <comment ___text=""/>
+              <dopants VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </dopant>
+            <wafer isEnable="true">
+              <comment ___text=""/>
+              <wafer VersionNumber="9.4.0.0" ___text="Wafer2"/>
+            </wafer>
+            <outputWafer isEnable="true">
+              <comment ___text=""/>
+              <wafer ___text=""/>
+            </outputWafer>
+            <outputMask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </outputMask>
+          </e4>
+          <e5 ___activeMember="custom " ___displayName="File Name Prefix" isArrayElement="true" isExpanded="true">
+            <custom isEnable="true" isExpanded="true">
+              <comment ___text="Prefix for name of output .csv file" isExpanded="true"/>
+              <value ___text="'PotentialLineOut'" isExpanded="true"/>
+            </custom>
+            <expression isEnable="true">
+              <comment ___text=""/>
+              <value ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </expression>
+            <mask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </mask>
+            <material isEnable="true">
+              <comment ___text=""/>
+              <materials VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </material>
+            <dopant isEnable="true">
+              <comment ___text=""/>
+              <dopants VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            </dopant>
+            <wafer isEnable="true">
+              <comment ___text=""/>
+              <wafer VersionNumber="9.4.0.0" ___text="Wafer2"/>
+            </wafer>
+            <outputWafer isEnable="true">
+              <comment ___text=""/>
+              <wafer ___text=""/>
+            </outputWafer>
+            <outputMask isEnable="true">
+              <comment ___text=""/>
+              <name ___text=""/>
+            </outputMask>
+          </e5>
+        </pythonParameters>
+      </___Properties>
+    </___Item>
+  </___DocumentTree>
+
+</___Document>

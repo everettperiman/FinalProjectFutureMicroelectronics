@@ -1,0 +1,27 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="STI_layout_prebuilt.cat" TopCell="Cell6x6"/>
+    <ProcessFile Filename="STI_MultiEtch.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="buildBounds" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="swen" AutoRev="true" Comments="" CreatedOn="Monday June 05, 2017 13:08:47" LastModified="Monday June 05, 2017 13:08:47" Revision="138" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights/>
+
+  <Analyses/>
+
+</SceneGraph>

@@ -1,0 +1,91 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="true" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="14nmFinFET.cat" TopCell="ARRAY3X3_LIBSRAM_CELL_172_432"/>
+    <ProcessFile Filename="14nmFinFET_trial0.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="14nmFinFET-Output" Enabled="false" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="false"/>
+    <ModelArea BoundingMask="BB2" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="dfried" AutoRev="true" Comments="" CreatedOn="Tuesday June 13, 2017 15:53:28" LastModified="Tuesday June 13, 2017 15:53:28" Revision="5240" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <material MaterialID="1" blue="0" green="128" name="/Nitrides/Si3N4_LPCVD" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="2" blue="60" green="35" name="/Organics/ODL" red="128" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="3" blue="128" green="0" name="/Organics/Resist" red="128" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="4" blue="197" green="255" name="/Oxides/SiO2_LTO" red="23" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="5" blue="255" green="0" name="/Oxides/SiO2_Thermal" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="6" blue="149" green="0" name="/Silicon/SiARC" red="149" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="7" blue="0" green="0" name="/Silicon/Si_Amorph" red="193" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="8" blue="0" green="0" name="/Silicon/Si_Xtal" red="255" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <Dopants>
+    <Dopant Name="/PType/B">
+      <___Properties isEnable="true">
+        <type ___activeMember="acceptor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.06" ___lastKnownValue="3.06" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="2.8e-4" ___lastKnownValue="0.00028" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Oxides>
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.69" ___lastKnownValue="3.69" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="10.5" ___lastKnownValue="10.5" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" uiHidden="true"/>
+      </___Properties>
+    </Dopant>
+  </Dopants>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,90,90)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(557.532,230.767,72.2145)" Name="" Position="(631.75,82.1401,19.0948)" ProjType="Orthographic" UpVector="(-0.246997,0.195644,0.949061)" ViewHeight="106.193788864731"/>
+  </View>
+
+  <InternalSceneGraphNode Comments="" Name="Default Zone" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 1(Wafer Setup1)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 3 44 14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf 44 14nmFinFET-Output/Default Zone/SEKQB3JA.nwaf 44 14nmFinFET-Output/Default Zone/9VVDSL3J.vwaf&#xA;" StepNumber="1" StepUUID="3f55dacd-afd6-4fd7-9e64-17269e63db97" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/9VVDSL3J.vwaf" Visibility="false"/>
+    <InternalSceneGraphNode Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 2(FEOL)" StepNumber="2" StepUUID="40dd0c3d-6281-4908-abce-7440dc5fcbba" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 2.1(Fin)" StepNumber="1" StepUUID="e39968ea-1274-413c-a53e-5289e31e4eaa" Transparency="0.0" Visibility="false">
+        <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.1(DEP PadOx)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/TTF7ISE9.vwaf&#xA;" StepNumber="1" StepUUID="d8e63cd5-e75d-4594-88aa-721284258767" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/TTF7ISE9.vwaf" Visibility="false"/>
+        <MetrologyResult Comments="" HasAutoVariable="true" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.2(MEA THK PadOx)" Parameter="THK_PADOX_DEP" StepNumber="2" StepUUID="e6000d61-b526-4bb0-8540-664cea81fdf0" Transparency="0.0" Type="" Value="3.0" Visibility="false"/>
+        <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.3(DEP PadNit)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/SHJLCGBJ.vwaf&#xA;" StepNumber="3" StepUUID="43500b61-9baa-4fa7-b40d-4a2cffc0f8fa" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/SHJLCGBJ.vwaf" Visibility="false"/>
+        <MetrologyResult Comments="" HasAutoVariable="true" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.4(MEA THK PadNit)" Parameter="THK_PADNIT_DEP" StepNumber="4" StepUUID="4016dcf4-7bcf-4c8d-b48b-da9768eb6d29" Transparency="0.0" Type="" Value="30.0" Visibility="false"/>
+        <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.5(DEP Mandrel Silicon)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/VJJXSX87.vwaf&#xA;" StepNumber="5" StepUUID="e0dd3338-8e36-4f9f-add6-74db42d24bd6" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/VJJXSX87.vwaf" Visibility="false"/>
+        <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.6(DEP MandODL)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/NIR5RUT5.vwaf&#xA;" StepNumber="6" StepUUID="f7f040cc-7c8d-481e-82b8-19313cfbe8e0" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/NIR5RUT5.vwaf" Visibility="false"/>
+        <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.7(DEP MandSiARC)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/XPL12WED.vwaf&#xA;" StepNumber="7" StepUUID="d90abb3c-5126-4bb9-8da5-762a849df60a" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/XPL12WED.vwaf" Visibility="false"/>
+        <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/7IYJHKVN.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.8(DEP MandRes)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/PPM74H88.vwaf&#xA;" StepNumber="8" StepUUID="3e1c2caf-65ea-4d37-ace7-fff86e3517ff" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/PPM74H88.vwaf" Visibility="false"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+  </InternalSceneGraphNode>
+
+  <Analyses/>
+
+</SceneGraph>

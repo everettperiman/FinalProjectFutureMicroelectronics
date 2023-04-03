@@ -1,0 +1,40 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="CustomLoadingMap.cat" TopCell="top"/>
+    <ProcessFile Filename="CustomLoadingMap.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="false" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="bbox" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="apap" AutoRev="true" Comments="" CreatedOn="Friday August 11, 2017 16:18:10" LastModified="Friday August 11, 2017 16:18:10" Revision="2010" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="false" FollowsCamera="false" Intensity="75" Name="Camera Light" Position="(1,90,90)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(0,0,20)" Name="" Position="(58.8577,38.6277,315)" ProjType="Orthographic" UpVector="(-0.408248,0.408248,0.816497)" ViewHeight="89.58236694335938"/>
+  </View>
+
+  <Analyses/>
+
+</SceneGraph>

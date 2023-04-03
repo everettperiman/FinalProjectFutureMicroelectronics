@@ -1,0 +1,40 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="14nmFinFET.cat" TopCell="ARRAY3X3_LIBSRAM_CELL_172_432"/>
+    <ProcessFile Filename="14nmFinFET.vanalysis"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="BB2" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="dfried" AutoRev="true" Comments="" CreatedOn="Tuesday June 13, 2017 15:53:28" LastModified="Tuesday June 13, 2017 15:53:28" Revision="3620" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,90,90)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(557.532,230.767,72.2145)" Name="" Position="(631.75,82.1401,19.0948)" ProjType="Orthographic" UpVector="(-0.246997,0.195644,0.949061)" ViewHeight="106.193788864731"/>
+  </View>
+
+  <Analyses/>
+
+</SceneGraph>

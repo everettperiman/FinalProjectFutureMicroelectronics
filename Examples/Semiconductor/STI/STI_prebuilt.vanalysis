@@ -1,0 +1,377 @@
+
+<___Document DocApp="SEMulator3D" DocBuildTag="" DocType="vanalysis" DocVersion="10.3.0.0">
+
+  <___Properties isEnable="true">
+    <masterPassword ___text=""/>
+    <filePassword ___text="" readonly="true"/>
+    <fileAccessRestriction ___text=""/>
+    <processFile RelativeFileName="./STI_basic_prebuilt.vproc" ___text="C:/Users/qauser/Desktop/external/Examples/Semiconductor/STI/STI_basic_prebuilt.vproc"/>
+  </___Properties>
+
+  <___Parser UUID="f46407f6-416c-4c9f-bdef-ae549a28a29c" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
+    <___Item Automatic="true" UUID="54bf6863-f48f-47b4-a2ee-c6a9e876d206" ___Name="Auto" ___Type="VariableGroup">
+      <___Item Automatic="true" UUID="cafab5fc-8914-4416-9a15-ac7ed5b613fe" ___Name="ModelResolution" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="d8b0af87-e9e2-4fbf-b8ca-8b2c81de50b8" ___Name="STP_STIPG_DGL" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="13a9a610-09e9-4833-8488-311ec4838428" ___Name="STP_STIPG_GDD" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="5620cec4-2fc2-41a3-a994-280a0101984d" ___Name="STP_STIPG_PNS" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+      <___Item Automatic="true" UUID="6cf9962a-da3e-4258-ac9c-2b53756ba577" ___Name="THK_STIFIN_STI" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+    </___Item>
+  </___Parser>
+
+  <___DocumentTree UUID="0624a909-afc7-47c2-b05c-15424f9f766a" ___Name="Analysis Root" ___Type="AnalysisRoot" isExpanded="true">
+    <___Properties isEnable="true">
+      <stepName ___text=""/>
+      <stepAction ___text="" readonly="true"/>
+      <skipMask isEnable="false" showHeader="true">
+        <name ___text="" readonly="true"/>
+      </skipMask>
+      <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      <uiProcessStepSpacer ___text="" extraSpace="true"/>
+    </___Properties>
+    <___Item UUID="adec17b7-3b5f-4a53-b55f-8d115254696b" ___Name="Metrology2" ___Type="Metrology" isExpanded="true">
+      <___Properties VersionNumber="9.4.0.0" featureAttribute="2" isEnable="true">
+        <stepName ___text="Measure Step Height after Deglaze"/>
+        <stepAction ___text="Step Height Metrology (Automation)" icon=":/icons/Metrology" readonly="true" stepType="Metrology"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true" uiUseCustomMaskWidget="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <runAfterStep UUID="56127f96-1815-489f-919b-9bd654b2103d" ___text="2.7: STI Deglaze Etch" uiCustom="ProcessStepAnchor"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="Wafer1" inputWafer="true" uiHideChildNodes="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <showViewer ___expression="true"/>
+        <uiSpacer1 ___text="" extraSpace="true"/>
+        <mask ___text="STP_PG" uiUseCustomMaskWidget="true"/>
+        <parameterName ___text="STP_STIPG_DGL"/>
+        <uiSpacer2 ___text="" extraSpace="true"/>
+        <type ___activeMember="stepHeight ">
+          <criticalDimension VersionNumber="9.4.0.0" isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <structure ___activeMember="lineOrTrench"/>
+            <elevation ___activeMember="top ">
+              <relative isEnable="true">
+                <relativePosition ___activeMember="percentage ">
+                  <percentage isEnable="true">
+                    <value ___expression="90.0" ___lastKnownValue="90.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </percentage>
+                  <depthFromTop isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </depthFromTop>
+                  <heightFromBottom isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </heightFromBottom>
+                </relativePosition>
+              </relative>
+              <absolute isEnable="true">
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </absolute>
+              <top isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </top>
+              <middle isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </middle>
+              <bottom isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </bottom>
+            </elevation>
+            <createPositionParameters ___expression="false"/>
+          </criticalDimension>
+          <elevationChange isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </elevationChange>
+          <filmThickness isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <sumMultipleFilms ___expression="false"/>
+            <createPositionParameters ___expression="false"/>
+          </filmThickness>
+          <lineToLine isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <elevation ___activeMember="top"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </lineToLine>
+          <sidewallAngle isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+            <createPositionParameters ___expression="false"/>
+          </sidewallAngle>
+          <stepHeight isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </stepHeight>
+          <voidVolume isEnable="true"/>
+          <interfaceArea isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </interfaceArea>
+        </type>
+      </___Properties>
+    </___Item>
+    <___Item UUID="285ab830-a8d2-419a-8347-4d46c87b28f5" ___Name="Metrology21" ___Type="Metrology" isExpanded="true">
+      <___Properties VersionNumber="9.4.0.0" featureAttribute="2" isEnable="true">
+        <stepName ___text="Measure STI Oxide Film Thickness Between NFET and PFET"/>
+        <stepAction ___text="Film Thickness Metrology (Automation)" icon=":/icons/Metrology" readonly="true" stepType="Metrology"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true" uiUseCustomMaskWidget="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <runAfterStep UUID="ade8ce91-f010-448f-96f0-32016dcc565f" ___text="2.8: Pad Nitride Strip" uiCustom="ProcessStepAnchor"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="Wafer1" inputWafer="true" uiHideChildNodes="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <showViewer ___expression="true"/>
+        <uiSpacer1 ___text="" extraSpace="true"/>
+        <mask ___text="THK_STI" uiUseCustomMaskWidget="true"/>
+        <parameterName ___text="THK_STIFIN_STI"/>
+        <uiSpacer2 ___text="" extraSpace="true"/>
+        <type ___activeMember="filmThickness ">
+          <criticalDimension VersionNumber="9.4.0.0" isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <structure ___activeMember="lineOrTrench"/>
+            <elevation ___activeMember="top ">
+              <relative isEnable="true">
+                <relativePosition ___activeMember="percentage ">
+                  <percentage isEnable="true">
+                    <value ___expression="90.0" ___lastKnownValue="90.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </percentage>
+                  <depthFromTop isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </depthFromTop>
+                  <heightFromBottom isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </heightFromBottom>
+                </relativePosition>
+              </relative>
+              <absolute isEnable="true">
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </absolute>
+              <top isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </top>
+              <middle isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </middle>
+              <bottom isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </bottom>
+            </elevation>
+            <createPositionParameters ___expression="false"/>
+          </criticalDimension>
+          <elevationChange isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </elevationChange>
+          <filmThickness isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true">
+              <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_HDP UserDefinedName="/Oxides/SiO2_HDP" isEnable="true"/>
+              <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_Thermal UserDefinedName="/Oxides/SiO2_Thermal" isEnable="true"/>
+            </materials>
+            <sumMultipleFilms ___expression="false"/>
+            <createPositionParameters ___expression="false"/>
+          </filmThickness>
+          <lineToLine isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <elevation ___activeMember="top"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </lineToLine>
+          <sidewallAngle isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+            <createPositionParameters ___expression="false"/>
+          </sidewallAngle>
+          <stepHeight isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </stepHeight>
+          <voidVolume isEnable="true"/>
+          <interfaceArea isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </interfaceArea>
+        </type>
+      </___Properties>
+    </___Item>
+    <___Item UUID="a47bdb70-22f9-4584-b610-d92e3bdaff85" ___Name="Metrology22" ___Type="Metrology" isExpanded="true">
+      <___Properties VersionNumber="9.4.0.0" featureAttribute="2" isEnable="true">
+        <stepName ___text="Measure STI Step Height After Pad Nitride Strip"/>
+        <stepAction ___text="Step Height Metrology (Automation)" icon=":/icons/Metrology" readonly="true" stepType="Metrology"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true" uiUseCustomMaskWidget="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <runAfterStep UUID="ade8ce91-f010-448f-96f0-32016dcc565f" ___text="2.8: Pad Nitride Strip" uiCustom="ProcessStepAnchor"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="Wafer1" inputWafer="true" uiHideChildNodes="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <showViewer ___expression="true"/>
+        <uiSpacer1 ___text="" extraSpace="true"/>
+        <mask ___text="STP_PG" uiUseCustomMaskWidget="true"/>
+        <parameterName ___text="STP_STIPG_PNS"/>
+        <uiSpacer2 ___text="" extraSpace="true"/>
+        <type ___activeMember="stepHeight ">
+          <criticalDimension VersionNumber="9.4.0.0" isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <structure ___activeMember="lineOrTrench"/>
+            <elevation ___activeMember="top ">
+              <relative isEnable="true">
+                <relativePosition ___activeMember="percentage ">
+                  <percentage isEnable="true">
+                    <value ___expression="90.0" ___lastKnownValue="90.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </percentage>
+                  <depthFromTop isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </depthFromTop>
+                  <heightFromBottom isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </heightFromBottom>
+                </relativePosition>
+              </relative>
+              <absolute isEnable="true">
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </absolute>
+              <top isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </top>
+              <middle isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </middle>
+              <bottom isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </bottom>
+            </elevation>
+            <createPositionParameters ___expression="false"/>
+          </criticalDimension>
+          <elevationChange isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </elevationChange>
+          <filmThickness isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <sumMultipleFilms ___expression="false"/>
+            <createPositionParameters ___expression="false"/>
+          </filmThickness>
+          <lineToLine isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <elevation ___activeMember="top"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </lineToLine>
+          <sidewallAngle isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+            <createPositionParameters ___expression="false"/>
+          </sidewallAngle>
+          <stepHeight isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </stepHeight>
+          <voidVolume isEnable="true"/>
+          <interfaceArea isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </interfaceArea>
+        </type>
+      </___Properties>
+    </___Item>
+    <___Item UUID="66cfa191-edef-4aa4-b764-593191a4c1c7" ___Name="Metrology23" ___Type="Metrology" isExpanded="true">
+      <___Properties VersionNumber="9.4.0.0" featureAttribute="2" isEnable="true">
+        <stepName ___text="Measure STI Step Height After Gate Dielectric Deposition"/>
+        <stepAction ___text="Step Height Metrology (Automation)" icon=":/icons/Metrology" readonly="true" stepType="Metrology"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true" uiUseCustomMaskWidget="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <runAfterStep UUID="465eb860-f3ad-47e2-b100-3e65a500f613" ___text="4: Gate Dielectric Deposition" uiCustom="ProcessStepAnchor"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="9.4.0.0" ___text="Wafer1" inputWafer="true" uiHideChildNodes="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <showViewer ___expression="true"/>
+        <uiSpacer1 ___text="" extraSpace="true"/>
+        <mask ___text="STP_PG" uiUseCustomMaskWidget="true"/>
+        <parameterName ___text="STP_STIPG_GDD"/>
+        <uiSpacer2 ___text="" extraSpace="true"/>
+        <type ___activeMember="stepHeight ">
+          <criticalDimension VersionNumber="9.4.0.0" isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <structure ___activeMember="lineOrTrench"/>
+            <elevation ___activeMember="top ">
+              <relative isEnable="true">
+                <relativePosition ___activeMember="percentage ">
+                  <percentage isEnable="true">
+                    <value ___expression="90.0" ___lastKnownValue="90.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </percentage>
+                  <depthFromTop isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </depthFromTop>
+                  <heightFromBottom isEnable="true">
+                    <value ___expression="5.0" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </heightFromBottom>
+                </relativePosition>
+              </relative>
+              <absolute isEnable="true">
+                <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </absolute>
+              <top isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </top>
+              <middle isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </middle>
+              <bottom isEnable="true">
+                <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+              </bottom>
+            </elevation>
+            <createPositionParameters ___expression="false"/>
+          </criticalDimension>
+          <elevationChange isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </elevationChange>
+          <filmThickness isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <sumMultipleFilms ___expression="false"/>
+            <createPositionParameters ___expression="false"/>
+          </filmThickness>
+          <lineToLine isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <elevation ___activeMember="top"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </lineToLine>
+          <sidewallAngle isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+            <createPositionParameters ___expression="false"/>
+          </sidewallAngle>
+          <stepHeight isEnable="true">
+            <transparentMaterials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+            <slopeThreshold ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" hiddenInAnalyticsInput="true"/>
+          </stepHeight>
+          <voidVolume isEnable="true"/>
+          <interfaceArea isEnable="true">
+            <materials VersionNumber="9.4.0.0" uiHideChildNodes="true" uiUseCustomMaterialWidget="true"/>
+          </interfaceArea>
+        </type>
+      </___Properties>
+    </___Item>
+  </___DocumentTree>
+
+</___Document>

@@ -1,0 +1,2638 @@
+
+<___Document DocApp="SEMulator3D" DocBuildTag="" DocType="vmpd" DocVersion="10.3.0.0">
+
+  <___Properties isEnable="true">
+    <masterPassword ___text=""/>
+    <filePassword ___text="" readonly="true"/>
+    <fileAccessRestriction ___text="" readonly="true"/>
+  </___Properties>
+
+  <___Parser UUID="146a6877-6a08-4d9a-9167-78466f2ab23c" ___Name="Variables" ___Type="VariableRoot" isExpanded="true"/>
+
+  <___DocumentTree UUID="f42678cf-7cb0-4ef0-98fa-0d0316b82851" ___Name="Material Database" ___Type="MaterialTreeRoot" isExpanded="true">
+    <___Item UUID="a462bf1c-74ed-48e4-ab58-90a68bfd34e6" ___Name="Materials" ___Type="MainMaterialGroup" isExpanded="true">
+      <___Properties isEnable="true"/>
+      <___Item UUID="62563af3-029d-4598-a688-5b63b1657c9d" ___Name="III_V" ___Type="MaterialGroup">
+        <___Properties isEnable="true"/>
+        <___Item UUID="c1f40b8f-1c0f-4e24-bc03-11e90f92f97c" ___Name="GaAs" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="0" ___green="255" ___red="255" isExpanded="true" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true" isExpanded="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor " isExpanded="true">
+              <conductor isEnable="true" isExpanded="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none " isExpanded="true">
+                  <none isEnable="true" isExpanded="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+      </___Item>
+      <___Item UUID="6aa8306c-43c3-44d0-8770-74113038e20a" ___Name="Metals" ___Type="MaterialGroup">
+        <___Properties isEnable="true"/>
+        <___Item UUID="a2cc1e1b-cd2f-4285-9c3b-736385ec290f" ___Name="Al" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="164" ___green="160" ___red="160" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="e48a52b7-b5c2-4db1-9fe9-262fcfe8b370" ___Name="Au" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="54" ___green="231" ___red="243" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="1addf45d-fce0-45f1-9ee1-aed2ddafb851" ___Name="Co" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="245" ___green="152" ___red="155" noItemUpdateRequired="true"/>
+              <transparency ___expression="10" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="4d181de9-23d5-46b3-b8b4-f3b4f6a25543" ___Name="CoSi" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="33cf790e-79ab-4157-b14f-5fb613ed1b7b" ___Name="Cu" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="34" ___green="84" ___red="153" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="f3f7915a-b48b-460c-8de8-670fd29cd99b" ___Name="Ni" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="245" ___green="152" ___red="155" noItemUpdateRequired="true"/>
+              <transparency ___expression="10" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="e101def7-17ff-482d-bb68-a34703049297" ___Name="NiPt" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="200" ___green="156" ___red="148" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="be82cbaf-3b53-4817-9f01-dcdc7e46996e" ___Name="NiPtSi" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="164" ___green="160" ___red="160" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="ba7948c7-b58f-434c-ad68-276e98d04e8c" ___Name="NiSi" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="e1a867f2-04e6-4001-bf56-92020bf3c568" ___Name="Ta" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="60" ___green="136" ___red="139" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="dc321e6e-1031-4094-bc1a-3a7c33fe6dd0" ___Name="TaN" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="0" ___green="128" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="5e1abd58-2768-428c-bbc9-c87f96676a9b" ___Name="Ti" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="134" ___green="134" ___red="134" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="e89c3ceb-8318-43ef-8a1e-00b051fa14de" ___Name="TiAl" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="192" ___green="192" ___red="192" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="77f66b20-f483-45ac-88f5-38b471c5d228" ___Name="TiN" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="a3667f82-0984-4480-ad44-a89ee2a9c8bb" ___Name="W" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="60" ___green="66" ___red="50" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="857c0d44-1533-480a-8676-a433bdd610a0" ___Name="WSi" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+      </___Item>
+      <___Item UUID="d5dd3660-d004-4277-bcbe-8871b7174b42" ___Name="Nitrides" ___Type="MaterialGroup">
+        <___Properties isEnable="true"/>
+        <___Item UUID="4c908f33-a958-46f2-b945-e1fbba5e155e" ___Name="Si3N4_LPCVD" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="eb612798-4f89-4305-a557-3c01137c58ef" ___Name="Si3N4_LPCVD" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="9b465ccc-c9e2-4b65-953f-d0c67e0f8940" ___Name="Si3N4_LPCVD_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="6aa1b464-8514-4232-acc8-b6439531cf08" ___Name="Si3N4_LPCVD_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="d7d69c0d-3bc5-4cfc-9a21-be2f13fec640" ___Name="Si3N4_MLD" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="520e1f12-ea89-47e8-b784-21f3731864dd" ___Name="Si3N4_MLD" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="4d66872b-140d-4944-be7f-3c02b9049db9" ___Name="Si3N4_MLD_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="9392785b-6ab3-4c8f-b015-21c843a5f3e7" ___Name="Si3N4_MLD_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="b6a23553-34ef-4c2d-8d7e-541112b0b17f" ___Name="Si3N4_PECVD" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="c8d07cdd-60fc-4bb2-961c-6c5415f692b4" ___Name="Si3N4_PECVD" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="128" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="18d7568f-18fa-4567-a4ed-cb3fc1e2c629" ___Name="Si3N4_PECVD_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="128" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="c5f9db77-d3e8-4997-a5fc-19b3a253c695" ___Name="Si3N4_PECVD_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="128" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="5ce4dc8a-1889-4a8d-a494-30ea137f2527" ___Name="Si3N4_Comp" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="d13d6ab1-a08e-4795-a09c-f04218c97250" ___Name="Si3N4_Tens" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+      </___Item>
+      <___Item UUID="d7865e23-3247-4ef2-9367-39c9c96f8fb0" ___Name="Organics" ___Type="MaterialGroup">
+        <___Properties isEnable="true"/>
+        <___Item UUID="4720f768-183b-4a11-b03d-27135f10f63b" ___Name="ODL" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="60" ___green="35" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="ea2ed33d-b9c5-4a5b-8f39-170f47a58a70" ___Name="Polymer" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="54" ___green="245" ___red="242" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="conductor ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="51d14bce-d39e-42e1-8ea2-5c340babdb52" ___Name="Resist" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="128" ___green="0" ___red="128" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+      </___Item>
+      <___Item UUID="787b6b88-5a3b-49ed-bab6-60312c4e2da7" ___Name="Oxides" ___Type="MaterialGroup">
+        <___Properties isEnable="true"/>
+        <___Item UUID="fa3e07c4-1564-4914-98a5-ddbb12638ff3" ___Name="SiO2_HDP" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="3f3a428b-2e1b-4df6-82ee-d96ebfcc30d5" ___Name="SiO2_HDP" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="071b89a6-fa0a-4c82-b75c-6a37f6a29ac1" ___Name="SiO2_HDP_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="4d9a2b4c-15e0-430b-8138-c7b6379ff059" ___Name="SiO2_HDP_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="93f3d26f-ef96-48fc-9359-e791b87decff" ___Name="SiO2_HTO" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="e8ee8282-495e-4eba-9f8e-f9efc6cfe5fb" ___Name="SiO2_HTO" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="170" ___red="85" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="dc0214c2-6d70-486a-931c-c9d337bab460" ___Name="SiO2_HTO_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="170" ___red="85" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="3ce717a2-c6b6-4cc2-82be-54b97c7ccf6d" ___Name="SiO2_HTO_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="170" ___red="85" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="1faa0fbc-5165-44b8-af88-773cbc3425d8" ___Name="SiO2_LTO" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="56525996-ed81-4639-83e1-de8227f00621" ___Name="SiO2_LTO" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="197" ___green="255" ___red="23" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="54962018-567a-4a37-8d48-d016438bee91" ___Name="SiO2_LTO_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="197" ___green="255" ___red="23" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="49dcb383-8f33-4153-99cc-469d2e0c1fd2" ___Name="SiO2_LTO_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="197" ___green="255" ___red="23" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="74968627-b059-45eb-aa89-b25865e38103" ___Name="SiO2_PECVD" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="18abdd32-faff-4b2d-b208-068198800709" ___Name="SiO2_PECVD" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="208" ___green="163" ___red="128" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="8aff2590-dfcd-4f87-a47d-e6ef0bd5c2be" ___Name="SiO2_PECVD_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="208" ___green="163" ___red="128" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="578ca8ca-48a8-4da2-b9b7-7703a83d68bf" ___Name="SiO2_PECVD_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="208" ___green="163" ___red="128" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="b9d99529-5a13-4dc1-a266-f22d84628b18" ___Name="SiO2_TEOS" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="07290ca8-cd58-40df-9325-da3d2a9ffc0d" ___Name="SiO2_TEOS" ___Type="Material" isExpanded="true">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="207" ___red="33" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="cd0a5556-2b23-4741-a8b6-e7e7d8773346" ___Name="SiO2_TEOS_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="207" ___red="33" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="42797a99-7621-4ae3-9690-a11829b141cc" ___Name="SiO2_TEOS_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="207" ___red="33" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="4ba33642-b6ed-434f-a7ed-9495c0690ceb" ___Name="SiO2_Thermal" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="f3ac4979-548f-4242-839c-3039e0c5c7de" ___Name="SiO2_Thermal" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="0" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="120935ae-12c5-44b2-b174-706408ec936c" ___Name="SiO2_Thermal_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="0" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="ba31c4f1-fac6-471b-8fb5-8ed7696a7822" ___Name="SiO2_Thermal_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="0" ___red="0" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="3d4efed6-9220-4e00-ba79-bc766d0c27c2" ___Name="HfOx" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="0" ___green="255" ___red="255" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="36c6503e-0ec9-4606-a6a7-cd7a41454c91" ___Name="SiO2_BOX" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="255" ___green="225" ___red="190" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+        <___Item UUID="74a95200-50b8-47df-9370-a57c112c628e" ___Name="ULK" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="245" ___green="193" ___red="71" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+      </___Item>
+      <___Item UUID="ad0237ec-a388-4481-8818-95c16f542325" ___Name="Silicon" ___Type="MaterialGroup">
+        <___Properties isEnable="true"/>
+        <___Item UUID="ee980f06-8034-4370-b79c-cd55abc415bf" ___Name="SiC" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="3a05eea9-9ce0-4e7f-8ea4-bade4320cbce" ___Name="SiC" ___Type="Material" isExpanded="true">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="85" ___red="255" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="25964338-c978-4eb6-b157-1e1741861adc" ___Name="SiC_P" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="85" ___red="255" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="91551603-9c53-4b09-9012-4ab957e63f4f" ___Name="SiGe" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="b11ff9a5-043c-4f02-9223-011b9ea993da" ___Name="SiGe" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="128" ___green="0" ___red="128" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="4557da79-3f1b-4cce-8e09-6b5bde0e062c" ___Name="SiGe_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="128" ___green="0" ___red="128" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="23622589-1195-45d4-9e4e-298b71599062" ___Name="Si_Amorph" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="5cad0597-5240-429f-8474-7f35e93d6f59" ___Name="Si_Amorph" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="0" ___red="193" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="a46635de-665f-4b57-8910-a0954e1cc5fa" ___Name="Si_Amorph_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="0" ___red="128" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="eb0e059b-5686-4d0a-a851-536889adf4a0" ___Name="Si_Amorph_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="121" ___green="6" ___red="198" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="580fc1cf-8b44-4f4b-9916-bd00914c1acf" ___Name="Si_EpiPoly" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="0" ___red="170" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="283013c6-c5f0-40e5-91dd-f748dd07fcf7" ___Name="Si_Xtal" ___Type="MaterialGroup">
+          <___Properties isEnable="true"/>
+          <___Item UUID="58f30fe9-137c-462e-b6ba-8d965d103132" ___Name="Si_Xtal" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="0" ___green="0" ___red="255" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="dielectric ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="276172f9-7fa5-4733-b1a6-2e85a30a7cea" ___Name="Si_Xtal_As" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="51" ___green="102" ___red="255" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+          <___Item UUID="753ce8a3-6a6b-4143-9aed-013bcee17fc8" ___Name="Si_Xtal_B" ___Type="Material">
+            <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+              <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+                <color ___blue="255" ___green="0" ___red="255" noItemUpdateRequired="true"/>
+                <transparency ___expression="0" noItemUpdateRequired="true"/>
+                <visibility ___expression="true"/>
+              </visualProperties>
+              <physicalProperties2 isEnable="true" showHeader="true">
+                <density ___activeMember="massDensity ">
+                  <massDensity isEnable="true">
+                    <chemicalFormula ___text=""/>
+                    <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </massDensity>
+                </density>
+              </physicalProperties2>
+              <type ___activeMember="conductor ">
+                <conductor isEnable="true">
+                  <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <sizeCorrection ___activeMember="none ">
+                    <none isEnable="true"/>
+                    <exponential isEnable="true">
+                      <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </exponential>
+                  </sizeCorrection>
+                  <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                </conductor>
+                <dielectric isEnable="true">
+                  <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </dielectric>
+              </type>
+              <structuralProperties isEnable="true" showHeader="true">
+                <materialStructureType ___activeMember="isotropicMatTable ">
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </materialStructureType>
+              </structuralProperties>
+            </___Properties>
+          </___Item>
+        </___Item>
+        <___Item UUID="1e61c520-5da0-4a86-91e1-94ff03dabdb9" ___Name="SiARC" ___Type="Material">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+            <visualProperties isEnable="true" isExpanded="true" showHeader="true">
+              <color ___blue="149" ___green="0" ___red="149" noItemUpdateRequired="true"/>
+              <transparency ___expression="0" noItemUpdateRequired="true"/>
+              <visibility ___expression="true"/>
+            </visualProperties>
+            <physicalProperties2 isEnable="true" showHeader="true">
+              <density ___activeMember="massDensity ">
+                <massDensity isEnable="true">
+                  <chemicalFormula ___text=""/>
+                  <massDensity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </massDensity>
+              </density>
+            </physicalProperties2>
+            <type ___activeMember="dielectric ">
+              <conductor isEnable="true">
+                <bulkResistivity ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <metal_workfunction ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <sizeCorrection ___activeMember="none ">
+                  <none isEnable="true"/>
+                  <exponential isEnable="true">
+                    <surfaceCorrection ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </exponential>
+                </sizeCorrection>
+                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+              </conductor>
+              <dielectric isEnable="true">
+                <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </dielectric>
+            </type>
+            <structuralProperties isEnable="true" showHeader="true">
+              <materialStructureType ___activeMember="isotropicMatTable ">
+                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+              </materialStructureType>
+            </structuralProperties>
+          </___Properties>
+        </___Item>
+      </___Item>
+    </___Item>
+    <___Item UUID="23d8a638-5519-4c78-8293-2c821ce980c5" ___Name="Dopants" ___Type="MainDopantGroup">
+      <___Properties isEnable="true"/>
+    </___Item>
+  </___DocumentTree>
+
+</___Document>

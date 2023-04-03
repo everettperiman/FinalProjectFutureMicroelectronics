@@ -1,0 +1,996 @@
+2019-05-14 11:34:57.601; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Ignoring SIGNINT. Parent process will be responsible for killing this process
+2019-05-14 11:43:26.516; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run header = [(0, 'Runs'), (1, '2.1.15:thickness'), (2, '2.1.9:lithography.dimensionalBias.xBias'), (3, "2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle")]
+2019-05-14 11:43:26.516; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Step Names header = []
+2019-05-14 11:43:28.921; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; variables header = ['2.1.15:thickness', '2.1.9:lithography.dimensionalBias.xBias', "2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle"]
+2019-05-14 11:43:31.440; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Sorted variables header excluding commented ones = ['2.1.15:thickness', '2.1.9:lithography.dimensionalBias.xBias', "2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle"]
+2019-05-14 11:43:34.104; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Last row reached. Exiting the reader
+2019-05-14 11:43:34.130; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-3 was not marked for deletion. Skipping sweep of gc
+2019-05-14 11:43:34.130; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-3
+2019-05-14 11:44:40.963; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-1 was not marked for deletion. Skipping sweep of gc
+2019-05-14 11:44:40.963; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-1
+2019-05-14 11:46:55.283; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-2 was not marked for deletion. Skipping sweep of gc
+2019-05-14 11:46:55.283; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-2
+2019-05-14 11:47:19.326; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-0 was not marked for deletion. Skipping sweep of gc
+2019-05-14 11:47:19.326; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-0
+2019-05-14 11:52:45.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-4 has been marked for deletion.
+2019-05-14 11:52:45.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 11:52:45.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-4 = []
+2019-05-14 11:52:45.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-4 = []
+2019-05-14 11:52:45.825; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-4
+2019-05-14 11:55:06.88; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-5 has been marked for deletion.
+2019-05-14 11:55:06.88; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 11:55:06.88; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-5 = []
+2019-05-14 11:55:06.88; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-5 = []
+2019-05-14 11:55:06.151; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-5
+2019-05-14 11:57:59.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-6 has been marked for deletion.
+2019-05-14 11:57:59.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 11:57:59.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-6 = []
+2019-05-14 11:57:59.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-6 = []
+2019-05-14 11:57:59.430; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-6
+2019-05-14 11:59:05.505; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-7 has been marked for deletion.
+2019-05-14 11:59:05.505; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 11:59:05.506; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-7 = []
+2019-05-14 11:59:05.506; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-7 = []
+2019-05-14 11:59:05.566; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-7
+2019-05-14 12:03:37.796; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-8 has been marked for deletion.
+2019-05-14 12:03:37.796; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:03:37.796; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-8 = []
+2019-05-14 12:03:37.796; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-8 = []
+2019-05-14 12:03:37.861; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-8
+2019-05-14 12:04:07.987; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-9 has been marked for deletion.
+2019-05-14 12:04:07.987; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:04:07.987; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-9 = []
+2019-05-14 12:04:07.987; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-9 = []
+2019-05-14 12:04:08.49; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-9
+2019-05-14 12:06:11.256; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-10 has been marked for deletion.
+2019-05-14 12:06:11.256; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:06:11.256; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-10 = []
+2019-05-14 12:06:11.256; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-10 = []
+2019-05-14 12:06:11.319; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-10
+2019-05-14 12:07:19.426; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-11 has been marked for deletion.
+2019-05-14 12:07:19.426; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:07:19.426; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-11 = []
+2019-05-14 12:07:19.426; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-11 = []
+2019-05-14 12:07:19.483; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-11
+2019-05-14 12:13:13.753; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-13 has been marked for deletion.
+2019-05-14 12:13:13.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:13:13.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-13 = []
+2019-05-14 12:13:13.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-13 = []
+2019-05-14 12:13:13.813; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-13
+2019-05-14 12:15:01.826; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-14 has been marked for deletion.
+2019-05-14 12:15:01.826; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:15:01.828; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-14 = []
+2019-05-14 12:15:01.828; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-14 = []
+2019-05-14 12:15:01.888; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-14
+2019-05-14 12:15:43.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-12 has been marked for deletion.
+2019-05-14 12:15:43.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:15:43.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-12 = []
+2019-05-14 12:15:43.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-12 = []
+2019-05-14 12:15:43.459; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-12
+2019-05-14 12:17:01.855; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-15 has been marked for deletion.
+2019-05-14 12:17:01.855; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:17:01.855; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-15 = []
+2019-05-14 12:17:01.855; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-15 = []
+2019-05-14 12:17:01.914; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-15
+2019-05-14 12:23:24.430; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-18 has been marked for deletion.
+2019-05-14 12:23:24.430; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:23:24.430; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-18 = []
+2019-05-14 12:23:24.430; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-18 = []
+2019-05-14 12:23:24.489; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-18
+2019-05-14 12:25:56.921; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-17 has been marked for deletion.
+2019-05-14 12:25:56.921; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:25:56.921; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-17 = []
+2019-05-14 12:25:56.921; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-17 = []
+2019-05-14 12:25:56.997; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-17
+2019-05-14 12:27:22.601; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-16 has been marked for deletion.
+2019-05-14 12:27:22.601; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:27:22.601; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-16 = []
+2019-05-14 12:27:22.601; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-16 = []
+2019-05-14 12:27:22.661; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-16
+2019-05-14 12:28:27.654; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-19 has been marked for deletion.
+2019-05-14 12:28:27.654; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:28:27.654; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-19 = []
+2019-05-14 12:28:27.654; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-19 = []
+2019-05-14 12:28:27.723; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-19
+2019-05-14 12:31:58.486; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-20 has been marked for deletion.
+2019-05-14 12:31:58.486; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:31:58.486; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-20 = []
+2019-05-14 12:31:58.486; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-20 = []
+2019-05-14 12:31:58.546; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-20
+2019-05-14 12:34:18.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-21 has been marked for deletion.
+2019-05-14 12:34:18.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:34:18.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-21 = []
+2019-05-14 12:34:18.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-21 = []
+2019-05-14 12:34:18.157; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-21
+2019-05-14 12:36:17.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-22 has been marked for deletion.
+2019-05-14 12:36:17.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:36:17.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-22 = []
+2019-05-14 12:36:17.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-22 = []
+2019-05-14 12:36:17.642; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-22
+2019-05-14 12:39:59.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-23 has been marked for deletion.
+2019-05-14 12:39:59.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:39:59.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-23 = []
+2019-05-14 12:39:59.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-23 = []
+2019-05-14 12:39:59.828; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-23
+2019-05-14 12:43:00.62; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-24 has been marked for deletion.
+2019-05-14 12:43:00.62; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:43:00.62; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-24 = []
+2019-05-14 12:43:00.62; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-24 = []
+2019-05-14 12:43:00.118; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-24
+2019-05-14 12:43:27.233; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-25 has been marked for deletion.
+2019-05-14 12:43:27.233; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:43:27.233; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-25 = []
+2019-05-14 12:43:27.233; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-25 = []
+2019-05-14 12:43:27.296; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-25
+2019-05-14 12:44:37.392; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-26 has been marked for deletion.
+2019-05-14 12:44:37.392; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:44:37.392; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-26 = []
+2019-05-14 12:44:37.392; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-26 = []
+2019-05-14 12:44:37.447; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-26
+2019-05-14 12:50:59.651; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-27 has been marked for deletion.
+2019-05-14 12:50:59.651; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:50:59.651; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-27 = []
+2019-05-14 12:50:59.653; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-27 = []
+2019-05-14 12:50:59.713; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-27
+2019-05-14 12:52:15.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-28 has been marked for deletion.
+2019-05-14 12:52:15.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:52:15.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-28 = []
+2019-05-14 12:52:15.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-28 = []
+2019-05-14 12:52:15.911; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-28
+2019-05-14 12:54:57.260; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-30 has been marked for deletion.
+2019-05-14 12:54:57.260; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:54:57.260; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-30 = []
+2019-05-14 12:54:57.260; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-30 = []
+2019-05-14 12:54:57.331; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-30
+2019-05-14 12:55:41.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-29 has been marked for deletion.
+2019-05-14 12:55:41.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:55:41.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-29 = []
+2019-05-14 12:55:41.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-29 = []
+2019-05-14 12:55:41.388; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-29
+2019-05-14 12:58:53.7; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-31 has been marked for deletion.
+2019-05-14 12:58:53.7; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 12:58:53.7; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-31 = []
+2019-05-14 12:58:53.7; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-31 = []
+2019-05-14 12:58:53.68; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-31
+2019-05-14 13:00:43.375; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-32 has been marked for deletion.
+2019-05-14 13:00:43.375; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:00:43.375; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-32 = []
+2019-05-14 13:00:43.375; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-32 = []
+2019-05-14 13:00:43.436; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-32
+2019-05-14 13:04:54.973; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-33 has been marked for deletion.
+2019-05-14 13:04:54.973; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:04:54.973; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-33 = []
+2019-05-14 13:04:54.973; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-33 = []
+2019-05-14 13:04:55.32; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-33
+2019-05-14 13:07:14.585; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-34 has been marked for deletion.
+2019-05-14 13:07:14.585; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:07:14.585; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-34 = []
+2019-05-14 13:07:14.585; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-34 = []
+2019-05-14 13:07:14.644; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-34
+2019-05-14 13:09:27.976; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-36 has been marked for deletion.
+2019-05-14 13:09:27.976; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:09:27.976; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-36 = []
+2019-05-14 13:09:27.976; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-36 = []
+2019-05-14 13:09:28.42; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-36
+2019-05-14 13:09:44.122; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-35 has been marked for deletion.
+2019-05-14 13:09:44.122; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:09:44.122; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-35 = []
+2019-05-14 13:09:44.122; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-35 = []
+2019-05-14 13:09:44.183; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-35
+2019-05-14 13:15:08.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-37 has been marked for deletion.
+2019-05-14 13:15:08.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:15:08.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-37 = []
+2019-05-14 13:15:08.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-37 = []
+2019-05-14 13:15:08.578; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-37
+2019-05-14 13:17:13.937; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-38 has been marked for deletion.
+2019-05-14 13:17:13.937; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:17:13.937; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-38 = []
+2019-05-14 13:17:13.937; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-38 = []
+2019-05-14 13:17:14.10; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-38
+2019-05-14 13:18:40.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-40 has been marked for deletion.
+2019-05-14 13:18:40.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:18:40.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-40 = []
+2019-05-14 13:18:40.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-40 = []
+2019-05-14 13:18:40.450; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-40
+2019-05-14 13:19:10.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-39 has been marked for deletion.
+2019-05-14 13:19:10.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:19:10.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-39 = []
+2019-05-14 13:19:10.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-39 = []
+2019-05-14 13:19:10.378; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-39
+2019-05-14 13:25:18.244; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-41 has been marked for deletion.
+2019-05-14 13:25:18.244; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:25:18.244; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-41 = []
+2019-05-14 13:25:18.244; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-41 = []
+2019-05-14 13:25:18.315; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-41
+2019-05-14 13:28:03.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-42 has been marked for deletion.
+2019-05-14 13:28:03.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:28:03.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-42 = []
+2019-05-14 13:28:03.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-42 = []
+2019-05-14 13:28:03.732; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-42
+2019-05-14 13:29:24.227; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-44 has been marked for deletion.
+2019-05-14 13:29:24.227; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:29:24.227; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-44 = []
+2019-05-14 13:29:24.227; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-44 = []
+2019-05-14 13:29:24.289; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-44
+2019-05-14 13:30:51.851; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-43 has been marked for deletion.
+2019-05-14 13:30:51.851; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:30:51.851; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-43 = []
+2019-05-14 13:30:51.851; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-43 = []
+2019-05-14 13:30:51.911; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-43
+2019-05-14 13:34:08.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-45 has been marked for deletion.
+2019-05-14 13:34:08.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:34:08.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-45 = []
+2019-05-14 13:34:08.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-45 = []
+2019-05-14 13:34:08.463; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-45
+2019-05-14 13:37:48.374; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-47 has been marked for deletion.
+2019-05-14 13:37:48.374; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:37:48.374; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-47 = []
+2019-05-14 13:37:48.374; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-47 = []
+2019-05-14 13:37:48.437; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-47
+2019-05-14 13:38:28.650; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-46 has been marked for deletion.
+2019-05-14 13:38:28.650; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:38:28.650; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-46 = []
+2019-05-14 13:38:28.650; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-46 = []
+2019-05-14 13:38:28.710; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-46
+2019-05-14 13:42:19.563; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-48 has been marked for deletion.
+2019-05-14 13:42:19.563; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:42:19.563; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-48 = []
+2019-05-14 13:42:19.563; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-48 = []
+2019-05-14 13:42:19.624; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-48
+2019-05-14 13:46:37.131; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-50 has been marked for deletion.
+2019-05-14 13:46:37.131; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:46:37.131; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-50 = []
+2019-05-14 13:46:37.131; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-50 = []
+2019-05-14 13:46:37.190; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-50
+2019-05-14 13:47:37.611; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-49 has been marked for deletion.
+2019-05-14 13:47:37.611; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:47:37.611; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-49 = []
+2019-05-14 13:47:37.611; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-49 = []
+2019-05-14 13:47:37.671; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-49
+2019-05-14 13:51:28.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-51 has been marked for deletion.
+2019-05-14 13:51:28.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:51:28.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-51 = []
+2019-05-14 13:51:28.404; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-51 = []
+2019-05-14 13:51:28.463; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-51
+2019-05-14 13:51:53.542; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-52 has been marked for deletion.
+2019-05-14 13:51:53.542; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:51:53.542; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-52 = []
+2019-05-14 13:51:53.542; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-52 = []
+2019-05-14 13:51:53.602; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-52
+2019-05-14 13:54:46.28; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-53 has been marked for deletion.
+2019-05-14 13:54:46.28; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:54:46.28; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-53 = []
+2019-05-14 13:54:46.28; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-53 = []
+2019-05-14 13:54:46.88; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-53
+2019-05-14 13:55:54.63; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-54 has been marked for deletion.
+2019-05-14 13:55:54.63; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 13:55:54.63; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-54 = []
+2019-05-14 13:55:54.63; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-54 = []
+2019-05-14 13:55:54.114; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-54
+2019-05-14 14:02:43.963; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-55 has been marked for deletion.
+2019-05-14 14:02:43.963; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:02:43.963; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-55 = []
+2019-05-14 14:02:43.963; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-55 = []
+2019-05-14 14:02:44.23; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-55
+2019-05-14 14:03:58.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-57 has been marked for deletion.
+2019-05-14 14:03:58.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:03:58.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-57 = []
+2019-05-14 14:03:58.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-57 = []
+2019-05-14 14:03:59.43; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-57
+2019-05-14 14:04:56.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-56 has been marked for deletion.
+2019-05-14 14:04:56.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:04:56.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-56 = []
+2019-05-14 14:04:56.95; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-56 = []
+2019-05-14 14:04:56.144; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-56
+2019-05-14 14:06:06.198; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-58 has been marked for deletion.
+2019-05-14 14:06:06.198; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:06:06.198; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-58 = []
+2019-05-14 14:06:06.198; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-58 = []
+2019-05-14 14:06:06.259; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-58
+2019-05-14 14:11:51.197; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-59 has been marked for deletion.
+2019-05-14 14:11:51.197; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:11:51.197; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-59 = []
+2019-05-14 14:11:51.197; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-59 = []
+2019-05-14 14:11:51.257; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-59
+2019-05-14 14:13:18.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-61 has been marked for deletion.
+2019-05-14 14:13:18.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:13:18.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-61 = []
+2019-05-14 14:13:18.529; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-61 = []
+2019-05-14 14:13:18.589; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-61
+2019-05-14 14:15:47.986; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-60 has been marked for deletion.
+2019-05-14 14:15:47.986; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:15:47.986; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-60 = []
+2019-05-14 14:15:47.986; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-60 = []
+2019-05-14 14:15:48.55; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-60
+2019-05-14 14:16:34.114; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-62 has been marked for deletion.
+2019-05-14 14:16:34.114; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:16:34.114; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-62 = []
+2019-05-14 14:16:34.114; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-62 = []
+2019-05-14 14:16:34.174; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-62
+2019-05-14 14:22:19.423; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-64 has been marked for deletion.
+2019-05-14 14:22:19.423; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:22:19.423; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-64 = []
+2019-05-14 14:22:19.423; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-64 = []
+2019-05-14 14:22:19.473; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-64
+2019-05-14 14:22:42.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-63 has been marked for deletion.
+2019-05-14 14:22:42.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:22:42.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-63 = []
+2019-05-14 14:22:42.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-63 = []
+2019-05-14 14:22:42.792; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-63
+2019-05-14 14:24:56.200; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-66 has been marked for deletion.
+2019-05-14 14:24:56.200; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:24:56.200; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-66 = []
+2019-05-14 14:24:56.200; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-66 = []
+2019-05-14 14:24:56.263; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-66
+2019-05-14 14:26:54.664; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-65 has been marked for deletion.
+2019-05-14 14:26:54.664; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:26:54.664; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-65 = []
+2019-05-14 14:26:54.664; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-65 = []
+2019-05-14 14:26:54.732; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-65
+2019-05-14 14:31:42.151; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-67 has been marked for deletion.
+2019-05-14 14:31:42.151; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:31:42.151; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-67 = []
+2019-05-14 14:31:42.151; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-67 = []
+2019-05-14 14:31:42.210; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-67
+2019-05-14 14:34:31.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-68 has been marked for deletion.
+2019-05-14 14:34:31.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:34:31.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-68 = []
+2019-05-14 14:34:31.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-68 = []
+2019-05-14 14:34:31.959; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-68
+2019-05-14 14:36:35.569; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-69 has been marked for deletion.
+2019-05-14 14:36:35.571; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:36:35.571; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-69 = []
+2019-05-14 14:36:35.571; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-69 = []
+2019-05-14 14:36:35.637; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-69
+2019-05-14 14:37:03.214; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-70 has been marked for deletion.
+2019-05-14 14:37:03.214; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:37:03.214; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-70 = []
+2019-05-14 14:37:03.214; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-70 = []
+2019-05-14 14:37:03.282; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-70
+2019-05-14 14:40:39.532; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-71 has been marked for deletion.
+2019-05-14 14:40:39.532; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:40:39.532; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-71 = []
+2019-05-14 14:40:39.532; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-71 = []
+2019-05-14 14:40:39.609; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-71
+2019-05-14 14:43:52.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-72 has been marked for deletion.
+2019-05-14 14:43:52.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:43:52.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-72 = []
+2019-05-14 14:43:52.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-72 = []
+2019-05-14 14:43:52.744; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-72
+2019-05-14 14:48:04.914; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-73 has been marked for deletion.
+2019-05-14 14:48:04.914; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:48:04.914; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-73 = []
+2019-05-14 14:48:04.914; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-73 = []
+2019-05-14 14:48:04.973; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-73
+2019-05-14 14:50:03.688; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-74 has been marked for deletion.
+2019-05-14 14:50:03.688; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:50:03.688; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-74 = []
+2019-05-14 14:50:03.688; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-74 = []
+2019-05-14 14:50:03.749; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-74
+2019-05-14 14:51:07.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-75 has been marked for deletion.
+2019-05-14 14:51:07.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:51:07.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-75 = []
+2019-05-14 14:51:07.677; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-75 = []
+2019-05-14 14:51:07.756; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-75
+2019-05-14 14:57:22.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-76 has been marked for deletion.
+2019-05-14 14:57:22.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:57:22.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-76 = []
+2019-05-14 14:57:22.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-76 = []
+2019-05-14 14:57:22.302; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-76
+2019-05-14 14:58:51.792; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-77 has been marked for deletion.
+2019-05-14 14:58:51.792; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 14:58:51.792; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-77 = []
+2019-05-14 14:58:51.792; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-77 = []
+2019-05-14 14:58:51.858; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-77
+2019-05-14 15:00:28.526; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-79 has been marked for deletion.
+2019-05-14 15:00:28.526; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:00:28.526; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-79 = []
+2019-05-14 15:00:28.528; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-79 = []
+2019-05-14 15:00:28.604; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-79
+2019-05-14 15:01:48.246; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-78 has been marked for deletion.
+2019-05-14 15:01:48.246; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:01:48.246; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-78 = []
+2019-05-14 15:01:48.246; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-78 = []
+2019-05-14 15:01:48.305; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-78
+2019-05-14 15:07:59.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-80 has been marked for deletion.
+2019-05-14 15:07:59.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:07:59.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-80 = []
+2019-05-14 15:07:59.898; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-80 = []
+2019-05-14 15:07:59.954; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-80
+2019-05-14 15:10:04.414; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-82 has been marked for deletion.
+2019-05-14 15:10:04.414; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:10:04.414; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-82 = []
+2019-05-14 15:10:04.414; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-82 = []
+2019-05-14 15:10:04.471; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-82
+2019-05-14 15:10:22.618; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-81 has been marked for deletion.
+2019-05-14 15:10:22.618; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:10:22.618; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-81 = []
+2019-05-14 15:10:22.618; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-81 = []
+2019-05-14 15:10:22.677; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-81
+2019-05-14 15:12:13.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-83 has been marked for deletion.
+2019-05-14 15:12:13.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:12:13.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-83 = []
+2019-05-14 15:12:13.983; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-83 = []
+2019-05-14 15:12:14.46; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-83
+2019-05-14 15:19:00.559; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-85 has been marked for deletion.
+2019-05-14 15:19:00.559; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:19:00.559; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-85 = []
+2019-05-14 15:19:00.559; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-85 = []
+2019-05-14 15:19:00.632; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-85
+2019-05-14 15:19:24.868; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-84 has been marked for deletion.
+2019-05-14 15:19:24.868; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:19:24.868; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-84 = []
+2019-05-14 15:19:24.868; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-84 = []
+2019-05-14 15:19:24.926; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-84
+2019-05-14 15:20:33.135; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-86 has been marked for deletion.
+2019-05-14 15:20:33.135; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:20:33.137; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-86 = []
+2019-05-14 15:20:33.137; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-86 = []
+2019-05-14 15:20:33.203; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-86
+2019-05-14 15:21:59.813; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-87 has been marked for deletion.
+2019-05-14 15:21:59.813; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:21:59.815; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-87 = []
+2019-05-14 15:21:59.815; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-87 = []
+2019-05-14 15:21:59.877; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-87
+2019-05-14 15:28:06.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-89 has been marked for deletion.
+2019-05-14 15:28:06.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:28:06.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-89 = []
+2019-05-14 15:28:06.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-89 = []
+2019-05-14 15:28:06.285; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-89
+2019-05-14 15:30:02.385; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-90 has been marked for deletion.
+2019-05-14 15:30:02.385; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:30:02.387; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-90 = []
+2019-05-14 15:30:02.387; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-90 = []
+2019-05-14 15:30:02.443; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-90
+2019-05-14 15:30:53.391; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-88 has been marked for deletion.
+2019-05-14 15:30:53.391; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:30:53.391; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-88 = []
+2019-05-14 15:30:53.391; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-88 = []
+2019-05-14 15:30:53.453; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-88
+2019-05-14 15:33:26.417; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-91 has been marked for deletion.
+2019-05-14 15:33:26.417; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:33:26.418; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-91 = []
+2019-05-14 15:33:26.418; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-91 = []
+2019-05-14 15:33:26.479; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-91
+2019-05-14 15:37:13.325; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-92 has been marked for deletion.
+2019-05-14 15:37:13.325; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:37:13.325; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-92 = []
+2019-05-14 15:37:13.325; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-92 = []
+2019-05-14 15:37:13.382; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-92
+2019-05-14 15:38:49.174; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-93 has been marked for deletion.
+2019-05-14 15:38:49.174; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:38:49.174; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-93 = []
+2019-05-14 15:38:49.174; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-93 = []
+2019-05-14 15:38:49.234; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-93
+2019-05-14 15:40:52.117; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-94 has been marked for deletion.
+2019-05-14 15:40:52.117; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:40:52.117; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-94 = []
+2019-05-14 15:40:52.117; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-94 = []
+2019-05-14 15:40:52.174; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-94
+2019-05-14 15:40:59.808; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-95 has been marked for deletion.
+2019-05-14 15:40:59.808; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:40:59.809; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-95 = []
+2019-05-14 15:40:59.809; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-95 = []
+2019-05-14 15:40:59.868; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-95
+2019-05-14 15:46:44.808; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-96 has been marked for deletion.
+2019-05-14 15:46:44.808; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:46:44.808; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-96 = []
+2019-05-14 15:46:44.808; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-96 = []
+2019-05-14 15:46:44.868; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-96
+2019-05-14 15:50:45.858; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-97 has been marked for deletion.
+2019-05-14 15:50:45.858; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:50:45.858; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-97 = []
+2019-05-14 15:50:45.858; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-97 = []
+2019-05-14 15:50:45.917; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-97
+2019-05-14 15:50:56.671; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-99 has been marked for deletion.
+2019-05-14 15:50:56.671; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:50:56.671; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-99 = []
+2019-05-14 15:50:56.671; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-99 = []
+2019-05-14 15:50:56.726; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-99
+2019-05-14 15:52:54.721; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-98 has been marked for deletion.
+2019-05-14 15:52:54.721; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:52:54.721; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-98 = []
+2019-05-14 15:52:54.721; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-98 = []
+2019-05-14 15:52:54.782; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-98
+2019-05-14 15:56:25.265; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-100 has been marked for deletion.
+2019-05-14 15:56:25.265; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 15:56:25.265; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-100 = []
+2019-05-14 15:56:25.265; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-100 = []
+2019-05-14 15:56:25.325; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-100
+2019-05-14 16:00:59.805; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-102 has been marked for deletion.
+2019-05-14 16:00:59.805; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:00:59.805; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-102 = []
+2019-05-14 16:00:59.805; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-102 = []
+2019-05-14 16:00:59.865; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-102
+2019-05-14 16:01:47.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-101 has been marked for deletion.
+2019-05-14 16:01:47.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:01:47.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-101 = []
+2019-05-14 16:01:47.736; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-101 = []
+2019-05-14 16:01:47.798; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-101
+2019-05-14 16:02:57.558; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-103 has been marked for deletion.
+2019-05-14 16:02:57.558; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:02:57.558; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-103 = []
+2019-05-14 16:02:57.558; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-103 = []
+2019-05-14 16:02:57.608; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-103
+2019-05-14 16:06:23.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-104 has been marked for deletion.
+2019-05-14 16:06:23.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:06:23.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-104 = []
+2019-05-14 16:06:23.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-104 = []
+2019-05-14 16:06:23.786; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-104
+2019-05-14 16:11:11.174; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-107 has been marked for deletion.
+2019-05-14 16:11:11.174; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:11:11.184; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-107 = []
+2019-05-14 16:11:11.184; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-107 = []
+2019-05-14 16:11:11.265; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-107
+2019-05-14 16:12:07.134; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-105 has been marked for deletion.
+2019-05-14 16:12:07.134; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:12:07.134; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-105 = []
+2019-05-14 16:12:07.134; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-105 = []
+2019-05-14 16:12:07.194; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-105
+2019-05-14 16:12:47.844; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-106 has been marked for deletion.
+2019-05-14 16:12:47.844; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:12:47.844; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-106 = []
+2019-05-14 16:12:47.844; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-106 = []
+2019-05-14 16:12:47.894; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-106
+2019-05-14 16:14:44.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-108 has been marked for deletion.
+2019-05-14 16:14:44.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:14:44.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-108 = []
+2019-05-14 16:14:44.846; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-108 = []
+2019-05-14 16:14:44.907; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-108
+2019-05-14 16:20:34.503; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-110 has been marked for deletion.
+2019-05-14 16:20:34.503; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:20:34.503; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-110 = []
+2019-05-14 16:20:34.503; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-110 = []
+2019-05-14 16:20:34.563; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-110
+2019-05-14 16:22:33.823; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-109 has been marked for deletion.
+2019-05-14 16:22:33.823; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:22:33.823; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-109 = []
+2019-05-14 16:22:33.823; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-109 = []
+2019-05-14 16:22:33.884; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-109
+2019-05-14 16:25:16.16; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-111 has been marked for deletion.
+2019-05-14 16:25:16.16; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:25:16.16; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-111 = []
+2019-05-14 16:25:16.16; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-111 = []
+2019-05-14 16:25:16.78; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-111
+2019-05-14 16:25:54.957; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-112 has been marked for deletion.
+2019-05-14 16:25:54.957; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:25:54.957; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-112 = []
+2019-05-14 16:25:54.957; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-112 = []
+2019-05-14 16:25:55.16; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-112
+2019-05-14 16:29:46.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-113 has been marked for deletion.
+2019-05-14 16:29:46.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:29:46.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-113 = []
+2019-05-14 16:29:46.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-113 = []
+2019-05-14 16:29:46.450; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-113
+2019-05-14 16:31:48.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-114 has been marked for deletion.
+2019-05-14 16:31:48.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:31:48.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-114 = []
+2019-05-14 16:31:48.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-114 = []
+2019-05-14 16:31:48.437; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-114
+2019-05-14 16:33:47.630; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-115 has been marked for deletion.
+2019-05-14 16:33:47.630; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:33:47.630; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-115 = []
+2019-05-14 16:33:47.630; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-115 = []
+2019-05-14 16:33:47.690; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-115
+2019-05-14 16:35:58.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-116 has been marked for deletion.
+2019-05-14 16:35:58.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:35:58.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-116 = []
+2019-05-14 16:35:58.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-116 = []
+2019-05-14 16:35:58.944; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-116
+2019-05-14 16:39:26.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-117 has been marked for deletion.
+2019-05-14 16:39:26.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:39:26.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-117 = []
+2019-05-14 16:39:26.328; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-117 = []
+2019-05-14 16:39:26.388; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-117
+2019-05-14 16:42:21.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-118 has been marked for deletion.
+2019-05-14 16:42:21.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:42:21.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-118 = []
+2019-05-14 16:42:21.578; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-118 = []
+2019-05-14 16:42:21.638; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-118
+2019-05-14 16:43:37.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-119 has been marked for deletion.
+2019-05-14 16:43:37.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:43:37.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-119 = []
+2019-05-14 16:43:37.368; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-119 = []
+2019-05-14 16:43:37.428; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-119
+2019-05-14 16:44:23.177; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-120 has been marked for deletion.
+2019-05-14 16:44:23.177; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:44:23.177; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-120 = []
+2019-05-14 16:44:23.177; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-120 = []
+2019-05-14 16:44:23.227; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-120
+2019-05-14 16:50:42.869; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-121 has been marked for deletion.
+2019-05-14 16:50:42.869; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:50:42.869; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-121 = []
+2019-05-14 16:50:42.869; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-121 = []
+2019-05-14 16:50:42.930; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-121
+2019-05-14 16:52:02.734; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-124 has been marked for deletion.
+2019-05-14 16:52:02.734; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:52:02.734; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-124 = []
+2019-05-14 16:52:02.734; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-124 = []
+2019-05-14 16:52:02.785; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-124
+2019-05-14 16:52:56.354; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-122 has been marked for deletion.
+2019-05-14 16:52:56.354; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:52:56.354; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-122 = []
+2019-05-14 16:52:56.354; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-122 = []
+2019-05-14 16:52:56.404; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-122
+2019-05-14 16:54:48.509; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-123 has been marked for deletion.
+2019-05-14 16:54:48.509; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 16:54:48.509; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-123 = []
+2019-05-14 16:54:48.509; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-123 = []
+2019-05-14 16:54:48.569; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-123
+2019-05-14 17:03:31.232; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-125 has been marked for deletion.
+2019-05-14 17:03:31.232; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:03:31.232; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-125 = []
+2019-05-14 17:03:31.232; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-125 = []
+2019-05-14 17:03:31.292; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-125
+2019-05-14 17:04:19.187; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-126 has been marked for deletion.
+2019-05-14 17:04:19.187; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:04:19.187; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-126 = []
+2019-05-14 17:04:19.187; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-126 = []
+2019-05-14 17:04:19.247; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-126
+2019-05-14 17:04:33.911; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-127 has been marked for deletion.
+2019-05-14 17:04:33.911; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:04:33.911; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-127 = []
+2019-05-14 17:04:33.911; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-127 = []
+2019-05-14 17:04:33.970; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-127
+2019-05-14 17:05:02.891; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-128 has been marked for deletion.
+2019-05-14 17:05:02.891; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:05:02.891; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-128 = []
+2019-05-14 17:05:02.891; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-128 = []
+2019-05-14 17:05:02.940; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-128
+2019-05-14 17:11:17.707; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-129 has been marked for deletion.
+2019-05-14 17:11:17.707; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:11:17.707; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-129 = []
+2019-05-14 17:11:17.707; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-129 = []
+2019-05-14 17:11:17.767; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-129
+2019-05-14 17:12:21.660; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-131 has been marked for deletion.
+2019-05-14 17:12:21.660; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:12:21.660; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-131 = []
+2019-05-14 17:12:21.660; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-131 = []
+2019-05-14 17:12:21.720; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-131
+2019-05-14 17:13:18.592; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-130 has been marked for deletion.
+2019-05-14 17:13:18.592; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:13:18.592; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-130 = []
+2019-05-14 17:13:18.592; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-130 = []
+2019-05-14 17:13:18.642; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-130
+2019-05-14 17:13:45.250; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-132 has been marked for deletion.
+2019-05-14 17:13:45.250; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:13:45.250; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-132 = []
+2019-05-14 17:13:45.250; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-132 = []
+2019-05-14 17:13:45.299; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-132
+2019-05-14 17:21:27.263; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-133 has been marked for deletion.
+2019-05-14 17:21:27.263; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:21:27.263; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-133 = []
+2019-05-14 17:21:27.263; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-133 = []
+2019-05-14 17:21:27.323; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-133
+2019-05-14 17:22:21.665; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-136 has been marked for deletion.
+2019-05-14 17:22:21.665; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:22:21.665; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-136 = []
+2019-05-14 17:22:21.665; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-136 = []
+2019-05-14 17:22:21.716; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-136
+2019-05-14 17:22:32.224; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-135 has been marked for deletion.
+2019-05-14 17:22:32.224; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:22:32.224; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-135 = []
+2019-05-14 17:22:32.224; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-135 = []
+2019-05-14 17:22:32.285; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-135
+2019-05-14 17:22:58.746; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-134 has been marked for deletion.
+2019-05-14 17:22:58.746; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:22:58.746; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-134 = []
+2019-05-14 17:22:58.746; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-134 = []
+2019-05-14 17:22:58.805; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-134
+2019-05-14 17:29:28.936; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-137 has been marked for deletion.
+2019-05-14 17:29:28.936; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:29:28.936; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-137 = []
+2019-05-14 17:29:28.936; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-137 = []
+2019-05-14 17:29:28.996; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-137
+2019-05-14 17:31:31.52; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-140 has been marked for deletion.
+2019-05-14 17:31:31.52; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:31:31.52; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-140 = []
+2019-05-14 17:31:31.52; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-140 = []
+2019-05-14 17:31:31.111; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-140
+2019-05-14 17:31:44.861; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-139 has been marked for deletion.
+2019-05-14 17:31:44.861; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:31:44.861; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-139 = []
+2019-05-14 17:31:44.861; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-139 = []
+2019-05-14 17:31:44.921; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-139
+2019-05-14 17:32:06.594; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-138 has been marked for deletion.
+2019-05-14 17:32:06.594; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:32:06.594; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-138 = []
+2019-05-14 17:32:06.594; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-138 = []
+2019-05-14 17:32:06.644; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-138
+2019-05-14 17:40:23.628; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-142 has been marked for deletion.
+2019-05-14 17:40:23.628; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:40:23.628; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-142 = []
+2019-05-14 17:40:23.628; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-142 = []
+2019-05-14 17:40:23.688; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-142
+2019-05-14 17:40:57.476; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-141 has been marked for deletion.
+2019-05-14 17:40:57.476; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:40:57.476; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-141 = []
+2019-05-14 17:40:57.476; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-141 = []
+2019-05-14 17:40:57.536; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-141
+2019-05-14 17:41:56.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-143 has been marked for deletion.
+2019-05-14 17:41:56.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:41:56.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-143 = []
+2019-05-14 17:41:56.401; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-143 = []
+2019-05-14 17:41:56.450; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-143
+2019-05-14 17:44:37.647; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-144 has been marked for deletion.
+2019-05-14 17:44:37.647; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:44:37.647; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-144 = []
+2019-05-14 17:44:37.647; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-144 = []
+2019-05-14 17:44:37.697; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-144
+2019-05-14 17:49:39.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-145 has been marked for deletion.
+2019-05-14 17:49:39.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:49:39.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-145 = []
+2019-05-14 17:49:39.226; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-145 = []
+2019-05-14 17:49:39.286; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-145
+2019-05-14 17:50:21.111; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-147 has been marked for deletion.
+2019-05-14 17:50:21.111; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:50:21.111; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-147 = []
+2019-05-14 17:50:21.111; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-147 = []
+2019-05-14 17:50:21.161; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-147
+2019-05-14 17:51:42.178; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-146 has been marked for deletion.
+2019-05-14 17:51:42.178; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:51:42.178; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-146 = []
+2019-05-14 17:51:42.178; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-146 = []
+2019-05-14 17:51:42.240; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-146
+2019-05-14 17:56:11.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-148 has been marked for deletion.
+2019-05-14 17:56:11.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 17:56:11.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-148 = []
+2019-05-14 17:56:11.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-148 = []
+2019-05-14 17:56:11.901; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-148
+2019-05-14 18:00:05.157; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-149 has been marked for deletion.
+2019-05-14 18:00:05.157; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:00:05.157; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-149 = []
+2019-05-14 18:00:05.157; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-149 = []
+2019-05-14 18:00:05.217; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-149
+2019-05-14 18:00:51.918; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-150 has been marked for deletion.
+2019-05-14 18:00:51.918; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:00:51.918; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-150 = []
+2019-05-14 18:00:51.918; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-150 = []
+2019-05-14 18:00:51.969; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-150
+2019-05-14 18:02:39.915; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-151 has been marked for deletion.
+2019-05-14 18:02:39.915; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:02:39.915; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-151 = []
+2019-05-14 18:02:39.915; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-151 = []
+2019-05-14 18:02:39.967; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-151
+2019-05-14 18:04:24.98; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-152 has been marked for deletion.
+2019-05-14 18:04:24.98; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:04:24.98; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-152 = []
+2019-05-14 18:04:24.98; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-152 = []
+2019-05-14 18:04:24.158; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-152
+2019-05-14 18:09:18.573; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-153 has been marked for deletion.
+2019-05-14 18:09:18.573; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:09:18.573; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-153 = []
+2019-05-14 18:09:18.573; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-153 = []
+2019-05-14 18:09:18.634; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-153
+2019-05-14 18:11:16.566; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-155 has been marked for deletion.
+2019-05-14 18:11:16.566; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:11:16.566; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-155 = []
+2019-05-14 18:11:16.566; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-155 = []
+2019-05-14 18:11:16.627; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-155
+2019-05-14 18:13:00.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-154 has been marked for deletion.
+2019-05-14 18:13:00.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:13:00.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-154 = []
+2019-05-14 18:13:00.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-154 = []
+2019-05-14 18:13:00.513; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-154
+2019-05-14 18:13:10.309; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-156 has been marked for deletion.
+2019-05-14 18:13:10.309; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:13:10.309; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-156 = []
+2019-05-14 18:13:10.309; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-156 = []
+2019-05-14 18:13:10.369; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-156
+2019-05-14 18:19:51.308; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-157 has been marked for deletion.
+2019-05-14 18:19:51.308; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:19:51.308; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-157 = []
+2019-05-14 18:19:51.308; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-157 = []
+2019-05-14 18:19:51.368; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-157
+2019-05-14 18:22:12.645; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-160 has been marked for deletion.
+2019-05-14 18:22:12.645; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:22:12.645; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-160 = []
+2019-05-14 18:22:12.645; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-160 = []
+2019-05-14 18:22:12.706; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-160
+2019-05-14 18:23:24.818; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-158 has been marked for deletion.
+2019-05-14 18:23:24.818; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:23:24.818; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-158 = []
+2019-05-14 18:23:24.818; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-158 = []
+2019-05-14 18:23:24.878; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-158
+2019-05-14 18:24:07.674; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-159 has been marked for deletion.
+2019-05-14 18:24:07.674; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:24:07.674; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-159 = []
+2019-05-14 18:24:07.674; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-159 = []
+2019-05-14 18:24:07.734; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-159
+2019-05-14 18:28:35.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-161 has been marked for deletion.
+2019-05-14 18:28:35.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:28:35.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-161 = []
+2019-05-14 18:28:35.240; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-161 = []
+2019-05-14 18:28:35.311; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-161
+2019-05-14 18:31:01.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-162 has been marked for deletion.
+2019-05-14 18:31:01.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:31:01.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-162 = []
+2019-05-14 18:31:01.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-162 = []
+2019-05-14 18:31:01.825; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-162
+2019-05-14 18:32:22.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-163 has been marked for deletion.
+2019-05-14 18:32:22.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:32:22.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-163 = []
+2019-05-14 18:32:22.680; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-163 = []
+2019-05-14 18:32:22.740; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-163
+2019-05-14 18:33:28.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-164 has been marked for deletion.
+2019-05-14 18:33:28.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:33:28.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-164 = []
+2019-05-14 18:33:28.453; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-164 = []
+2019-05-14 18:33:28.513; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-164
+2019-05-14 18:36:56.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-165 has been marked for deletion.
+2019-05-14 18:36:56.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:36:56.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-165 = []
+2019-05-14 18:36:56.726; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-165 = []
+2019-05-14 18:36:56.786; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-165
+2019-05-14 18:40:06.61; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-166 has been marked for deletion.
+2019-05-14 18:40:06.61; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:40:06.61; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-166 = []
+2019-05-14 18:40:06.61; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-166 = []
+2019-05-14 18:40:06.118; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-166
+2019-05-14 18:41:42.967; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-168 has been marked for deletion.
+2019-05-14 18:41:42.967; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:41:42.967; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-168 = []
+2019-05-14 18:41:42.967; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-168 = []
+2019-05-14 18:41:43.26; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-168
+2019-05-14 18:44:51.167; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-167 has been marked for deletion.
+2019-05-14 18:44:51.167; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:44:51.167; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-167 = []
+2019-05-14 18:44:51.167; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-167 = []
+2019-05-14 18:44:51.227; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-167
+2019-05-14 18:47:44.217; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-169 has been marked for deletion.
+2019-05-14 18:47:44.217; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:47:44.217; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-169 = []
+2019-05-14 18:47:44.217; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-169 = []
+2019-05-14 18:47:44.266; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-169
+2019-05-14 18:49:59.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-170 has been marked for deletion.
+2019-05-14 18:49:59.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:49:59.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-170 = []
+2019-05-14 18:49:59.388; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-170 = []
+2019-05-14 18:49:59.448; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-170
+2019-05-14 18:50:06.944; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-171 has been marked for deletion.
+2019-05-14 18:50:06.944; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:50:06.944; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-171 = []
+2019-05-14 18:50:06.944; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-171 = []
+2019-05-14 18:50:07.3; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-171
+2019-05-14 18:52:41.85; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-172 has been marked for deletion.
+2019-05-14 18:52:41.85; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:52:41.85; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-172 = []
+2019-05-14 18:52:41.85; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-172 = []
+2019-05-14 18:52:41.144; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-172
+2019-05-14 18:56:55.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-173 has been marked for deletion.
+2019-05-14 18:56:55.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:56:55.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-173 = []
+2019-05-14 18:56:55.747; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-173 = []
+2019-05-14 18:56:55.808; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-173
+2019-05-14 18:57:20.621; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-175 has been marked for deletion.
+2019-05-14 18:57:20.621; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 18:57:20.621; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-175 = []
+2019-05-14 18:57:20.621; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-175 = []
+2019-05-14 18:57:20.681; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-175
+2019-05-14 19:00:24.769; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-174 has been marked for deletion.
+2019-05-14 19:00:24.769; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:00:24.769; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-174 = []
+2019-05-14 19:00:24.769; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-174 = []
+2019-05-14 19:00:24.829; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-174
+2019-05-14 19:02:44.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-176 has been marked for deletion.
+2019-05-14 19:02:44.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:02:44.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-176 = []
+2019-05-14 19:02:44.842; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-176 = []
+2019-05-14 19:02:44.903; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-176
+2019-05-14 19:05:47.313; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-177 has been marked for deletion.
+2019-05-14 19:05:47.313; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:05:47.313; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-177 = []
+2019-05-14 19:05:47.313; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-177 = []
+2019-05-14 19:05:47.384; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-177
+2019-05-14 19:07:36.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-178 has been marked for deletion.
+2019-05-14 19:07:36.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:07:36.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-178 = []
+2019-05-14 19:07:36.755; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-178 = []
+2019-05-14 19:07:36.815; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-178
+2019-05-14 19:09:22.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-179 has been marked for deletion.
+2019-05-14 19:09:22.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:09:22.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-179 = []
+2019-05-14 19:09:22.759; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-179 = []
+2019-05-14 19:09:22.819; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-179
+2019-05-14 19:11:38.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-180 has been marked for deletion.
+2019-05-14 19:11:38.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:11:38.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-180 = []
+2019-05-14 19:11:38.884; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-180 = []
+2019-05-14 19:11:38.944; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-180
+2019-05-14 19:14:49.65; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-181 has been marked for deletion.
+2019-05-14 19:14:49.65; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:14:49.65; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-181 = []
+2019-05-14 19:14:49.65; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-181 = []
+2019-05-14 19:14:49.125; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-181
+2019-05-14 19:17:50.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-183 has been marked for deletion.
+2019-05-14 19:17:50.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:17:50.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-183 = []
+2019-05-14 19:17:50.394; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-183 = []
+2019-05-14 19:17:50.446; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-183
+2019-05-14 19:18:16.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-182 has been marked for deletion.
+2019-05-14 19:18:16.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:18:16.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-182 = []
+2019-05-14 19:18:16.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-182 = []
+2019-05-14 19:18:16.200; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-182
+2019-05-14 19:20:32.105; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-184 has been marked for deletion.
+2019-05-14 19:20:32.105; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:20:32.105; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-184 = []
+2019-05-14 19:20:32.105; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-184 = []
+2019-05-14 19:20:32.165; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-184
+2019-05-14 19:22:24.181; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-185 has been marked for deletion.
+2019-05-14 19:22:24.181; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:22:24.181; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-185 = []
+2019-05-14 19:22:24.181; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-185 = []
+2019-05-14 19:22:24.242; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-185
+2019-05-14 19:27:08.720; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-187 has been marked for deletion.
+2019-05-14 19:27:08.720; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:27:08.720; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-187 = []
+2019-05-14 19:27:08.720; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-187 = []
+2019-05-14 19:27:08.780; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-187
+2019-05-14 19:28:02.782; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-186 has been marked for deletion.
+2019-05-14 19:28:02.782; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:28:02.782; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-186 = []
+2019-05-14 19:28:02.782; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-186 = []
+2019-05-14 19:28:02.842; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-186
+2019-05-14 19:30:50.20; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-188 has been marked for deletion.
+2019-05-14 19:30:50.20; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:30:50.20; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-188 = []
+2019-05-14 19:30:50.20; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-188 = []
+2019-05-14 19:30:50.81; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-188
+2019-05-14 19:31:57.102; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-189 has been marked for deletion.
+2019-05-14 19:31:57.102; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:31:57.102; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-189 = []
+2019-05-14 19:31:57.102; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-189 = []
+2019-05-14 19:31:57.153; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-189
+2019-05-14 19:35:56.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-190 has been marked for deletion.
+2019-05-14 19:35:56.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:35:56.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-190 = []
+2019-05-14 19:35:56.318; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-190 = []
+2019-05-14 19:35:56.388; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-190
+2019-05-14 19:39:49.910; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-191 has been marked for deletion.
+2019-05-14 19:39:49.910; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:39:49.910; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-191 = []
+2019-05-14 19:39:49.910; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-191 = []
+2019-05-14 19:39:49.970; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-191
+2019-05-14 19:40:32.845; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-193 has been marked for deletion.
+2019-05-14 19:40:32.845; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:40:32.845; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-193 = []
+2019-05-14 19:40:32.845; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-193 = []
+2019-05-14 19:40:32.905; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-193
+2019-05-14 19:41:32.12; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-192 has been marked for deletion.
+2019-05-14 19:41:32.12; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:41:32.12; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-192 = []
+2019-05-14 19:41:32.12; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-192 = []
+2019-05-14 19:41:32.72; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-192
+2019-05-14 19:46:46.756; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-194 has been marked for deletion.
+2019-05-14 19:46:46.756; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:46:46.756; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-194 = []
+2019-05-14 19:46:46.756; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-194 = []
+2019-05-14 19:46:46.815; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-194
+2019-05-14 19:48:09.865; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-195 has been marked for deletion.
+2019-05-14 19:48:09.865; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:48:09.865; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-195 = []
+2019-05-14 19:48:09.865; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-195 = []
+2019-05-14 19:48:09.924; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-195
+2019-05-14 19:51:17.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-196 has been marked for deletion.
+2019-05-14 19:51:17.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:51:17.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-196 = []
+2019-05-14 19:51:17.138; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-196 = []
+2019-05-14 19:51:17.198; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-196
+2019-05-14 19:51:55.230; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-197 has been marked for deletion.
+2019-05-14 19:51:55.230; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:51:55.230; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-197 = []
+2019-05-14 19:51:55.230; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-197 = []
+2019-05-14 19:51:55.290; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-197
+2019-05-14 19:56:09.716; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-198 has been marked for deletion.
+2019-05-14 19:56:09.716; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:56:09.716; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-198 = []
+2019-05-14 19:56:09.716; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-198 = []
+2019-05-14 19:56:09.766; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-198
+2019-05-14 19:56:53.966; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Run-199 has been marked for deletion.
+2019-05-14 19:56:53.966; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Deleting everything except the required files
+2019-05-14 19:56:53.966; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required files for Run-199 = []
+2019-05-14 19:56:53.966; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Required directories for Run-199 = []
+2019-05-14 19:56:54.26; SHOW_USER; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-199
+2019-05-14 19:56:56.39; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; process shutting down
+2019-05-14 19:56:56.39; INFO; 16252; ExpeditorResultsCollectionDaemonProcess; MainThread; process exiting with exitcode 0

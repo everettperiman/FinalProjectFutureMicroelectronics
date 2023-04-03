@@ -1,0 +1,632 @@
+2019-05-14 11:34:40.0; INFO; 16584; MainProcess; MainThread; Command Line Arguments = 
+	Expeditor Verify_PWO_Analytics.csv --outputDir Verify_PWO_Analytics_Expeditor -overwrite -nocollect -np 4 -ntpp 1 --hashed -killflagfile C:/Users/began/AppData/Local/Temp/semuKillFileU12556
+2019-05-14 11:34:40.33; INFO; 16584; MainProcess; MainThread; Run header = [(0, 'Runs'), (1, '2.1.15:thickness'), (2, '2.1.9:lithography.dimensionalBias.xBias'), (3, "2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle")]
+2019-05-14 11:34:40.33; INFO; 16584; MainProcess; MainThread; Step Names header = []
+2019-05-14 11:34:41.655; INFO; 16584; MainProcess; MainThread; variables header = ['2.1.15:thickness', '2.1.9:lithography.dimensionalBias.xBias', "2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle"]
+2019-05-14 11:34:43.186; INFO; 16584; MainProcess; MainThread; Sorted variables header excluding commented ones = ['2.1.15:thickness', '2.1.9:lithography.dimensionalBias.xBias', "2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle"]
+2019-05-14 11:34:44.756; INFO; 16584; MainProcess; MainThread; Last row reached. Exiting the reader
+2019-05-14 11:34:44.759; INFO; 16584; MainProcess; MainThread; Runs directory = .\Verify_PWO_Analytics_Expeditor\Runs
+2019-05-14 11:34:46.259; INFO; 16584; MainProcess; MainThread; No Layer Map file has been provided for C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\14nmFinFET.cat
+2019-05-14 11:34:46.259; INFO; 16584; MainProcess; MainThread; Default layout is LayoutFiles(LayoutFile='C:\\Users\\began\\Documents\\Product_80\\Tutorial_PWO_2\\Verify_PWO\\14nmFinFET.cat', LayerMapFile=None)
+2019-05-14 11:34:46.260; SHOW_USER; 16584; MainProcess; MainThread; Creating layout directory 14nmFinFET
+2019-05-14 11:34:46.262; INFO; 16584; MainProcess; MainThread; Mask file is C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\14nmFinFET.cat
+2019-05-14 11:34:46.262; INFO; 16584; MainProcess; MainThread; Mask file is C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\Verify_PWO_Analytics\Verify_PWO_Analytics_Expeditor\Runs\14nmFinFET\14nmFinFET.gds
+2019-05-14 11:34:46.262; INFO; 16584; MainProcess; MainThread; Mask file is C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\Verify_PWO_Analytics\Verify_PWO_Analytics_Expeditor\Runs\14nmFinFET\14nmFinFET-layermap.txt
+2019-05-14 11:34:47.655; SHOW_USER; 16584; MainProcess; MainThread; Copying C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\14nmFinFET.zam to C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\Verify_PWO_Analytics\Verify_PWO_Analytics_Expeditor\Runs\14nmFinFET
+2019-05-14 11:34:47.665; SHOW_USER; 16584; MainProcess; MainThread; Copying C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\14nmFinFET.vmpd to C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\Verify_PWO_Analytics\Verify_PWO_Analytics_Expeditor\Runs\14nmFinFET
+2019-05-14 11:34:47.680; SHOW_USER; 16584; MainProcess; MainThread; Copying C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\14nmFinFET_trial0.vproc to C:\Users\began\Documents\Product_80\Tutorial_PWO_2\Verify_PWO\Verify_PWO_Analytics\Verify_PWO_Analytics_Expeditor\Runs\14nmFinFET
+2019-05-14 11:34:47.703; INFO; 16584; MainProcess; MainThread; No Analysis file has been provided
+2019-05-14 11:34:50.200; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-0
+2019-05-14 11:34:50.200; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-1
+2019-05-14 11:34:50.200; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-2
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-3
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-4
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-5
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-6
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-7
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-8
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-9
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-10
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-11
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-12
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-13
+2019-05-14 11:34:50.201; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-14
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-15
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-16
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-17
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-18
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-19
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-20
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-21
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-22
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-23
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-24
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-25
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-26
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-27
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-28
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-29
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-30
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-31
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-32
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-33
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-34
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-35
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-36
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-37
+2019-05-14 11:34:50.203; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-38
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-39
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-40
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-41
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-42
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-43
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-44
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-45
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-46
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-47
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-48
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-49
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-50
+2019-05-14 11:34:50.204; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-51
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-52
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-53
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-54
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-55
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-56
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-57
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-58
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-59
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-60
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-61
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-62
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-63
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-64
+2019-05-14 11:34:50.206; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-65
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-66
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-67
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-68
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-69
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-70
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-71
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-72
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-73
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-74
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-75
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-76
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-77
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-78
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-79
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-80
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-81
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-82
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-83
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-84
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-85
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-86
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-87
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-88
+2019-05-14 11:34:50.207; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-89
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-90
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-91
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-92
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-93
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-94
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-95
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-96
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-97
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-98
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-99
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-100
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-101
+2019-05-14 11:34:50.209; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-102
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-103
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-104
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-105
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-106
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-107
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-108
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-109
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-110
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-111
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-112
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-113
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-114
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-115
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-116
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-117
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-118
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-119
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-120
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-121
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-122
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-123
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-124
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-125
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-126
+2019-05-14 11:34:50.210; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-127
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-128
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-129
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-130
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-131
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-132
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-133
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-134
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-135
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-136
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-137
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-138
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-139
+2019-05-14 11:34:50.211; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-140
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-141
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-142
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-143
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-144
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-145
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-146
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-147
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-148
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-149
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-150
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-151
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-152
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-153
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-154
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-155
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-156
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-157
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-158
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-159
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-160
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-161
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-162
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-163
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-164
+2019-05-14 11:34:50.213; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-165
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-166
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-167
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-168
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-169
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-170
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-171
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-172
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-173
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-174
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-175
+2019-05-14 11:34:50.214; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-176
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-177
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-178
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-179
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-180
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-181
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-182
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-183
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-184
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-185
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-186
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-187
+2019-05-14 11:34:50.216; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-188
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-189
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-190
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-191
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-192
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-193
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-194
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-195
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-196
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-197
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-198
+2019-05-14 11:34:50.217; INFO; 16584; MainProcess; MainThread; Using default layout file for run Run-199
+2019-05-14 11:34:50.236; INFO; 16584; MainProcess; MainThread; Dependency Tree generated based on input spreadsheet:
+2019-05-14 11:34:50.371; INFO; 16584; MainProcess; MainThread; 
+{('2.1.9:lithography.dimensionalBias.xBias',): {('-0.0038322168221676667',): {('2.1.15:thickness',): {('37.131257200024493',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3266967909776319',): {'$': TrieLeaf(ListOfLabels=['Run-176'])}}}}},
+                                                ('-0.030421760067003756',): {('2.1.15:thickness',): {('38.437626579099245',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.8325777934569221',): {'$': TrieLeaf(ListOfLabels=['Run-48'])}}}}},
+                                                ('-0.032793435023432904',): {('2.1.15:thickness',): {('37.750958096321142',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1160030112436052',): {'$': TrieLeaf(ListOfLabels=['Run-78'])}}}}},
+                                                ('-0.052360547117447587',): {('2.1.15:thickness',): {('36.707528536161227',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0125157848888691',): {'$': TrieLeaf(ListOfLabels=['Run-194'])}}}}},
+                                                ('-0.072966307141407338',): {('2.1.15:thickness',): {('38.197205529232171',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.2973614181934345',): {'$': TrieLeaf(ListOfLabels=['Run-101'])}}}}},
+                                                ('-0.1005605044027213',): {('2.1.15:thickness',): {('37.508688702580201',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8417854431897047',): {'$': TrieLeaf(ListOfLabels=['Run-167'])}}}}},
+                                                ('-0.11229986333875108',): {('2.1.15:thickness',): {('37.131568714600547',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0625830278664976',): {'$': TrieLeaf(ListOfLabels=['Run-12'])}}}}},
+                                                ('-0.11233223641104234',): {('2.1.15:thickness',): {('37.680959129642744',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6559027830716255',): {'$': TrieLeaf(ListOfLabels=['Run-51'])}}}}},
+                                                ('-0.12666879145814453',): {('2.1.15:thickness',): {('37.325302228479444',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2716343273479218',): {'$': TrieLeaf(ListOfLabels=['Run-81'])}}}}},
+                                                ('-0.13279178525316176',): {('2.1.15:thickness',): {('37.006261310046554',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1420815354905294',): {'$': TrieLeaf(ListOfLabels=['Run-122'])}}}}},
+                                                ('-0.13658864853927483',): {('2.1.15:thickness',): {('37.545152122084559',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2715915624655727',): {'$': TrieLeaf(ListOfLabels=['Run-144'])}}}}},
+                                                ('-0.14327277245960024',): {('2.1.15:thickness',): {('38.957012986593647',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9407591611028789',): {'$': TrieLeaf(ListOfLabels=['Run-125'])}}}}},
+                                                ('-0.17437219316347785',): {('2.1.15:thickness',): {('37.206644582730284',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4918401413808775',): {'$': TrieLeaf(ListOfLabels=['Run-191'])}}}}},
+                                                ('-0.19247979204622068',): {('2.1.15:thickness',): {('38.275985374629329',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7238827312477309',): {'$': TrieLeaf(ListOfLabels=['Run-0'])}}}}},
+                                                ('-0.25129283516650536',): {('2.1.15:thickness',): {('35.784265386967164',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3849585365729542',): {'$': TrieLeaf(ListOfLabels=['Run-151'])}}}}},
+                                                ('-0.25209964381777439',): {('2.1.15:thickness',): {('37.096500311196415',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.8236204836996635',): {'$': TrieLeaf(ListOfLabels=['Run-112'])}}}}},
+                                                ('-0.26413732430888404',): {('2.1.15:thickness',): {('40.093079617712036',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1241278227996503',): {'$': TrieLeaf(ListOfLabels=['Run-141'])}}}}},
+                                                ('-0.28074116766424528',): {('2.1.15:thickness',): {('38.310045964763837',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.7164854129833049',): {'$': TrieLeaf(ListOfLabels=['Run-133'])}}}}},
+                                                ('-0.28447200831777708',): {('2.1.15:thickness',): {('38.986824239975434',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3336432824984605',): {'$': TrieLeaf(ListOfLabels=['Run-196'])}}}}},
+                                                ('-0.28684223856629038',): {('2.1.15:thickness',): {('38.554016592820162',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1508692777288605',): {'$': TrieLeaf(ListOfLabels=['Run-5'])}}}}},
+                                                ('-0.29984818076573083',): {('2.1.15:thickness',): {('39.041165303537255',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2916438158860979',): {'$': TrieLeaf(ListOfLabels=['Run-77'])}}}}},
+                                                ('-0.30818487324516008',): {('2.1.15:thickness',): {('38.255687156269985',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2985749583785582',): {'$': TrieLeaf(ListOfLabels=['Run-186'])}}}}},
+                                                ('-0.31125753171927872',): {('2.1.15:thickness',): {('36.297805950966548',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.3301203969252184',): {'$': TrieLeaf(ListOfLabels=['Run-170'])}}}}},
+                                                ('-0.32889197344587495',): {('2.1.15:thickness',): {('36.943205972668714',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6427690738628158',): {'$': TrieLeaf(ListOfLabels=['Run-62'])}}}}},
+                                                ('-0.37120417558952001',): {('2.1.15:thickness',): {('37.70521239563508',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9408111190763173',): {'$': TrieLeaf(ListOfLabels=['Run-65'])}}}}},
+                                                ('-0.3758768968111178',): {('2.1.15:thickness',): {('37.332316182507867',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4476134659242579',): {'$': TrieLeaf(ListOfLabels=['Run-58'])}}}}},
+                                                ('-0.37863658388954669',): {('2.1.15:thickness',): {('38.27671059941126',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9557997252578327',): {'$': TrieLeaf(ListOfLabels=['Run-169'])}}}}},
+                                                ('-0.39226990061464262',): {('2.1.15:thickness',): {('36.809495075241678',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1629450847425744',): {'$': TrieLeaf(ListOfLabels=['Run-8'])}}}}},
+                                                ('-0.41425359772907266',): {('2.1.15:thickness',): {('36.002995062923844',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2255645881084671',): {'$': TrieLeaf(ListOfLabels=['Run-33'])}}}}},
+                                                ('-0.47489893920771087',): {('2.1.15:thickness',): {('37.976464724859568',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.865206900587475',): {'$': TrieLeaf(ListOfLabels=['Run-121'])}}}}},
+                                                ('-0.47951994609705462',): {('2.1.15:thickness',): {('37.034260622077163',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9174483737787011',): {'$': TrieLeaf(ListOfLabels=['Run-39'])}}}}},
+                                                ('-0.48427243597809921',): {('2.1.15:thickness',): {('37.02620580356605',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4063116073497532',): {'$': TrieLeaf(ListOfLabels=['Run-197'])}}}}},
+                                                ('-0.4854423893696555',): {('2.1.15:thickness',): {('38.125925533258048',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.6582287753449338',): {'$': TrieLeaf(ListOfLabels=['Run-68'])}}}}},
+                                                ('-0.48571539158554938',): {('2.1.15:thickness',): {('39.43112704196686',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5336510561711778',): {'$': TrieLeaf(ListOfLabels=['Run-97'])}}}}},
+                                                ('-0.48925526089946791',): {('2.1.15:thickness',): {('38.883179807018173',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.137460407480984',): {'$': TrieLeaf(ListOfLabels=['Run-69'])}}}}},
+                                                ('-0.50016329404378534',): {('2.1.15:thickness',): {('38.686957172052693',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8782157195196909',): {'$': TrieLeaf(ListOfLabels=['Run-119'])}}}}},
+                                                ('-0.50468602017323994',): {('2.1.15:thickness',): {('37.12485306126846',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.048106953168956',): {'$': TrieLeaf(ListOfLabels=['Run-181'])}}}}},
+                                                ('-0.5594894217215115',): {('2.1.15:thickness',): {('35.931894855131418',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3460018570852048',): {'$': TrieLeaf(ListOfLabels=['Run-17'])}}}}},
+                                                ('-0.57693714286078324',): {('2.1.15:thickness',): {('35.801449748842465',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9285959787231208',): {'$': TrieLeaf(ListOfLabels=['Run-52'])}}}}},
+                                                ('-0.57993025050459979',): {('2.1.15:thickness',): {('38.42232067055366',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.118000760046753',): {'$': TrieLeaf(ListOfLabels=['Run-75'])}}}}},
+                                                ('-0.58328253990764345',): {('2.1.15:thickness',): {('38.437452924846674',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.77745450999396',): {'$': TrieLeaf(ListOfLabels=['Run-189'])}}}}},
+                                                ('-0.59467317296463773',): {('2.1.15:thickness',): {('37.222996608797807',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0160908620612012',): {'$': TrieLeaf(ListOfLabels=['Run-104'])}}}}},
+                                                ('-0.61717456725419129',): {('2.1.15:thickness',): {('38.804113055126479',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2820868886991335',): {'$': TrieLeaf(ListOfLabels=['Run-45'])}}}}},
+                                                ('-0.62997841472433047',): {('2.1.15:thickness',): {('36.391421334476213',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0500873923057199',): {'$': TrieLeaf(ListOfLabels=['Run-14'])}}}}},
+                                                ('-0.63264401409956972',): {('2.1.15:thickness',): {('38.128788109532778',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0274106696792904',): {'$': TrieLeaf(ListOfLabels=['Run-47'])}}}}},
+                                                ('-0.64008852588049114',): {('2.1.15:thickness',): {('37.935401824058239',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9985127092884314',): {'$': TrieLeaf(ListOfLabels=['Run-156'])}}}}},
+                                                ('-0.6599762441537399',): {('2.1.15:thickness',): {('38.877540666557216',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0891386784651411',): {'$': TrieLeaf(ListOfLabels=['Run-4'])}}}}},
+                                                ('-0.66889070802701267',): {('2.1.15:thickness',): {('37.348898372789542',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0341491699758052',): {'$': TrieLeaf(ListOfLabels=['Run-28'])}}}}},
+                                                ('-0.66971184902494996',): {('2.1.15:thickness',): {('37.995568775003228',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9466726065007216',): {'$': TrieLeaf(ListOfLabels=['Run-113'])}}}}},
+                                                ('-0.6927199044747957',): {('2.1.15:thickness',): {('38.853936600563308',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1716950832844555',): {'$': TrieLeaf(ListOfLabels=['Run-100'])}}}}},
+                                                ('-0.69904415483818749',): {('2.1.15:thickness',): {('37.206402925897272',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5060859460442408',): {'$': TrieLeaf(ListOfLabels=['Run-177'])}}}}},
+                                                ('-0.70448423943028304',): {('2.1.15:thickness',): {('37.910124658522392',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5296161545476332',): {'$': TrieLeaf(ListOfLabels=['Run-86'])}}}}},
+                                                ('-0.70832079575918805',): {('2.1.15:thickness',): {('38.039575589926194',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9671612285294122',): {'$': TrieLeaf(ListOfLabels=['Run-90'])}}}}},
+                                                ('-0.709574004384673',): {('2.1.15:thickness',): {('37.255701372836931',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2453565261816282',): {'$': TrieLeaf(ListOfLabels=['Run-10'])}}}}},
+                                                ('-0.73982055864829777',): {('2.1.15:thickness',): {('37.635896946604596',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3544080007639394',): {'$': TrieLeaf(ListOfLabels=['Run-139'])}}}}},
+                                                ('-0.74211483441770665',): {('2.1.15:thickness',): {('37.472920743991011',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.396337841164816',): {'$': TrieLeaf(ListOfLabels=['Run-124'])}}}}},
+                                                ('-0.74798785689066327',): {('2.1.15:thickness',): {('37.649917263431121',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.5633884868058923',): {'$': TrieLeaf(ListOfLabels=['Run-59'])}}}}},
+                                                ('-0.75035974809577199',): {('2.1.15:thickness',): {('38.236507290924642',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5841115952263882',): {'$': TrieLeaf(ListOfLabels=['Run-180'])}}}}},
+                                                ('-0.75746976749710626',): {('2.1.15:thickness',): {('37.283265208915701',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8474010473665148',): {'$': TrieLeaf(ListOfLabels=['Run-95'])}}}}},
+                                                ('-0.76072169123766709',): {('2.1.15:thickness',): {('38.62717200220748',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2388922210971831',): {'$': TrieLeaf(ListOfLabels=['Run-155'])}}}}},
+                                                ('-0.76252547736438725',): {('2.1.15:thickness',): {('40.794729391669875',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1482542691413533',): {'$': TrieLeaf(ListOfLabels=['Run-160'])}}}}},
+                                                ('-0.76917214084805319',): {('2.1.15:thickness',): {('38.2011815010951',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4435727317499136',): {'$': TrieLeaf(ListOfLabels=['Run-61'])}}}}},
+                                                ('-0.78220372229785173',): {('2.1.15:thickness',): {('38.522998707196052',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4218282094919763',): {'$': TrieLeaf(ListOfLabels=['Run-11'])}}}}},
+                                                ('-0.79354689899439146',): {('2.1.15:thickness',): {('37.354279259722766',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2013928101495628',): {'$': TrieLeaf(ListOfLabels=['Run-67'])}}}}},
+                                                ('-0.80086942763421121',): {('2.1.15:thickness',): {('38.008562724169529',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3780918909808406',): {'$': TrieLeaf(ListOfLabels=['Run-82'])}}}}},
+                                                ('-0.85425242243339961',): {('2.1.15:thickness',): {('38.652079633185359',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9332225675429253',): {'$': TrieLeaf(ListOfLabels=['Run-79'])}}}}},
+                                                ('-0.86019467378842696',): {('2.1.15:thickness',): {('37.403254976767471',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1637672227770439',): {'$': TrieLeaf(ListOfLabels=['Run-3'])}}}}},
+                                                ('-0.86933851448982824',): {('2.1.15:thickness',): {('38.902694872335097',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.257142349839655',): {'$': TrieLeaf(ListOfLabels=['Run-166'])}}}}},
+                                                ('-0.88557353146916418',): {('2.1.15:thickness',): {('38.540375363414711',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0842072498512607',): {'$': TrieLeaf(ListOfLabels=['Run-92'])}}}}},
+                                                ('-0.89861870358719098',): {('2.1.15:thickness',): {('38.255167661771345',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7928462751982144',): {'$': TrieLeaf(ListOfLabels=['Run-142'])}}}}},
+                                                ('-0.9132629797766153',): {('2.1.15:thickness',): {('36.959784717049011',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.085162675803315',): {'$': TrieLeaf(ListOfLabels=['Run-132'])}}}}},
+                                                ('-0.92713340710626746',): {('2.1.15:thickness',): {('37.273187996382056',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.579293001419007',): {'$': TrieLeaf(ListOfLabels=['Run-54'])}}}}},
+                                                ('-0.94229582326988104',): {('2.1.15:thickness',): {('36.75326807302622',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6405968397270092',): {'$': TrieLeaf(ListOfLabels=['Run-137'])}}}}},
+                                                ('-0.9641317370387753',): {('2.1.15:thickness',): {('38.281353527485336',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.8221299177056798',): {'$': TrieLeaf(ListOfLabels=['Run-171'])}}}}},
+                                                ('-1.0087851710296909',): {('2.1.15:thickness',): {('38.17174961497858',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1378161432197791',): {'$': TrieLeaf(ListOfLabels=['Run-27'])}}}}},
+                                                ('-1.0185329832664074',): {('2.1.15:thickness',): {('38.288769592062359',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1991586293276226',): {'$': TrieLeaf(ListOfLabels=['Run-24'])}}}}},
+                                                ('-1.0248994252883157',): {('2.1.15:thickness',): {('38.392726659585492',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6224331174885895',): {'$': TrieLeaf(ListOfLabels=['Run-192'])}}}}},
+                                                ('-1.0273813645610517',): {('2.1.15:thickness',): {('36.107377850875636',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2286813920397037',): {'$': TrieLeaf(ListOfLabels=['Run-91'])}}}}},
+                                                ('-1.0494606808552038',): {('2.1.15:thickness',): {('37.802397692437722',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3709038080210112',): {'$': TrieLeaf(ListOfLabels=['Run-7'])}}}}},
+                                                ('-1.0923889212450519',): {('2.1.15:thickness',): {('35.514483234092488',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0843010887748568',): {'$': TrieLeaf(ListOfLabels=['Run-55'])}}}}},
+                                                ('-1.1165927004320177',): {('2.1.15:thickness',): {('37.426730059617086',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4974067111643254',): {'$': TrieLeaf(ListOfLabels=['Run-23'])}}}}},
+                                                ('-1.1305806058537131',): {('2.1.15:thickness',): {('38.285473715214273',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.9227819426036268',): {'$': TrieLeaf(ListOfLabels=['Run-158'])}}}}},
+                                                ('-1.1520776105443409',): {('2.1.15:thickness',): {('39.725085610874785',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6452070091891056',): {'$': TrieLeaf(ListOfLabels=['Run-49'])}}}}},
+                                                ('-1.1528607766489127',): {('2.1.15:thickness',): {('38.129726826041214',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2027274760720479',): {'$': TrieLeaf(ListOfLabels=['Run-76'])}}}}},
+                                                ('-1.1597849066100914',): {('2.1.15:thickness',): {('37.550830856331537',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0343926345688113',): {'$': TrieLeaf(ListOfLabels=['Run-74'])}}}}},
+                                                ('-1.1736401519317852',): {('2.1.15:thickness',): {('36.61788816551659',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9461816101368337',): {'$': TrieLeaf(ListOfLabels=['Run-154'])}}}}},
+                                                ('-1.1744373945682791',): {('2.1.15:thickness',): {('37.542120594914557',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.6470639052933755',): {'$': TrieLeaf(ListOfLabels=['Run-88'])}}}}},
+                                                ('-1.225181097124767',): {('2.1.15:thickness',): {('37.97684628310617',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9496462401856935',): {'$': TrieLeaf(ListOfLabels=['Run-29'])}}}}},
+                                                ('-1.2272624991480838',): {('2.1.15:thickness',): {('36.981519416509258',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.03881598750477',): {'$': TrieLeaf(ListOfLabels=['Run-60'])}}}}},
+                                                ('-1.2643810526229209',): {('2.1.15:thickness',): {('37.251639770586216',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8143253587186634',): {'$': TrieLeaf(ListOfLabels=['Run-123'])}}}}},
+                                                ('-1.2747159301607613',): {('2.1.15:thickness',): {('38.053499210548665',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2496812056193596',): {'$': TrieLeaf(ListOfLabels=['Run-174'])}}}}},
+                                                ('-1.2808444351554193',): {('2.1.15:thickness',): {('38.119330698686809',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1502891515821574',): {'$': TrieLeaf(ListOfLabels=['Run-42'])}}}}},
+                                                ('-1.3053992144324233',): {('2.1.15:thickness',): {('36.92006505739883',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.090609146741361',): {'$': TrieLeaf(ListOfLabels=['Run-83'])}}}}},
+                                                ('-1.3145702305338718',): {('2.1.15:thickness',): {('37.503716658130024',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0366367649336201',): {'$': TrieLeaf(ListOfLabels=['Run-199'])}}}}},
+                                                ('-1.3347390685656881',): {('2.1.15:thickness',): {('37.036841963515933',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0049835030136816',): {'$': TrieLeaf(ListOfLabels=['Run-138'])}}}}},
+                                                ('-1.3570660422105827',): {('2.1.15:thickness',): {('36.861631555186008',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.7428867680830891',): {'$': TrieLeaf(ListOfLabels=['Run-157'])}}}}},
+                                                ('-1.3660348195353724',): {('2.1.15:thickness',): {('37.27026813284035',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9854486147945671',): {'$': TrieLeaf(ListOfLabels=['Run-37'])}}}}},
+                                                ('-1.3667481561063375',): {('2.1.15:thickness',): {('39.096401915595962',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9869279841695011',): {'$': TrieLeaf(ListOfLabels=['Run-134'])}}}}},
+                                                ('-1.3904351473314702',): {('2.1.15:thickness',): {('37.501388881594487',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6505195063763747',): {'$': TrieLeaf(ListOfLabels=['Run-149'])}}}}},
+                                                ('-1.4022161227568215',): {('2.1.15:thickness',): {('38.114749553079079',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.34270710098727',): {'$': TrieLeaf(ListOfLabels=['Run-63'])}}}}},
+                                                ('-1.4527437872143985',): {('2.1.15:thickness',): {('36.387315096556357',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.6971552998900901',): {'$': TrieLeaf(ListOfLabels=['Run-198'])}}}}},
+                                                ('-1.5383581565964231',): {('2.1.15:thickness',): {('37.966777167257106',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5014171415122401',): {'$': TrieLeaf(ListOfLabels=['Run-146'])}}}}},
+                                                ('-1.5664104607409675',): {('2.1.15:thickness',): {('38.905511231423226',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7370828674239389',): {'$': TrieLeaf(ListOfLabels=['Run-143'])}}}}},
+                                                ('-1.5704810034478887',): {('2.1.15:thickness',): {('37.958654219738435',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8373220026327206',): {'$': TrieLeaf(ListOfLabels=['Run-84'])}}}}},
+                                                ('-1.5868314325803321',): {('2.1.15:thickness',): {('37.827307222579407',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0441580930657226',): {'$': TrieLeaf(ListOfLabels=['Run-99'])}}}}},
+                                                ('-1.6088603252636777',): {('2.1.15:thickness',): {('38.979273093591864',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4732418268516367',): {'$': TrieLeaf(ListOfLabels=['Run-13'])}}}}},
+                                                ('-1.6196061037551801',): {('2.1.15:thickness',): {('38.618577312683435',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4082020313799797',): {'$': TrieLeaf(ListOfLabels=['Run-50'])}}}}},
+                                                ('-1.6406783678691523',): {('2.1.15:thickness',): {('38.209980404373972',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1416226529166487',): {'$': TrieLeaf(ListOfLabels=['Run-107'])}}}}},
+                                                ('-1.6797150864554329',): {('2.1.15:thickness',): {('37.528987111524948',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0251098638223688',): {'$': TrieLeaf(ListOfLabels=['Run-162'])}}}}},
+                                                ('-1.6840040177278968',): {('2.1.15:thickness',): {('37.976833757735577',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.7660661917500633',): {'$': TrieLeaf(ListOfLabels=['Run-15'])}}}}},
+                                                ('-1.7581033341014742',): {('2.1.15:thickness',): {('37.167099055562709',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1766992381738204',): {'$': TrieLeaf(ListOfLabels=['Run-18'])}}}}},
+                                                ('-1.7610158391932371',): {('2.1.15:thickness',): {('39.038927741626274',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4933504057727882',): {'$': TrieLeaf(ListOfLabels=['Run-120'])}}}}},
+                                                ('-1.8128986093573478',): {('2.1.15:thickness',): {('38.882613254447065',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1478509297798674',): {'$': TrieLeaf(ListOfLabels=['Run-140'])}}}}},
+                                                ('-1.8146608045825623',): {('2.1.15:thickness',): {('37.595498347208562',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0787507585203278',): {'$': TrieLeaf(ListOfLabels=['Run-115'])}}}}},
+                                                ('-1.8225772799711737',): {('2.1.15:thickness',): {('38.077464255569609',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7200525853347486',): {'$': TrieLeaf(ListOfLabels=['Run-89'])}}}}},
+                                                ('-1.8448963032858559',): {('2.1.15:thickness',): {('38.082110919991926',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1015459664068414',): {'$': TrieLeaf(ListOfLabels=['Run-36'])}}}}},
+                                                ('-1.8564953184146775',): {('2.1.15:thickness',): {('39.24272844283491',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2918331469313049',): {'$': TrieLeaf(ListOfLabels=['Run-164'])}}}}},
+                                                ('-1.94287833603908',): {('2.1.15:thickness',): {('36.952792964746344',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.3792808807024999',): {'$': TrieLeaf(ListOfLabels=['Run-175'])}}}}},
+                                                ('-1.9705900544443606',): {('2.1.15:thickness',): {('37.941162844979786',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0069148792019575',): {'$': TrieLeaf(ListOfLabels=['Run-147'])}}}}},
+                                                ('-1.9717875377669123',): {('2.1.15:thickness',): {('38.566867000828744',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1197862215914629',): {'$': TrieLeaf(ListOfLabels=['Run-172'])}}}}},
+                                                ('-1.991498608487134',): {('2.1.15:thickness',): {('39.760481491447422',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1263566490715728',): {'$': TrieLeaf(ListOfLabels=['Run-152'])}}}}},
+                                                ('-2.0009949298004805',): {('2.1.15:thickness',): {('38.399515570162698',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.8022143538992568',): {'$': TrieLeaf(ListOfLabels=['Run-136'])}}}}},
+                                                ('-2.0145897345302082',): {('2.1.15:thickness',): {('37.099904080301101',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1353124033621942',): {'$': TrieLeaf(ListOfLabels=['Run-178'])}}}}},
+                                                ('-2.2509086615642642',): {('2.1.15:thickness',): {('37.802653675317991',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1236640645956495',): {'$': TrieLeaf(ListOfLabels=['Run-127'])}}}}},
+                                                ('-2.3313482927970637',): {('2.1.15:thickness',): {('38.276565782770717',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7390937387211571',): {'$': TrieLeaf(ListOfLabels=['Run-145'])}}}}},
+                                                ('-2.3448591799436138',): {('2.1.15:thickness',): {('38.195372712708988',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2646139045422506',): {'$': TrieLeaf(ListOfLabels=['Run-117'])}}}}},
+                                                ('-2.3945956592341009',): {('2.1.15:thickness',): {('38.383194544325747',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3039318446655539',): {'$': TrieLeaf(ListOfLabels=['Run-73'])}}}}},
+                                                ('-2.4273042240559097',): {('2.1.15:thickness',): {('37.962814009443861',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7095929913955139',): {'$': TrieLeaf(ListOfLabels=['Run-128'])}}}}},
+                                                ('-2.4288327635442859',): {('2.1.15:thickness',): {('36.733769064348373',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9825022736472593',): {'$': TrieLeaf(ListOfLabels=['Run-41'])}}}}},
+                                                ('-2.4407187761159888',): {('2.1.15:thickness',): {('35.664572160584463',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3947645810333782',): {'$': TrieLeaf(ListOfLabels=['Run-188'])}}}}},
+                                                ('-2.5065487702083571',): {('2.1.15:thickness',): {('37.521446667648405',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3558233761183001',): {'$': TrieLeaf(ListOfLabels=['Run-153'])}}}}},
+                                                ('-2.9261254643061836',): {('2.1.15:thickness',): {('36.375638625606456',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8205193696216329',): {'$': TrieLeaf(ListOfLabels=['Run-66'])}}}}},
+                                                ('-3.0121345951756267',): {('2.1.15:thickness',): {('38.734485186468383',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.7439129870779713',): {'$': TrieLeaf(ListOfLabels=['Run-34'])}}}}},
+                                                ('-3.1760441848364449',): {('2.1.15:thickness',): {('38.759711418560542',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1758418973518188',): {'$': TrieLeaf(ListOfLabels=['Run-109'])}}}}},
+                                                ('-3.7325982577920067',): {('2.1.15:thickness',): {('37.849943178227953',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1788833578959883',): {'$': TrieLeaf(ListOfLabels=['Run-193'])}}}}},
+                                                ('0.01396916052678504',): {('2.1.15:thickness',): {('37.799354889917637',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.862840306823208',): {'$': TrieLeaf(ListOfLabels=['Run-184'])}}}}},
+                                                ('0.058102870888468661',): {('2.1.15:thickness',): {('37.114556934079204',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1194939352211275',): {'$': TrieLeaf(ListOfLabels=['Run-31'])}}}}},
+                                                ('0.077060579615573555',): {('2.1.15:thickness',): {('37.514561402043462',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0593058939623852',): {'$': TrieLeaf(ListOfLabels=['Run-71'])}}}}},
+                                                ('0.081827221082317991',): {('2.1.15:thickness',): {('36.965191490578',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.4426378021915403',): {'$': TrieLeaf(ListOfLabels=['Run-110'])}}}}},
+                                                ('0.091901058481844156',): {('2.1.15:thickness',): {('36.402571061753818',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1025551990645424',): {'$': TrieLeaf(ListOfLabels=['Run-93'])}}}}},
+                                                ('0.11133219665007155',): {('2.1.15:thickness',): {('37.17767935378037',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.8722711262271989',): {'$': TrieLeaf(ListOfLabels=['Run-26'])}}}}},
+                                                ('0.11751982674786576',): {('2.1.15:thickness',): {('35.979967650314251',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0319128095746954',): {'$': TrieLeaf(ListOfLabels=['Run-114'])}}}}},
+                                                ('0.12023015668161208',): {('2.1.15:thickness',): {('37.726525250422974',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6542925740618166',): {'$': TrieLeaf(ListOfLabels=['Run-57'])}}}}},
+                                                ('0.13513350312195527',): {('2.1.15:thickness',): {('38.376696906745622',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4019696612769792',): {'$': TrieLeaf(ListOfLabels=['Run-87'])}}}}},
+                                                ('0.14370630682534147',): {('2.1.15:thickness',): {('38.545820356507164',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2022996203972189',): {'$': TrieLeaf(ListOfLabels=['Run-179'])}}}}},
+                                                ('0.17927612316144015',): {('2.1.15:thickness',): {('38.031193745825554',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1022540898303665',): {'$': TrieLeaf(ListOfLabels=['Run-161'])}}}}},
+                                                ('0.2545471580521621',): {('2.1.15:thickness',): {('36.740124408339518',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6099971333780347',): {'$': TrieLeaf(ListOfLabels=['Run-165'])}}}}},
+                                                ('0.28381426135414378',): {('2.1.15:thickness',): {('37.189568196634802',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0874590192982874',): {'$': TrieLeaf(ListOfLabels=['Run-129'])}}}}},
+                                                ('0.29158132906530931',): {('2.1.15:thickness',): {('37.072716496526297',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6367273925346408',): {'$': TrieLeaf(ListOfLabels=['Run-131'])}}}}},
+                                                ('0.30060620005073568',): {('2.1.15:thickness',): {('36.723475272713465',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1370762939899883',): {'$': TrieLeaf(ListOfLabels=['Run-168'])}}}}},
+                                                ('0.30367258356381399',): {('2.1.15:thickness',): {('39.302993440258057',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4933641407934681',): {'$': TrieLeaf(ListOfLabels=['Run-80'])}}}}},
+                                                ('0.31709866425440936',): {('2.1.15:thickness',): {('38.418147845358263',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8824235613963038',): {'$': TrieLeaf(ListOfLabels=['Run-187'])}}}}},
+                                                ('0.39228677366389919',): {('2.1.15:thickness',): {('37.14446698736019',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8211093444807416',): {'$': TrieLeaf(ListOfLabels=['Run-135'])}}}}},
+                                                ('0.3981811002360599',): {('2.1.15:thickness',): {('38.665375669516806',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0999159508732772',): {'$': TrieLeaf(ListOfLabels=['Run-70'])}}}}},
+                                                ('0.39835109512532929',): {('2.1.15:thickness',): {('36.340628514309124',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2492789485860358',): {'$': TrieLeaf(ListOfLabels=['Run-94'])}}}}},
+                                                ('0.40662888580863699',): {('2.1.15:thickness',): {('36.466233812161832',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6094705176915944',): {'$': TrieLeaf(ListOfLabels=['Run-103'])}}}}},
+                                                ('0.46847737575821047',): {('2.1.15:thickness',): {('38.221863451621289',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.386631704460056',): {'$': TrieLeaf(ListOfLabels=['Run-6'])}}}}},
+                                                ('0.48030590123393579',): {('2.1.15:thickness',): {('38.206416848504809',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1519425582625269',): {'$': TrieLeaf(ListOfLabels=['Run-30'])}}}}},
+                                                ('0.50540382444696774',): {('2.1.15:thickness',): {('38.093552325205252',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.9244249627738483',): {'$': TrieLeaf(ListOfLabels=['Run-106'])}}}}},
+                                                ('0.52835985562803356',): {('2.1.15:thickness',): {('37.432554106356505',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3663841630793421',): {'$': TrieLeaf(ListOfLabels=['Run-116'])}}}}},
+                                                ('0.55463568704465371',): {('2.1.15:thickness',): {('37.35884896324562',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.760426567882063',): {'$': TrieLeaf(ListOfLabels=['Run-159'])}}}}},
+                                                ('0.56588695902500719',): {('2.1.15:thickness',): {('38.083097376221815',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.997262067161599',): {'$': TrieLeaf(ListOfLabels=['Run-35'])}}}}},
+                                                ('0.56830458755640956',): {('2.1.15:thickness',): {('36.646462909908422',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.7460963673197094',): {'$': TrieLeaf(ListOfLabels=['Run-46'])}}}}},
+                                                ('0.63223012796643807',): {('2.1.15:thickness',): {('37.624801967278259',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.5302964640681029',): {'$': TrieLeaf(ListOfLabels=['Run-19'])}}}}},
+                                                ('0.68064621378789048',): {('2.1.15:thickness',): {('37.112687019261863',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7821673663778843',): {'$': TrieLeaf(ListOfLabels=['Run-130'])}}}}},
+                                                ('0.68575811111011731',): {('2.1.15:thickness',): {('37.499824571852123',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8492284795860332',): {'$': TrieLeaf(ListOfLabels=['Run-44'])}}}}},
+                                                ('0.70617444625595593',): {('2.1.15:thickness',): {('36.889855215166136',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6215072500869265',): {'$': TrieLeaf(ListOfLabels=['Run-150'])}}}}},
+                                                ('0.73628069756459713',): {('2.1.15:thickness',): {('36.6719925363344',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1647107928914453',): {'$': TrieLeaf(ListOfLabels=['Run-148'])}}}}},
+                                                ('0.75682548663867666',): {('2.1.15:thickness',): {('38.273244288221377',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5961723767059954',): {'$': TrieLeaf(ListOfLabels=['Run-105'])}}}}},
+                                                ('0.76541501444781013',): {('2.1.15:thickness',): {('37.387065670053531',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0412377370345229',): {'$': TrieLeaf(ListOfLabels=['Run-98'])}}}}},
+                                                ('0.82334680609621091',): {('2.1.15:thickness',): {('37.945491858827459',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2297350760147667',): {'$': TrieLeaf(ListOfLabels=['Run-126'])}}}}},
+                                                ('0.84001276411114623',): {('2.1.15:thickness',): {('36.254129452877088',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2815362897617604',): {'$': TrieLeaf(ListOfLabels=['Run-56'])}}}}},
+                                                ('0.84192249683646392',): {('2.1.15:thickness',): {('37.792799776024793',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1270842600476509',): {'$': TrieLeaf(ListOfLabels=['Run-111'])}}}}},
+                                                ('0.87235432252282374',): {('2.1.15:thickness',): {('37.6645814875816',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7191039311219569',): {'$': TrieLeaf(ListOfLabels=['Run-118'])}}}}},
+                                                ('0.89173162318241384',): {('2.1.15:thickness',): {('36.696358384862471',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6959343592982243',): {'$': TrieLeaf(ListOfLabels=['Run-16'])}}}}},
+                                                ('0.98450124295606611',): {('2.1.15:thickness',): {('38.847058449881146',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.4402307469631408',): {'$': TrieLeaf(ListOfLabels=['Run-43'])}}}}},
+                                                ('0.99876413053889779',): {('2.1.15:thickness',): {('37.451101271470073',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7834573853043336',): {'$': TrieLeaf(ListOfLabels=['Run-183'])}}}}},
+                                                ('0.99978058169589457',): {('2.1.15:thickness',): {('37.787854344992006',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.8920005576293741',): {'$': TrieLeaf(ListOfLabels=['Run-9'])}}}}},
+                                                ('1.0156638013079187',): {('2.1.15:thickness',): {('37.132225971256055',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1357251199466321',): {'$': TrieLeaf(ListOfLabels=['Run-53'])}}}}},
+                                                ('1.0635624475653409',): {('2.1.15:thickness',): {('38.015835013627786',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9593357987674613',): {'$': TrieLeaf(ListOfLabels=['Run-22'])}}}}},
+                                                ('1.0639330131699025',): {('2.1.15:thickness',): {('37.06871662703589',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3601130725431432',): {'$': TrieLeaf(ListOfLabels=['Run-20'])}}}}},
+                                                ('1.0650313158624356',): {('2.1.15:thickness',): {('38.638825280529645',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.7052070224544522',): {'$': TrieLeaf(ListOfLabels=['Run-32'])}}}}},
+                                                ('1.0725206835853074',): {('2.1.15:thickness',): {('38.76946612865531',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6351987870095739',): {'$': TrieLeaf(ListOfLabels=['Run-108'])}}}}},
+                                                ('1.1040955558622789',): {('2.1.15:thickness',): {('37.568662869242871',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.1493827683459035',): {'$': TrieLeaf(ListOfLabels=['Run-40'])}}}}},
+                                                ('1.123987384326627',): {('2.1.15:thickness',): {('37.505843537132222',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0129964408789025',): {'$': TrieLeaf(ListOfLabels=['Run-1'])}}}}},
+                                                ('1.1329013064905475',): {('2.1.15:thickness',): {('37.45274058220906',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5801559015878111',): {'$': TrieLeaf(ListOfLabels=['Run-64'])}}}}},
+                                                ('1.1499731239255513',): {('2.1.15:thickness',): {('37.086392535808265',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2620243304563177',): {'$': TrieLeaf(ListOfLabels=['Run-195'])}}}}},
+                                                ('1.2157421920103353',): {('2.1.15:thickness',): {('37.837514655516131',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2414345784316412',): {'$': TrieLeaf(ListOfLabels=['Run-85'])}}}}},
+                                                ('1.2388932465984532',): {('2.1.15:thickness',): {('36.951232379791428',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0784753548623813',): {'$': TrieLeaf(ListOfLabels=['Run-185'])}}}}},
+                                                ('1.2533467016751798',): {('2.1.15:thickness',): {('36.210851889661768',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.7918267360140305',): {'$': TrieLeaf(ListOfLabels=['Run-25'])}}}}},
+                                                ('1.2634035758913895',): {('2.1.15:thickness',): {('36.445277052904537',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.5786213194451095',): {'$': TrieLeaf(ListOfLabels=['Run-72'])}}}}},
+                                                ('1.2707357719704357',): {('2.1.15:thickness',): {('38.067213870188404',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.6691809059290605',): {'$': TrieLeaf(ListOfLabels=['Run-96'])}}}}},
+                                                ('1.2844433211594097',): {('2.1.15:thickness',): {('38.097204742112105',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.5005152346853361',): {'$': TrieLeaf(ListOfLabels=['Run-173'])}}}}},
+                                                ('1.2910148939775805',): {('2.1.15:thickness',): {('37.191418424879508',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9718808256598286',): {'$': TrieLeaf(ListOfLabels=['Run-21'])}}}}},
+                                                ('1.3609056226974565',): {('2.1.15:thickness',): {('38.885955179715708',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('3.9712831652455676',): {'$': TrieLeaf(ListOfLabels=['Run-190'])}}}}},
+                                                ('1.4856005641271688',): {('2.1.15:thickness',): {('36.81091103395989',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.3485261171107839',): {'$': TrieLeaf(ListOfLabels=['Run-182'])}}}}},
+                                                ('1.4954697092528497',): {('2.1.15:thickness',): {('38.299345399393154',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2987545885103549',): {'$': TrieLeaf(ListOfLabels=['Run-2'])}}}}},
+                                                ('1.701755141238638',): {('2.1.15:thickness',): {('37.157040002024381',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.199858905264767',): {'$': TrieLeaf(ListOfLabels=['Run-38'])}}}}},
+                                                ('2.3312976921798008',): {('2.1.15:thickness',): {('37.125138133611337',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.2359049011062879',): {'$': TrieLeaf(ListOfLabels=['Run-163'])}}}}},
+                                                ('2.4618076373917823',): {('2.1.15:thickness',): {('36.807206871413811',): {("2.2.9.2.2:materials['/Silicon/'].etchType.taper.sidewallAngle",): {('4.0231340746352711',): {'$': TrieLeaf(ListOfLabels=['Run-102'])}}}}}}}
+2019-05-14 11:34:50.374; SHOW_USER; 16584; MainProcess; MainThread; Expeditor will use the default build launcher
+2019-05-14 11:34:54.56; SHOW_USER; 16584; MainProcess; MainThread; Creating 1 ExpeditorProcesses
+2019-05-14 11:34:54.56; SHOW_USER; 16584; MainProcess; MainThread; 0 processes will be responsible for 64 builds each, 1 last process will be responsible for 4 builds
+2019-05-14 19:57:14.0; INFO; 16584; MainProcess; MainThread; sending shutdown message to manager
+2019-05-14 19:57:14.430; SHOW_USER; 16584; MainProcess; MainThread; Expeditor Run Time Statistics
+2019-05-14 19:57:14.430; SHOW_USER; 16584; MainProcess; MainThread; ---------------------------------
+2019-05-14 19:57:14.430; SHOW_USER; 16584; MainProcess; MainThread; 200 runs succeeded out of 200, 0 runs failed
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-51, RunDuration=0:12:58 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-50, RunDuration=0:08:47 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-53, RunDuration=0:08:07 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-52, RunDuration=0:09:32 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-55, RunDuration=0:11:14 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-54, RunDuration=0:08:15 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-57, RunDuration=0:09:11 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-56, RunDuration=0:13:01 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-59, RunDuration=0:09:06 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-58, RunDuration=0:10:11 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-21, RunDuration=0:08:20 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-106, RunDuration=0:10:58 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-107, RunDuration=0:08:12 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-104, RunDuration=0:09:57 (H:M:S)
+2019-05-14 19:57:14.430; PROFILE; 16584; MainProcess; MainThread; RunId=Run-105, RunDuration=0:11:06 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-102, RunDuration=0:10:02 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-103, RunDuration=0:10:01 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-100, RunDuration=0:09:39 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-101, RunDuration=0:11:00 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-108, RunDuration=0:08:20 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-109, RunDuration=0:11:21 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-27, RunDuration=0:10:58 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-68, RunDuration=0:11:48 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-69, RunDuration=0:11:38 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-64, RunDuration=0:08:59 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-65, RunDuration=0:11:05 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-66, RunDuration=0:08:20 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-67, RunDuration=0:09:21 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-60, RunDuration=0:11:47 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-61, RunDuration=0:08:21 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-62, RunDuration=0:10:26 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-63, RunDuration=0:10:50 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-173, RunDuration=0:09:10 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-172, RunDuration=0:07:48 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-171, RunDuration=0:08:22 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-170, RunDuration=0:09:52 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-177, RunDuration=0:08:50 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-176, RunDuration=0:10:02 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-175, RunDuration=0:07:12 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-174, RunDuration=0:10:24 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-179, RunDuration=0:08:56 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-178, RunDuration=0:10:15 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-79, RunDuration=0:09:19 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-78, RunDuration=0:11:43 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-73, RunDuration=0:11:28 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-72, RunDuration=0:09:19 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-71, RunDuration=0:08:56 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-70, RunDuration=0:10:07 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-77, RunDuration=0:10:45 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-76, RunDuration=0:13:28 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-75, RunDuration=0:10:27 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-74, RunDuration=0:12:59 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-44, RunDuration=0:10:12 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-160, RunDuration=0:09:01 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-161, RunDuration=0:08:42 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-162, RunDuration=0:08:47 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-163, RunDuration=0:08:56 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-164, RunDuration=0:09:19 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-165, RunDuration=0:08:20 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-166, RunDuration=0:09:03 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-167, RunDuration=0:12:27 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-168, RunDuration=0:08:13 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-169, RunDuration=0:10:46 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-45, RunDuration=0:08:49 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-48, RunDuration=0:11:26 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-32, RunDuration=0:08:26 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-33, RunDuration=0:09:56 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-97, RunDuration=0:11:55 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-96, RunDuration=0:09:30 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-86, RunDuration=0:10:09 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-87, RunDuration=0:09:44 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-84, RunDuration=0:11:23 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-85, RunDuration=0:08:55 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-82, RunDuration=0:09:34 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-83, RunDuration=0:10:24 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-80, RunDuration=0:10:36 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-81, RunDuration=0:11:29 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-155, RunDuration=0:08:35 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-154, RunDuration=0:12:07 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-157, RunDuration=0:10:31 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-156, RunDuration=0:08:45 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-151, RunDuration=0:10:56 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-150, RunDuration=0:10:29 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-88, RunDuration=0:11:51 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-89, RunDuration=0:08:40 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-9, RunDuration=0:09:00 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-8, RunDuration=0:10:50 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-5, RunDuration=0:10:24 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-4, RunDuration=0:09:18 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-7, RunDuration=0:11:45 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-6, RunDuration=0:11:03 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-1, RunDuration=0:09:36 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-0, RunDuration=0:12:18 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-3, RunDuration=0:08:15 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-2, RunDuration=0:11:47 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-37, RunDuration=0:10:12 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-31, RunDuration=0:07:52 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-36, RunDuration=0:08:43 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-99, RunDuration=0:09:55 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-35, RunDuration=0:10:50 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-98, RunDuration=0:12:01 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-34, RunDuration=0:11:32 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-19, RunDuration=0:11:24 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-18, RunDuration=0:07:39 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-15, RunDuration=0:09:41 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-14, RunDuration=0:08:49 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-17, RunDuration=0:10:54 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-16, RunDuration=0:14:07 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-11, RunDuration=0:08:12 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-10, RunDuration=0:08:10 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-13, RunDuration=0:09:04 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-12, RunDuration=0:12:04 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-95, RunDuration=0:07:32 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-94, RunDuration=0:09:57 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-148, RunDuration=0:11:33 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-149, RunDuration=0:10:24 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-91, RunDuration=0:11:25 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-90, RunDuration=0:09:28 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-93, RunDuration=0:08:45 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-92, RunDuration=0:09:06 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-142, RunDuration=0:08:51 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-143, RunDuration=0:10:10 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-140, RunDuration=0:08:31 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-141, RunDuration=0:11:27 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-146, RunDuration=0:10:43 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-147, RunDuration=0:08:23 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-144, RunDuration=0:12:29 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-145, RunDuration=0:09:14 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-28, RunDuration=0:09:14 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-29, RunDuration=0:12:13 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-20, RunDuration=0:08:32 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-159, RunDuration=0:11:06 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-22, RunDuration=0:08:53 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-23, RunDuration=0:11:30 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-24, RunDuration=0:11:00 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-25, RunDuration=0:09:08 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-26, RunDuration=0:08:18 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-158, RunDuration=0:12:07 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-139, RunDuration=0:09:11 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-138, RunDuration=0:09:43 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-137, RunDuration=0:08:00 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-136, RunDuration=0:08:35 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-135, RunDuration=0:09:12 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-134, RunDuration=0:10:35 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-133, RunDuration=0:10:08 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-132, RunDuration=0:08:41 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-131, RunDuration=0:07:46 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-130, RunDuration=0:08:58 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-191, RunDuration=0:11:45 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-190, RunDuration=0:08:46 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-193, RunDuration=0:08:34 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-192, RunDuration=0:10:40 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-195, RunDuration=0:08:18 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-194, RunDuration=0:10:49 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-197, RunDuration=0:10:22 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-196, RunDuration=0:10:43 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-199, RunDuration=0:08:42 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-198, RunDuration=0:09:21 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-39, RunDuration=0:09:41 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-38, RunDuration=0:09:58 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-153, RunDuration=0:09:12 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-152, RunDuration=0:08:11 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-118, RunDuration=0:10:32 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-128, RunDuration=0:10:13 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-129, RunDuration=0:07:45 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-124, RunDuration=0:07:38 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-125, RunDuration=0:12:47 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-126, RunDuration=0:12:15 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-127, RunDuration=0:11:36 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-120, RunDuration=0:08:23 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-121, RunDuration=0:11:15 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-122, RunDuration=0:10:33 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-123, RunDuration=0:11:09 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-42, RunDuration=0:10:48 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-43, RunDuration=0:12:10 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-40, RunDuration=0:08:55 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-41, RunDuration=0:10:08 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-46, RunDuration=0:10:23 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-47, RunDuration=0:08:23 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-188, RunDuration=0:10:16 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-189, RunDuration=0:09:31 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-186, RunDuration=0:10:11 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-187, RunDuration=0:08:51 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-184, RunDuration=0:08:52 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-185, RunDuration=0:07:33 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-182, RunDuration=0:10:38 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-183, RunDuration=0:08:26 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-180, RunDuration=0:08:52 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-181, RunDuration=0:09:00 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-30, RunDuration=0:10:18 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-119, RunDuration=0:09:48 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-49, RunDuration=0:13:28 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-111, RunDuration=0:12:27 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-110, RunDuration=0:08:26 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-113, RunDuration=0:09:10 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-112, RunDuration=0:11:09 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-115, RunDuration=0:08:30 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-114, RunDuration=0:09:13 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-117, RunDuration=0:09:38 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; RunId=Run-116, RunDuration=0:10:02 (H:M:S)
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; Maximum Run Duration (S)=847.799
+2019-05-14 19:57:14.440; PROFILE; 16584; MainProcess; MainThread; Minimum Run Duration(S)=432.517
+2019-05-14 19:57:14.440; SHOW_USER; 16584; MainProcess; MainThread; Avg. Run time = 0:09:57 (H:M:S)
+2019-05-14 19:57:14.440; SHOW_USER; 16584; MainProcess; MainThread; Total time = 8:22:34 (H:M:S)
+2019-05-14 19:57:14.480; INFO; 16584; MainProcess; Dummy-1; process shutting down

@@ -1,0 +1,27 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="16nmFINFET.cat" TopCell="ARRAY3X3_LIBSRAM_CELL_172_432"/>
+    <ProcessFile Filename="16nmFINFET.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="BB2" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="MLee_Coventor" AutoRev="true" Comments="" CreatedOn="Monday March 07, 2016 14:58:34" LastModified="Monday March 07, 2016 14:58:34" Revision="1377" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights/>
+
+  <Analyses/>
+
+</SceneGraph>

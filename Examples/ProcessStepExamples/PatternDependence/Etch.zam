@@ -1,0 +1,27 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="0.05" ModelUnits="um"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="Simple.cat" TopCell="top"/>
+    <ProcessFile Filename="array_trench.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Auto Rebuild" StartViewer="true"/>
+    <ModelArea BoundingMask="Etch1" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="MLee_Coventor" AutoRev="true" Comments="" CreatedOn="Tuesday February 04, 2014 15:02:00" LastModified="Tuesday February 04, 2014 15:02:00" Revision="78" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights/>
+
+  <Analyses/>
+
+</SceneGraph>

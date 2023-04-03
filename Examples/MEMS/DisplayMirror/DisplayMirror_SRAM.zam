@@ -1,0 +1,27 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="0.015" ModelUnits="um"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="DisplayMirror_SRAM.cat" TopCell="Device"/>
+    <ProcessFile Filename="DisplayMirror_SRAM.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Auto Rebuild" StartViewer="true"/>
+    <ModelArea BoundingMask="Nwell" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="mlee" AutoRev="true" Comments="" CreatedOn="Wednesday November 24, 2010 10:33:46" LastModified="Wednesday November 24, 2010 10:33:46" Revision="1363" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights/>
+
+  <Analyses/>
+
+</SceneGraph>

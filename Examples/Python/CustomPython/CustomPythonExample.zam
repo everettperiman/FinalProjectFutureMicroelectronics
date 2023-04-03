@@ -1,0 +1,27 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="0.25" ModelUnits="um"/>
+    <Version App="SEMulator3D" AppVersion="10.3.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="CustomPythonExample.cat" TopCell="Top"/>
+    <ProcessFile Filename="CustomPythonExample.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="layer1" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="MLee_Coventor" AutoRev="true" Comments="" CreatedOn="Thursday October 29, 2015 11:04:08" LastModified="Thursday October 29, 2015 11:04:08" Revision="390" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights/>
+
+  <Analyses/>
+
+</SceneGraph>
