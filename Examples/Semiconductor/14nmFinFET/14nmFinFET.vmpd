@@ -15,7 +15,7 @@
       <___Item NotDeletable="true" UUID="f0e1bf5b-9de1-4a92-88ed-29c17934a945" ___Name="Metals" ___Type="MaterialGroup">
         <___Properties isEnable="true"/>
         <___Item UUID="015fc373-a95f-4b7d-895a-1ba49270a8e1" ___Name="Al" ___Type="Material" isExpanded="true">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="164" ___green="160" ___red="160" isExpanded="true" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -40,22 +40,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" isExpanded="true" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="8382632c-8c8f-493c-bf82-8938bf791788" ___Name="Au" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="54" ___green="231" ___red="243" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -80,22 +87,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="215343d1-a109-4779-8ab7-a89ce7919dd9" ___Name="Co" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="245" ___green="152" ___red="155" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -120,22 +134,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="7934b510-68b5-4d0a-a068-b09f852e104f" ___Name="CoSi" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -160,22 +181,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="010c384f-b032-4c7f-ad2d-f2a140f941cd" ___Name="Cu" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="34" ___green="84" ___red="153" isExpanded="true" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -200,22 +228,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" isExpanded="true"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" isExpanded="true" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" isExpanded="true" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="54b9fba4-0641-4290-ab0c-ffa94a79e9c8" ___Name="Ni" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="245" ___green="152" ___red="155" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -240,22 +275,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="f9606ee9-a7eb-4611-aa38-939bf8093f2c" ___Name="NiPt" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="200" ___green="156" ___red="148" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -280,22 +322,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="c68030ad-ee52-4aef-ae95-4276ffaec0e8" ___Name="NiPtSi" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="164" ___green="160" ___red="160" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -320,22 +369,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="5025fc5b-f14d-49fc-9df9-dae3194d222e" ___Name="NiSi" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -360,22 +416,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="487a2ec8-e841-4621-94ec-fe1feed9d9f5" ___Name="Ta" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="60" ___green="136" ___red="139" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -400,22 +463,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="0350638f-fcdf-4fe5-ab5e-e7e58da03e65" ___Name="TaN" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="128" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -440,22 +510,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="2b8a4d2c-649b-4330-93b3-7db7c7ea4799" ___Name="Ti" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="134" ___green="134" ___red="134" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -480,22 +557,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="fbeed137-4eb6-4307-94d2-c8e4e8d657f9" ___Name="TiAl" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="192" ___green="192" ___red="192" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -520,22 +604,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="ad0cbcfe-07cb-48e3-b55f-3c38a8db6c71" ___Name="TiN" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -560,22 +651,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="80eae080-ded8-4569-8db3-c61fc7f924ef" ___Name="W" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="60" ___green="66" ___red="50" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -600,22 +698,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="e4280561-27c4-4356-9320-c624f80d6177" ___Name="WSi" ___Type="Material" isExpanded="true">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="128" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -640,16 +745,23 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
@@ -658,7 +770,7 @@
       <___Item NotDeletable="true" UUID="6f57a5e4-3685-40fa-91fa-f948f3dbb107" ___Name="Nitrides" ___Type="MaterialGroup">
         <___Properties isEnable="true"/>
         <___Item UUID="5651bf54-0e01-4111-b671-89f8b228dc3a" ___Name="Si3N4_Comp" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -683,22 +795,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="7.0" ___lastKnownValue="7.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="b7859577-33ce-45e9-8c75-e34db0a85528" ___Name="Si3N4_Tens" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -723,22 +842,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="7.0" ___lastKnownValue="7.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="f58eebab-801a-4242-a51c-7cb472b3315c" ___Name="Si3N4_LPCVD" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -763,22 +889,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="7.5" ___lastKnownValue="7.5" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="a8863427-e30c-45b0-916b-941f0036125c" ___Name="Si3N4_MLD" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -803,22 +936,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="7.0" ___lastKnownValue="7.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="9d759282-0abf-4b57-95ba-df56db6f9ac0" ___Name="Si3N4_PECVD" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="128" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -843,16 +983,23 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="7.0" ___lastKnownValue="7.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
@@ -861,7 +1008,7 @@
       <___Item NotDeletable="true" UUID="93f26bed-e76e-42b4-a61a-234cd30c7fda" ___Name="Organics" ___Type="MaterialGroup">
         <___Properties isEnable="true"/>
         <___Item UUID="9f81b7a6-9d15-4f4f-a4a8-e13eb9e37ef3" ___Name="ODL" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="60" ___green="35" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -886,22 +1033,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="6f400091-aadf-4f41-9a36-7c4941108dc2" ___Name="Resist" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="0" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -926,22 +1080,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="817e70e3-33b0-41f5-9793-dc9778892530" ___Name="XPS" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="190" ___green="0" ___red="190" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -966,22 +1127,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="8f77282d-af3c-46a1-9884-42de66c663fb" ___Name="OHBrush" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="127" ___green="170" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1006,22 +1174,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="ef587584-5036-4f2b-9b75-6a3f19f7c541" ___Name="PMMA" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="0" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1046,22 +1221,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="3dc02e35-8d65-47f5-9148-75118627ca86" ___Name="PS" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="0" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1086,22 +1268,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="64399bb2-3f73-4af5-a5b9-1ce6d6a08e99" ___Name="Polymer" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="88" ___green="37" ___red="207" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1126,16 +1315,23 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
@@ -1144,7 +1340,7 @@
       <___Item NotDeletable="true" UUID="d5d60728-a6a3-47c7-8379-fe3ebfcc53c6" ___Name="Oxides" ___Type="MaterialGroup">
         <___Properties isEnable="true"/>
         <___Item UUID="13d4eb86-acf7-49fc-88e8-2eddb549bb02" ___Name="HfOx" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="255" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1169,22 +1365,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="23838aec-2469-4158-9d4c-f4b91e0b93b6" ___Name="SiO2_BOX" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="225" ___red="190" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1209,22 +1412,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="4dc822c1-3a07-4f0a-a333-a35d1b23f678" ___Name="SiO2_HDP" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="255" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1249,22 +1459,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="bfcd7a66-977d-4a6d-a4f7-f37c515ac54d" ___Name="SiO2_HTO" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="170" ___red="85" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1289,22 +1506,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="77acd2cf-b7db-4741-97f3-f8c06a94f204" ___Name="SiO2_LTO" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="197" ___green="255" ___red="23" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1329,22 +1553,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="bc31a431-78ab-4cfc-a1ab-68c166b16637" ___Name="SiO2_PECVD" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="208" ___green="163" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1369,22 +1600,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="8ee5b7c1-3783-4e4d-941f-58ea7e3ebd3e" ___Name="SiO2_SiCOH" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="255" ___red="66" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1409,22 +1647,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="2.8" ___lastKnownValue="2.8" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="e41996b2-bb7f-4974-af95-f7ed9246ac1b" ___Name="SiO2_TEOS" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="207" ___red="33" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1449,22 +1694,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="3.5" ___lastKnownValue="3.5" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="5b89583c-68fe-4841-adaa-a13fc0628424" ___Name="SiO2_Thermal" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="0" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1489,22 +1741,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="3.9" ___lastKnownValue="3.9" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="aeafb8ce-3f14-4f23-bcd1-3d09b72254ee" ___Name="ULK" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="245" ___green="193" ___red="71" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1529,16 +1788,23 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="2.5" ___lastKnownValue="2.5" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
@@ -1547,7 +1813,7 @@
       <___Item NotDeletable="true" UUID="80e67dab-745c-4a21-b8c4-bad58db02b62" ___Name="Silicon" ___Type="MaterialGroup">
         <___Properties isEnable="true"/>
         <___Item UUID="659797b4-d905-4629-8cd8-b24eeefda6f2" ___Name="SiARC" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="149" ___green="0" ___red="149" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1572,22 +1838,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="20" ___lastKnownValue="20.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="91ff0cf2-73fc-44e8-85a5-bf1a8e1a253e" ___Name="SiC" ___Type="Material" isExpanded="true">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="85" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1612,22 +1885,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="9.7" ___lastKnownValue="9.699999999999999" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="ea836d37-930a-4819-ab53-fc1336565f6f" ___Name="SiGe" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="128" ___green="0" ___red="128" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1652,22 +1932,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="15" ___lastKnownValue="15.0" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="beca4429-7560-4e07-b31c-e8092d328a98" ___Name="Si_Amorph" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="0" ___red="193" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1692,22 +1979,29 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="11.7" ___lastKnownValue="11.7" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
         </___Item>
         <___Item UUID="13577a56-4958-437b-bcec-c610b2eba790" ___Name="Si_Xtal" ___Type="Material">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="0" ___green="0" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1732,16 +2026,23 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="11.7" ___lastKnownValue="11.7" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
@@ -1750,7 +2051,7 @@
       <___Item NotDeletable="true" UUID="ecd7ff4d-f7e5-4d9e-ab03-672f9c54226a" ___Name="III_V" ___Type="MaterialGroup">
         <___Properties isEnable="true"/>
         <___Item UUID="f89f5804-b940-4412-834a-af1cbc0c31c5" ___Name="GaAs" ___Type="Material" isExpanded="true">
-          <___Properties ID="-1" OrderUsed="-1" VersionNumber="9.4.0.0" isEnable="true">
+          <___Properties ID="-1" OrderUsed="-1" VersionNumber="10.3.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
               <color ___blue="255" ___green="170" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
@@ -1775,16 +2076,23 @@
                     <meanFreePath ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
                   </exponential>
                 </sizeCorrection>
-                <contactResistivities VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+                <contactResistivities VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
               </conductor>
               <dielectric isEnable="true">
                 <dielectricConstant_ ___expression="12.9" ___lastKnownValue="12.9" ___unitConversionExpr="" ___unitName="nounit"/>
               </dielectric>
             </type>
-            <structuralProperties isEnable="true" showHeader="true">
-              <materialStructureType ___activeMember="isotropicMatTable ">
-                <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            <structuralProperties VersionNumber="10.3.0.0" isEnable="true" showHeader="true" uiHidden="true">
+              <materialStructureType ___activeMember="isotropicMaterial ">
+                <isotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <isotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </isotropicMaterial>
+                <cubicAnisotropicMaterial isEnable="true">
+                  <intrinsicStress ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <misfitStrain ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <cubicAnisotropicMatTable PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                </cubicAnisotropicMaterial>
               </materialStructureType>
             </structuralProperties>
           </___Properties>
@@ -1799,7 +2107,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="donor"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="3.56" ___lastKnownValue="3.56" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="0.32" ___lastKnownValue="0.32" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1813,7 +2121,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="donor"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="1.1" ___lastKnownValue="1.1" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="1.59e-11" ___lastKnownValue="1.59e-11" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1831,7 +2139,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="donor"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="3.95" ___lastKnownValue="3.95" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="5.6" ___lastKnownValue="5.6" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1848,7 +2156,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="acceptor"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="3.06" ___lastKnownValue="3.06" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="2.8e-4" ___lastKnownValue="0.00028" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1866,7 +2174,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="acceptor"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="3.5" ___lastKnownValue="3.5" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="3.6" ___lastKnownValue="3.6" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1880,7 +2188,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="acceptor"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="3.9" ___lastKnownValue="3.9" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="16.5" ___lastKnownValue="16.5" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1897,7 +2205,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="neutral"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="3.92" ___lastKnownValue="3.92" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="0.35" ___lastKnownValue="0.35" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1911,7 +2219,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="neutral"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true">
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true">
               <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
                 <activationEnergy ___expression="2.92" ___lastKnownValue="2.92" ___unitConversionExpr="" ___unitName="nounit"/>
                 <maxDiffusionCoefficient ___expression="0.33" ___lastKnownValue="0.33" ___unitConversionExpr="" ___unitName="nounit"/>
@@ -1925,7 +2233,7 @@
           <___Properties isEnable="true">
             <type ___activeMember="neutral"/>
             <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
-            <diffusionProperties VersionNumber="9.4.0.0" uiHideChildNodes="true"/>
+            <diffusionProperties VersionNumber="10.3.0.0" uiHideChildNodes="true"/>
             <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
             <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
           </___Properties>

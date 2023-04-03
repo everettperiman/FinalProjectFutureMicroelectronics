@@ -1,0 +1,602 @@
+20:23:22 INFO   Loading Assembly file: C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET.zam
+20:23:22 INFO   Loading Analysis file: C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET.vanalysis
+20:23:27 INFO   Loading Process file: C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET.vproc
+20:23:29 INFO   Loading Material file: C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET.vmpd
+20:23:31 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:42 INFO   Saving build script: C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\__semu_14nmFinFET.py
+20:23:42 INFO : License server value is 54015@licsvr.ece.ufl.edu.
+20:23:42 INFO : Platform is Windows, 64-bit.
+20:23:42 INFO : PRODUCT_NAME             SEMulator3D
+20:23:42 INFO : VERSION_BUILD_NUMBER     10.3.0.0
+20:23:42 INFO : VERSION_BUILD_TIMESTAMP  Wed Nov 30 20:28:55 2022
+20:23:42 INFO : 
+
+20:23:42 INFO   Default number of parallel workers = 2
+20:23:42 INFO   Adding new input file path: C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\
+20:23:47 INFO : 1:	Running WaferSetup ("Wafer Setup1")
+20:23:47 INFO   Voxel Wafer resolution is 1 nm.
+20:23:47 INFO   Model bounds for new wafer are 216 by 172 voxels.
+20:23:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:47 INFO : 2:	Sequence ("FEOL")
+20:23:47 INFO : 2.1:	Sequence ("Fin")
+20:23:47 INFO : 2.1.1:	Running Deposit ("DEP PadOx")
+20:23:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:47 INFO : 2.1.2:	Running Metrology ("MEA THK PadOx")
+20:23:47 INFO : METROLOGY RESULTS:
+20:23:47 INFO : Film thickness measurement for ('/Oxides/HfOx', '/Oxides/SiO2_HDP', '/Oxides/SiO2_HTO', '/Oxides/SiO2_LTO', '/Oxides/SiO2_PECVD', '/Oxides/SiO2_TEOS', '/Oxides/SiO2_Thermal') at (540.000000,172.000000):
+20:23:47 INFO :   THK_PADOX_DEP = 3.000000
+20:23:47 INFO : Results are stored in output file C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET-Output/metrology.txt.
+20:23:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:47 INFO : 2.1.3:	Running Deposit ("DEP PadNit")
+20:23:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:48 INFO : 2.1.4:	Running Metrology ("MEA THK PadNit")
+20:23:48 INFO : METROLOGY RESULTS:
+20:23:48 INFO : Film thickness measurement for ('/Nitrides/Si3N4_LPCVD', '/Nitrides/Si3N4_MLD', '/Nitrides/Si3N4_PECVD') at (540.000000,172.000000):
+20:23:48 INFO :   THK_PADNIT_DEP = 30.000000
+20:23:48 INFO : Results are stored in output file C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET-Output/metrology.txt.
+20:23:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:48 INFO : 2.1.5:	Running Deposit ("DEP Mandrel Silicon")
+20:23:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:48 INFO : 2.1.6:	Running Deposit ("DEP MandODL")
+20:23:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:48 INFO : 2.1.7:	Running Deposit ("DEP MandSiARC")
+20:23:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:48 INFO : 2.1.8:	Running Deposit ("DEP MandRes")
+20:23:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:48 INFO : 2.1.9:	Running ExposeMaterial ("LTH Mand")
+20:23:49 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:49 INFO : 2.1.10:	Skipping Metrology ("MEA CD MandDev"); skip mask "CD_MAND" is empty
+20:23:49 INFO : 2.1.11:	Sequence ("RIE Mand")
+20:23:49 INFO : 2.1.11.1:	Running Etch ("RIE SiARC")
+20:23:49 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:49 INFO : 2.1.11.2:	Running Etch ("RIE ODL")
+20:23:50 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:50 INFO : 2.1.11.3:	Sequence ("RIE Poly - Pick One")
+20:23:50 INFO : 2.1.11.3.1:	Running Etch ("RIE Poly - Basic")
+20:23:50 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:50 INFO : 2.1.11.3.2:	Skipping disabled step MultiEtch ("RIE Poly - VizEtch")
+20:23:50 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:50 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:50 INFO : 2.1.12:	Skipping Metrology ("MEA CD MandFin"); skip mask "CD_MAND" is empty
+20:23:50 INFO : 2.1.13:	Skipping Metrology ("MEA SH MandFin"); skip mask "CD_MAND" is empty
+20:23:50 INFO : 2.1.14:	Running Etch ("RIE MandRes")
+20:23:50 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:50 INFO : 2.1.15:	Running Deposit ("DEP FinSpcrOx")
+20:23:51 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:51 INFO : 2.1.16:	Sequence ("RIE FinSpcrOx - Pick One")
+20:23:51 INFO : 2.1.16.1:	Running Etch ("RIE FinSpcrOx")
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO : 2.1.16.2:	Skipping disabled step MultiEtch ("RIE FinSpcrOx - VizEtch")
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO : 2.2:	Sequence ("FinCut")
+20:23:52 INFO : 2.2.1:	Running Deposit ("DEP FinCutRes")
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO : 2.2.2:	Running ExposeMaterial ("LTH FinCut")
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO : 2.2.3:	Running Etch ("RIE FinCutSpcrOx")
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO : 2.2.4:	Running RemoveMaterials ("RIE FinCutRes")
+20:23:52 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:52 INFO : 2.2.5:	Running Etch ("RIE MandSiRem")
+20:23:53 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:53 INFO : 2.2.6:	Running Etch ("RIE PadNit")
+20:23:53 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:53 INFO : 2.2.7:	Running Etch ("RIE PlanActRes")
+20:23:54 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:54 INFO : 2.2.8:	Running Etch ("RIE PadOx")
+20:23:54 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:54 INFO : 2.2.9:	Sequence ("RIE FinSi - Pick One")
+20:23:54 INFO : 2.2.9.1:	Sequence ("RIE FinSi - Simple")
+20:23:54 INFO : 2.2.9.1.1:	Running Etch ("RIE Fin Si - Anisotropic")
+20:23:54 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:54 INFO : 2.2.9.1.2:	Running Etch ("RIE Fin Si - Taper")
+20:23:55 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:55 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:55 INFO : 2.2.9.2:	Skipping disabled step Sequence ("RIE FinSi - MultiEtch")
+20:23:55 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:55 INFO : 2.2.10:	Skipping Metrology ("MEA SP FinNNBotDeep"); skip mask "SP_FINNP" is empty
+20:23:55 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:55 INFO : 2.3:	Sequence ("Wells")
+20:23:55 INFO : 2.3.1:	Running Deposit ("DEP Screen Oxide")
+20:23:55 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:55 INFO : 2.3.2:	Running Deposit ("DEP PSPD Poly")
+20:23:56 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:56 INFO : 2.3.3:	Running Deposit ("DEP PWell Resist")
+20:23:57 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:57 INFO : 2.3.4:	Running ExposeMaterial ("LTH NWell")
+20:23:58 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:58 INFO : 2.3.5:	Running Etch ("RIE PSPD Poly")
+20:23:59 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:59 INFO : 2.3.6:	Running RemoveMaterials ("RIE Resist")
+20:23:59 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:23:59 INFO : 2.3.7:	Running Deposit ("DEP NSPD Poly")
+20:24:00 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:24:00 INFO : 2.3.8:	Running Etch ("RIE NSPD Poly")
+20:24:01 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:24:01 INFO : 2.3.9:	Running Diffusion ("RTP Well Drive")
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_TEOS is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/HfOx is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HDP is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HTO is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_LTO is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_PECVD is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Silicon/SiARC is:2.99608e-13cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_Thermal is:1.64067e-15cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Silicon/SiC is:2.99608e-13cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Silicon/SiGe is:2.99608e-13cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Amorph is:2.99608e-13cm^2/sec
+20:24:01 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Xtal is:2.99608e-13cm^2/sec
+20:24:01 INFO   Before /PType/B diffusion: min/max = 0, 5e+18	atoms/cm^3
+20:24:01 INFO   Total amount of dopant atoms = 2079.55
+20:24:01 INFO   Diffusion Solver 0.0% complete.
+20:24:21 INFO   Diffusion Solver 3.6% complete.
+20:24:41 INFO   Diffusion Solver 11.2% complete.
+20:24:46 INFO   Diffusion Solver 21.3% complete.
+20:24:51 INFO   Diffusion Solver 31.4% complete.
+20:24:56 INFO   Diffusion Solver 41.4% complete.
+20:25:00 INFO   Diffusion Solver 51.5% complete.
+20:25:03 INFO   Diffusion Solver 61.8% complete.
+20:25:04 INFO   Diffusion Solver 71.9% complete.
+20:25:04 INFO   Diffusion Solver 82.0% complete.
+20:25:04 INFO   Diffusion Solver 92.2% complete.
+20:25:04 INFO   Total amount of dopant atoms = 2112.12
+20:25:05 INFO   After /PType/B diffusion: min/max = 0, 1.69325e+18	atoms/cm^3 (change made)
+20:25:05 INFO   The value of Diffusivity of /NType/As in /Silicon/SiGe is:2.73967e-14cm^2/sec
+20:25:05 INFO   The value of Diffusivity of /NType/As in /Silicon/SiARC is:2.73967e-14cm^2/sec
+20:25:05 INFO   The value of Diffusivity of /NType/As in /Silicon/SiC is:2.73967e-14cm^2/sec
+20:25:05 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Amorph is:2.73967e-14cm^2/sec
+20:25:05 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Xtal is:2.73967e-14cm^2/sec
+20:25:05 INFO   Before /NType/As diffusion: min/max = 0, 5e+19	atoms/cm^3
+20:25:05 INFO   Total amount of dopant atoms = 34429.8
+20:25:05 INFO   Diffusion Solver 0.0% complete.
+20:25:07 INFO   Diffusion Solver 10.1% complete.
+20:25:10 INFO   Diffusion Solver 20.2% complete.
+20:25:13 INFO   Diffusion Solver 30.3% complete.
+20:25:17 INFO   Diffusion Solver 40.6% complete.
+20:25:17 INFO   Diffusion Solver 51.1% complete.
+20:25:17 INFO   Diffusion Solver 61.6% complete.
+20:25:17 INFO   Diffusion Solver 72.1% complete.
+20:25:18 INFO   Diffusion Solver 82.5% complete.
+20:25:18 INFO   Diffusion Solver 93.0% complete.
+20:25:19 INFO   Total amount of dopant atoms = 35217.9
+20:25:19 INFO   After /NType/As diffusion: min/max = 0, 4.92187e+19	atoms/cm^3 (change made)
+20:25:20 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:20 INFO : 2.3.10:	Running Etch ("RIE SPD Poly")
+20:25:21 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:21 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:21 INFO : 2.4:	Sequence ("STI")
+20:25:21 INFO : 2.4.1:	Running Deposit ("DEP STI HDP")
+20:25:23 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:23 INFO : 2.4.2:	Running Polish ("CMP HDP")
+20:25:24 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:24 INFO : 2.4.3:	Running Etch ("RIE STI Recess1")
+20:25:25 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:25 INFO : 2.4.4:	Running Etch ("WET HDP Clean")
+20:25:25 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:25 INFO : 2.4.5:	Running Etch ("WET PadNit Strip")
+20:25:25 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:25 INFO : 2.4.6:	Running Etch ("RIE STI Recess2")
+20:25:26 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:26 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:26 INFO : 2.5:	Sequence ("Gate")
+20:25:26 INFO : 2.5.1:	Running Deposit ("DEP SacOx")
+20:25:27 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:27 INFO : 2.5.2:	Skipping Metrology ("MEA SacOx THK"); skip mask "CD_MAND" is empty
+20:25:27 INFO : 2.5.3:	Running Deposit ("DEP SacGate")
+20:25:28 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:28 INFO : 2.5.4:	Running Polish ("CMP SacGate")
+20:25:28 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:28 INFO : 2.5.5:	Running Deposit ("DEP GateCapNit")
+20:25:29 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:29 INFO : 2.5.6:	Running Deposit ("DEP GateCapOx")
+20:25:29 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:29 INFO : 2.5.7:	Running Deposit ("DEP GateODL")
+20:25:29 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:29 INFO : 2.5.8:	Running Deposit ("DEP GateSiARC")
+20:25:30 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:30 INFO : 2.5.9:	Running Deposit ("DEP GateRes")
+20:25:30 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:30 INFO : 2.5.10:	Running ExposeMaterial ("LTH Gate")
+20:25:31 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:31 INFO : 2.5.11:	Sequence ("RIE Gate Hard Mask")
+20:25:31 INFO : 2.5.11.1:	Running Etch ("RIE SiARC")
+20:25:31 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:31 INFO : 2.5.11.2:	Running Etch ("RIE ODL")
+20:25:31 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:31 INFO : 2.5.11.3:	Running Etch ("RIE Oxide BT")
+20:25:32 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:32 INFO : 2.5.11.4:	Sequence ("RIE Nitride - Pick One")
+20:25:32 INFO : 2.5.11.4.1:	Running Etch ("RIE Nitride")
+20:25:32 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:32 INFO : 2.5.11.4.2:	Skipping disabled step MultiEtch ("RIE Nitride - VizEtch")
+20:25:32 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:32 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:32 INFO : 2.5.12:	Running Etch ("RIE GateRes")
+20:25:33 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:33 INFO : 2.5.13:	Running Deposit ("DEP GateCutODL")
+20:25:33 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:33 INFO : 2.5.14:	Running Deposit ("DEP GateCutSiARC")
+20:25:33 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:33 INFO : 2.5.15:	Running Deposit ("DEP GateCutRes")
+20:25:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:34 INFO : 2.5.16:	Running ExposeMaterial ("LTH GateCut")
+20:25:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:34 INFO : 2.5.17:	Sequence ("RIE GateCut")
+20:25:34 INFO : 2.5.17.1:	Running Etch ("RIE GateCut SiARC")
+20:25:35 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:35 INFO : 2.5.17.2:	Running Etch ("RIE GateCut ODL")
+20:25:35 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:36 INFO : 2.5.17.3:	Running Etch ("RIE GateCut Oxide BT")
+20:25:36 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:36 INFO : 2.5.17.4:	Running Etch ("RIE GateCut Nitride")
+20:25:37 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:37 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:37 INFO : 2.5.18:	Running Etch ("RIE GateCutRes")
+20:25:39 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:39 INFO : 2.5.19:	Sequence ("RIE GateFinal - Pick One")
+20:25:39 INFO : 2.5.19.1:	Running Etch ("RIE GateFinal - Simple")
+20:25:41 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:41 INFO : 2.5.19.2:	Skipping disabled step MultiEtch ("RIE GateFinal - MultiEtch")
+20:25:41 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:41 INFO : 2.5.20:	Running Etch ("WET Clean")
+20:25:42 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:42 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:42 INFO : 2.6:	Sequence ("Source/Drain")
+20:25:42 INFO : 2.6.1:	Sequence ("PSD")
+20:25:42 INFO : 2.6.1.1:	Running Deposit ("DEP PSpacerOx")
+20:25:43 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:43 INFO : 2.6.1.2:	Running Deposit ("DEP PSpacerNit")
+20:25:45 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:45 INFO : 2.6.1.3:	Running Deposit ("DEP PSpacerRes")
+20:25:46 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:46 INFO : 2.6.1.4:	Running ExposeMaterial ("LTH PSpacer")
+20:25:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:47 INFO : 2.6.1.5:	Running Etch ("RIE PSpacer")
+20:25:48 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:48 INFO : 2.6.1.6:	Sequence ("RIE PSD Recess - Pick One")
+20:25:48 INFO : 2.6.1.6.1:	Running Etch ("RIE PSD Recess - Simple")
+20:25:51 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:51 INFO : 2.6.1.6.2:	Skipping disabled step MultiEtch ("PSD Recess Multi Etch - VizEtch")
+20:25:51 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:51 INFO : 2.6.1.7:	Running Etch ("RIE PSpacerRes")
+20:25:53 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:25:53 INFO : 2.6.1.8:	Running CrystalEtch ("WET PRecess")
+20:26:00 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/HfOx Rate:0.02
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_PECVD Rate:0.02
+ 	 /Oxides/SiO2_TEOS Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+20:26:00 INFO   Plane dependent etch: initializing ...
+20:26:18 INFO   Crystal Etch 0.0% complete.
+20:26:19 INFO   Crystal Etch 10.2% complete.
+20:26:19 INFO   Crystal Etch 21.0% complete.
+20:26:20 INFO   Crystal Etch 31.7% complete.
+20:26:20 INFO   Crystal Etch 41.9% complete.
+20:26:21 INFO   Crystal Etch 52.2% complete.
+20:26:22 INFO   Crystal Etch 62.4% complete.
+20:26:22 INFO   Crystal Etch 72.8% complete.
+20:26:23 INFO   Crystal Etch 83.0% complete.
+20:26:23 INFO   Crystal Etch 93.3% complete.
+20:26:25 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:26:25 INFO : 2.6.1.9:	Running Growth ("EPI SiGe")
+20:26:29 INFO   Selective Epitaxy: growing material "/Silicon/SiGe" to depth 115 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.4.
+	<111> family rate is 0.01.
+	<113> family rate is 0.622108(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+20:26:29 INFO   Epitaxial growth: initializing ...
+20:26:50 INFO   Epi Growth 0.0% complete.
+20:27:01 INFO   Epi Growth 10.1% complete.
+20:27:11 INFO   Epi Growth 20.1% complete.
+20:27:20 INFO   Epi Growth 30.1% complete.
+20:27:30 INFO   Epi Growth 40.2% complete.
+20:27:40 INFO   Epi Growth 50.3% complete.
+20:27:51 INFO   Epi Growth 60.4% complete.
+20:28:03 INFO   Epi Growth 70.5% complete.
+20:28:13 INFO   Epi Growth 80.6% complete.
+20:28:25 INFO   Epi Growth 90.7% complete.
+20:28:37 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:37 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:37 INFO : 2.6.2:	Sequence ("NSD")
+20:28:37 INFO : 2.6.2.1:	Running Deposit ("DEP NSpacerNit")
+20:28:39 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:39 INFO : 2.6.2.2:	Running Deposit ("DEP NSpacerRes")
+20:28:40 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:40 INFO : 2.6.2.3:	Running ExposeMaterial ("LTH NSpacer")
+20:28:40 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:40 INFO : 2.6.2.4:	Running Etch ("RIE NSpacer")
+20:28:42 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:42 INFO : 2.6.2.5:	Sequence ("RIE NSD Recess - Pick One")
+20:28:42 INFO : 2.6.2.5.1:	Running Etch ("RIE NSD Recess - Simple")
+20:28:45 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:45 INFO : 2.6.2.5.2:	Skipping disabled step MultiEtch ("NSD Recess Multi Etch - VizEtch")
+20:28:45 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:45 INFO : 2.6.2.6:	Running Etch ("RIE NSpacerRes")
+20:28:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:28:47 INFO : 2.6.2.7:	Running CrystalEtch ("WET NRecess")
+20:28:55 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/HfOx Rate:0.02
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_PECVD Rate:0.02
+ 	 /Oxides/SiO2_TEOS Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+20:28:55 INFO   Plane dependent etch: initializing ...
+20:29:12 INFO   Crystal Etch 0.0% complete.
+20:29:12 INFO   Crystal Etch 10.7% complete.
+20:29:13 INFO   Crystal Etch 21.5% complete.
+20:29:14 INFO   Crystal Etch 32.1% complete.
+20:29:15 INFO   Crystal Etch 42.3% complete.
+20:29:15 INFO   Crystal Etch 52.4% complete.
+20:29:16 INFO   Crystal Etch 62.6% complete.
+20:29:17 INFO   Crystal Etch 72.8% complete.
+20:29:18 INFO   Crystal Etch 83.0% complete.
+20:29:19 INFO   Crystal Etch 93.2% complete.
+20:29:20 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:29:20 INFO : 2.6.2.8:	Running Growth ("EPI SiC")
+20:29:25 INFO   Selective Epitaxy: growing material "/Silicon/SiC" to depth 40 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.8.
+	<111> family rate is 0.5.
+	<113> family rate is 0.806597(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+20:29:25 INFO   Epitaxial growth: initializing ...
+20:29:43 INFO   Epi Growth 0.0% complete.
+20:29:44 INFO   Epi Growth 10.0% complete.
+20:29:47 INFO   Epi Growth 20.0% complete.
+20:29:51 INFO   Epi Growth 30.1% complete.
+20:29:55 INFO   Epi Growth 40.4% complete.
+20:30:00 INFO   Epi Growth 50.6% complete.
+20:30:06 INFO   Epi Growth 60.8% complete.
+20:30:12 INFO   Epi Growth 71.0% complete.
+20:30:20 INFO   Epi Growth 81.3% complete.
+20:30:29 INFO   Epi Growth 91.5% complete.
+20:30:39 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:30:39 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:30:39 INFO : 2.6.3:	Running Diffusion ("RTA")
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_TEOS is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/HfOx is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_HDP is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_HTO is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_LTO is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_PECVD is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Silicon/SiARC is:2.48932e-12cm^2/sec
+20:30:39 WARN   The value of diffusivity of /NType/P in /Silicon/SiARC is too high and may cause the diffusion step to run very slow.
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_Thermal is:2.74041e-15cm^2/sec
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Silicon/SiC is:2.48932e-12cm^2/sec
+20:30:39 WARN   The value of diffusivity of /NType/P in /Silicon/SiC is too high and may cause the diffusion step to run very slow.
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Silicon/SiGe is:2.48932e-12cm^2/sec
+20:30:39 WARN   The value of diffusivity of /NType/P in /Silicon/SiGe is too high and may cause the diffusion step to run very slow.
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Amorph is:2.48932e-12cm^2/sec
+20:30:39 WARN   The value of diffusivity of /NType/P in /Silicon/Si_Amorph is too high and may cause the diffusion step to run very slow.
+20:30:39 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Xtal is:2.48932e-12cm^2/sec
+20:30:39 WARN   The value of diffusivity of /NType/P in /Silicon/Si_Xtal is too high and may cause the diffusion step to run very slow.
+20:30:39 INFO   Before /NType/P diffusion: min/max = 0, 1e+20	atoms/cm^3
+20:30:39 INFO   Total amount of dopant atoms = 20065.1
+20:30:39 INFO   Diffusion Solver 0.0% complete.
+20:30:40 INFO   Diffusion Solver 12.4% complete.
+20:30:40 INFO   Diffusion Solver 24.7% complete.
+20:30:40 INFO   Diffusion Solver 37.1% complete.
+20:30:40 INFO   Diffusion Solver 49.4% complete.
+20:30:41 INFO   Diffusion Solver 61.8% complete.
+20:30:41 INFO   Diffusion Solver 74.2% complete.
+20:30:41 INFO   Diffusion Solver 86.5% complete.
+20:30:42 INFO   Diffusion Solver 98.9% complete.
+20:30:42 INFO   Total amount of dopant atoms = 20078
+20:30:42 INFO   After /NType/P diffusion: min/max = 0, 1e+20	atoms/cm^3 (change made)
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_TEOS is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/HfOx is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HDP is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HTO is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_LTO is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_PECVD is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Silicon/SiARC is:2.48932e-12cm^2/sec
+20:30:42 WARN   The value of diffusivity of /PType/B in /Silicon/SiARC is too high and may cause the diffusion step to run very slow.
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_Thermal is:9.49636e-15cm^2/sec
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Silicon/SiC is:2.48932e-12cm^2/sec
+20:30:42 WARN   The value of diffusivity of /PType/B in /Silicon/SiC is too high and may cause the diffusion step to run very slow.
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Silicon/SiGe is:2.48932e-12cm^2/sec
+20:30:42 WARN   The value of diffusivity of /PType/B in /Silicon/SiGe is too high and may cause the diffusion step to run very slow.
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Amorph is:2.48932e-12cm^2/sec
+20:30:42 WARN   The value of diffusivity of /PType/B in /Silicon/Si_Amorph is too high and may cause the diffusion step to run very slow.
+20:30:42 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Xtal is:2.48932e-12cm^2/sec
+20:30:42 WARN   The value of diffusivity of /PType/B in /Silicon/Si_Xtal is too high and may cause the diffusion step to run very slow.
+20:30:42 INFO   Before /PType/B diffusion: min/max = 0, 1e+20	atoms/cm^3
+20:30:42 INFO   Total amount of dopant atoms = 8698.05
+20:30:42 INFO   Diffusion Solver 0.0% complete.
+20:30:43 INFO   Diffusion Solver 12.4% complete.
+20:30:44 INFO   Diffusion Solver 24.7% complete.
+20:30:45 INFO   Diffusion Solver 37.1% complete.
+20:30:46 INFO   Diffusion Solver 49.4% complete.
+20:30:47 INFO   Diffusion Solver 61.8% complete.
+20:30:47 INFO   Diffusion Solver 74.2% complete.
+20:30:48 INFO   Diffusion Solver 86.5% complete.
+20:30:49 INFO   Diffusion Solver 98.9% complete.
+20:30:50 INFO   Total amount of dopant atoms = 8697.47
+20:30:50 INFO   After /PType/B diffusion: min/max = 0, 9.99995e+19	atoms/cm^3 (change made)
+20:30:50 INFO   The value of Diffusivity of /NType/As in /Silicon/SiGe is:2.11266e-13cm^2/sec
+20:30:50 INFO   The value of Diffusivity of /NType/As in /Silicon/SiARC is:2.11266e-13cm^2/sec
+20:30:50 INFO   The value of Diffusivity of /NType/As in /Silicon/SiC is:2.11266e-13cm^2/sec
+20:30:50 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Amorph is:2.11266e-13cm^2/sec
+20:30:50 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Xtal is:2.11266e-13cm^2/sec
+20:30:50 INFO   Before /NType/As diffusion: min/max = 0, 3.9954e+19	atoms/cm^3
+20:30:50 INFO   Total amount of dopant atoms = 2863.78
+20:30:50 INFO   Diffusion Solver 0.0% complete.
+20:30:50 INFO   Diffusion Solver 36.4% complete.
+20:30:50 INFO   Diffusion Solver 72.8% complete.
+20:30:50 INFO   Diffusion Solver 100.0% complete.
+20:30:50 INFO   Total amount of dopant atoms = 2863.79
+20:30:50 INFO   After /NType/As diffusion: min/max = 0, 3.9954e+19	atoms/cm^3 (change made)
+20:30:51 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:30:51 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:30:51 INFO : 2.7:	Sequence ("RMG")
+20:30:51 INFO : 2.7.1:	Running Deposit ("DEP RMG ILD")
+20:30:55 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:30:55 INFO : 2.7.2:	Running Polish ("RMG ILD CMP")
+20:30:59 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:30:59 INFO : 2.7.3:	Running Etch ("RIE RMGILD NonSel")
+20:31:00 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:00 INFO : 2.7.4:	Running Etch ("RIE RMGILD Selective")
+20:31:01 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:01 INFO : 2.7.5:	Running Etch ("WET SacrificalGate")
+20:31:03 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:03 INFO : 2.7.6:	Running Etch ("WET SacOx")
+20:31:05 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:05 INFO : 2.7.7:	Running Deposit ("DEP HighK")
+20:31:06 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:06 INFO : 2.7.8:	Running Deposit ("DEP PTiN")
+20:31:07 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:07 INFO : 2.7.9:	Sequence ("DEP PTaN - Pick One")
+20:31:07 INFO : 2.7.9.1:	Skipping disabled step Deposit ("DEP TaN - Simple")
+20:31:07 INFO : 2.7.9.2:	Running Deposit ("DEP PTaN - VizDep")
+20:31:07 INFO   Visibility Deposit: depositing material "/Metals/TaN" to depth 4 nm on wafer Top with source sigma 0.3, isotropic ratio 0.4, tilt/twist angles = 0/0.
+20:31:07 INFO   Visibility Deposit: initializing ....
+20:31:11 INFO   Visibility Deposit 0.0% complete.
+20:31:13 INFO   Visibility Deposit 11.6% complete.
+20:31:14 INFO   Visibility Deposit 23.2% complete.
+20:31:14 INFO   Visibility Deposit 34.8% complete.
+20:31:17 INFO   Visibility Deposit 46.3% complete.
+20:31:18 INFO   Visibility Deposit 57.9% complete.
+20:31:19 INFO   Visibility Deposit 69.5% complete.
+20:31:20 INFO   Visibility Deposit 81.1% complete.
+20:31:22 INFO   Visibility Deposit 92.7% complete.
+20:31:24 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:24 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:24 INFO : 2.7.10:	Running Deposit ("DEP NWFRes")
+20:31:25 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:25 INFO : 2.7.11:	Running ExposeMaterial ("LTH NWF")
+20:31:26 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:26 INFO : 2.7.12:	Running Etch ("RIE N WorkFunction Metal")
+20:31:27 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:27 INFO : 2.7.13:	Running Etch ("RIE NWFRes")
+20:31:29 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:29 INFO : 2.7.14:	Sequence ("DEP NTiAl - Pick One")
+20:31:29 INFO : 2.7.14.1:	Skipping disabled step Deposit ("DEP NTiAl - Simple")
+20:31:29 INFO : 2.7.14.2:	Running Deposit ("DEP NTiAl - VizDep")
+20:31:29 INFO   Visibility Deposit: depositing material "/Metals/TiAl" to depth 5 nm on wafer Top with source sigma 0.3, isotropic ratio 0.3, tilt/twist angles = 0/0.
+20:31:29 INFO   Visibility Deposit: initializing ....
+20:31:33 INFO   Visibility Deposit 0.0% complete.
+20:31:36 INFO   Visibility Deposit 14.7% complete.
+20:31:37 INFO   Visibility Deposit 29.5% complete.
+20:31:40 INFO   Visibility Deposit 44.2% complete.
+20:31:41 INFO   Visibility Deposit 58.9% complete.
+20:31:44 INFO   Visibility Deposit 73.7% complete.
+20:31:45 INFO   Visibility Deposit 88.4% complete.
+20:31:46 INFO   Visibility Deposit 100.0% complete.
+20:31:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:47 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:31:47 INFO : 2.7.15:	Sequence ("DEP NTiN - Pick One")
+20:31:47 INFO : 2.7.15.1:	Skipping disabled step Deposit ("DEP NTiN - Simple")
+20:31:47 INFO : 2.7.15.2:	Running Deposit ("DEP NTin - VizDep")
+20:31:47 INFO   Visibility Deposit: depositing material "/Metals/TiN" to depth 4 nm on wafer Top with source sigma 0.3, isotropic ratio 0.4, tilt/twist angles = 0/0.
+20:31:47 INFO   Visibility Deposit: initializing ....
+20:31:51 INFO   Visibility Deposit 0.0% complete.
+20:31:54 INFO   Visibility Deposit 11.6% complete.
+20:31:54 INFO   Visibility Deposit 23.2% complete.
+20:31:55 INFO   Visibility Deposit 34.8% complete.
+20:31:58 INFO   Visibility Deposit 46.3% complete.
+20:31:58 INFO   Visibility Deposit 57.9% complete.
+20:31:59 INFO   Visibility Deposit 69.5% complete.
+20:32:00 INFO   Visibility Deposit 81.1% complete.
+20:32:02 INFO   Visibility Deposit 92.7% complete.
+20:32:04 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:04 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:04 INFO : 2.7.16:	Running Deposit ("DEP RMG W")
+20:32:06 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:06 INFO : 2.7.17:	Running Polish ("CMP RMG W")
+20:32:13 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:13 INFO : 2.7.18:	Running Etch ("RIE RMGW")
+20:32:14 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:14 INFO : 2.7.19:	Running Deposit ("DEP GatePlugNit")
+20:32:16 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:16 INFO : 2.7.20:	Running Etch ("RIE GatePlugNit")
+20:32:17 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:17 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:17 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:17 INFO : 3:	Sequence ("MOL")
+20:32:17 INFO : 3.1:	Running Deposit ("DEP MOLOx")
+20:32:18 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:18 INFO : 3.2:	Running Deposit ("DEP LIODL")
+20:32:19 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:19 INFO : 3.3:	Running Deposit ("DEP LISiARC")
+20:32:20 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:20 INFO : 3.4:	Running Deposit ("DEP LIRes")
+20:32:21 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:21 INFO : 3.5:	Running ExposeMaterial ("LTH LI")
+20:32:21 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:21 INFO : 3.6:	Sequence ("RIE LI")
+20:32:21 INFO : 3.6.1:	Running Etch ("RIE LI SiARC")
+20:32:22 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:22 INFO : 3.6.2:	Running Etch ("RIE LI ODL")
+20:32:24 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:24 INFO : 3.6.3:	Sequence ("Trench Etch - Pick One")
+20:32:24 INFO : 3.6.3.1:	Sequence ("Basic")
+20:32:24 INFO : 3.6.3.1.1:	Running Etch ("Trench Etch1")
+20:32:25 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:25 INFO : 3.6.3.1.2:	Running Etch ("Trench Etch2")
+20:32:33 WARN   Operation is set to use hard mask that is not the top level material on the wafer. Result may not be as expected!
+20:32:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:34 INFO : 3.6.3.2:	Skipping disabled step Sequence ("MultiEtch - VizEtch")
+20:32:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:34 INFO : 3.7:	Running RemoveMaterials ("RIE LIRes")
+20:32:34 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:34 INFO : 3.8:	Running Etch ("WET Clean")
+20:32:36 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:36 INFO : 3.9:	Running Deposit ("DEP LI Ti")
+20:32:37 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:37 INFO : 3.10:	Running Deposit ("DEP LI TiN")
+20:32:38 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:38 INFO : 3.11:	Running Deposit ("DEP LI W")
+20:32:40 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:40 INFO : 3.12:	Running Polish ("CMP LI W")
+20:32:41 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:41 INFO : 3.13:	Running Etch ("RIE LIW")
+20:32:41 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:41 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:42 INFO : 4:	Sequence ("Extract Devices")
+20:32:42 INFO : 4.1:	Running WaferOperations ("Copy NFET")
+20:32:42 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:42 INFO : 4.2:	Running WaferOperations ("Crop NFET")
+20:32:42 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:43 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:43 INFO   Saving assembly file "C:\FinalProjectFutureMicroelectronics\Examples\Semiconductor\14nmFinFET\14nmFinFET.zam".
+20:32:43 INFO : Build process completed.
+20:32:43 INFO : Elapsed Time 540 seconds.
+Build log file moved to : C:/FinalProjectFutureMicroelectronics/Examples/Semiconductor/14nmFinFET/14nmFinFET-Output/14nmFinFET.log

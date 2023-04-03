@@ -1,0 +1,145 @@
+
+<SEMulator3DStressAnalysis>
+
+  <Properties>
+    <StressAnalysisSetupProperties>
+      <___unamed VersionNumber="10.3.0.0" isEnable="true">
+        <stepName ___text=""/>
+        <stepAction ___text="" readonly="true"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="10.3.0.0" ___text=""/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <temperature ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <uiSpacer1 ___text="" extraSpace="true"/>
+        <deform ___expression="false"/>
+        <uiSpacer2 ___text="" extraSpace="true"/>
+        <saveBackgroundMesh ___expression="false" uiHidden="true"/>
+        <saveResultsInParaviewFormat ___expression="false" uiHidden="true"/>
+        <BCs ___activeMember="xyReflective ">
+          <xyPeriodic isEnable="true"/>
+          <xyReflective isEnable="true"/>
+          <xPeriodic_yReflective isEnable="true"/>
+          <xReflective_yPeriodic isEnable="true"/>
+          <custom isEnable="true">
+            <minusX ___activeMember="reflective ">
+              <reflective isEnable="true"/>
+              <periodic isEnable="true"/>
+              <displacement isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </displacement>
+              <traction isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </traction>
+            </minusX>
+            <plusX ___activeMember="reflective ">
+              <reflective isEnable="true"/>
+              <periodic isEnable="true"/>
+              <displacement isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </displacement>
+              <traction isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </traction>
+            </plusX>
+            <minusY ___activeMember="reflective ">
+              <reflective isEnable="true"/>
+              <periodic isEnable="true"/>
+              <displacement isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </displacement>
+              <traction isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </traction>
+            </minusY>
+            <plusY ___activeMember="reflective ">
+              <reflective isEnable="true"/>
+              <periodic isEnable="true"/>
+              <displacement isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </displacement>
+              <traction isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </traction>
+            </plusY>
+            <minusZ ___activeMember="displacement ">
+              <reflective isEnable="true"/>
+              <periodic isEnable="true"/>
+              <displacement isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </displacement>
+              <traction isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </traction>
+            </minusZ>
+            <topSurface ___activeMember="traction ">
+              <reflective isEnable="true"/>
+              <periodic isEnable="true"/>
+              <displacement isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </displacement>
+              <traction isEnable="true">
+                <x ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <y ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <z ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </traction>
+            </topSurface>
+          </custom>
+        </BCs>
+        <uiSpacer4 ___text="" extraSpace="true"/>
+        <globalMetrology PROPERTY_ARRAYBASE_CONTROLPROPERTIES="1" PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1"/>
+        <uiSpacer5 ___text="" extraSpace="true"/>
+        <advanced isEnable="true" showHeader="true">
+          <tolerance ___expression="1e-6" ___lastKnownValue="1e-06" ___unitConversionExpr="" ___unitName="nounit"/>
+          <maxIterations ___expression="1000" ___lastKnownValue="1000.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <acceleration ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <adaptiveCoarsening isEnable="true" showHeader="true">
+            <adaptiveCoarseningLevel ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </adaptiveCoarsening>
+          <useXFEM ___expression="false"/>
+          <strainOutput isEnable="true" showHeader="true">
+            <strainMeasure ___activeMember="totalStrain"/>
+            <includeIntrinsicStrain ___expression="false"/>
+          </strainOutput>
+        </advanced>
+      </___unamed>
+    </StressAnalysisSetupProperties>
+  </Properties>
+
+  <StressOpCondition OperatingTemperature="0.0"/>
+
+  <StressWaferFilesForMetrology LastStressStepIWAF="" LastStressStepVWAF=""/>
+
+  <ResidualStress FileVersion="1.0.0.0"/>
+
+  <OverrideMaterial HasOVerrideMaterialStep="false"/>
+
+  <StressAnalysisStepNumbersData Size="0"/>
+
+</SEMulator3DStressAnalysis>
+        #
