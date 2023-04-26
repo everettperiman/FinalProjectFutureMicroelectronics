@@ -10,7 +10,7 @@
     <Output Directory="14nmFinFET-Output/" Enabled="true" ExtractFragments="false"/>
     <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
     <ModelArea BoundingMask="BB2" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
-    <UserProperties Author="dfried" AutoRev="true" Comments="" CreatedOn="Tuesday June 13, 2017 15:53:28" LastModified="Tuesday June 13, 2017 15:53:28" Revision="3776" Watermark=""/>
+    <UserProperties Author="dfried" AutoRev="true" Comments="" CreatedOn="Tuesday June 13, 2017 15:53:28" LastModified="Tuesday June 13, 2017 15:53:28" Revision="3780" Watermark=""/>
     <SecurityProperties FileAccessRestriction=""/>
   </DocumentProperties>
 
@@ -192,6 +192,7 @@
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" Material="/Silicon/SiARC" MaterialID="19" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/SiARC" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/51VJNJPH.vwaf" Visibility="true"/>
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" Material="/Silicon/Si_Xtal" MaterialID="23" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/51VJNJPH.vwaf" Visibility="true"/>
         </InternalSceneGraphNode>
+        <InternalSceneGraphNode Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step 2.1.10()" StepNumber="10" StepUUID="24afe6f0-4180-4405-9f47-e7820ce717e9" Transparency="0.0" Visibility="false"/>
         <InternalSceneGraphNode Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 2.1.11(RIE Mand)" StepNumber="11" StepUUID="a3e83c3f-1d3f-4f63-a13c-a7bd88b9aab2" Transparency="0.0" Visibility="false">
           <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.11.1(RIE SiARC)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/29O5HZLW.vwaf&#xA;" StepNumber="1" StepUUID="57742a20-803f-404b-8cf0-720dcd790070" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/29O5HZLW.vwaf" Visibility="false">
             <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" Material="/Organics/ODL" MaterialID="10" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/ODL" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/29O5HZLW.vwaf" Visibility="true"/>
@@ -219,6 +220,8 @@
             </InternalSceneGraphNode>
           </InternalSceneGraphNode>
         </InternalSceneGraphNode>
+        <InternalSceneGraphNode Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step 2.1.12()" StepNumber="12" StepUUID="10df4199-f495-4936-b64e-ed954cdf301d" Transparency="0.0" Visibility="false"/>
+        <InternalSceneGraphNode Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step 2.1.13()" StepNumber="13" StepUUID="a8f03ee4-edc5-41d1-af94-f7ec9069d959" Transparency="0.0" Visibility="false"/>
         <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.1.14(RIE MandRes)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/XPHI5IJO.vwaf&#xA;" StepNumber="14" StepUUID="4bc00933-c5e9-4fa3-9485-360d63984ad3" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/XPHI5IJO.vwaf" Visibility="false">
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="7" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/XPHI5IJO.vwaf" Visibility="true"/>
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/U1THQQTR.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="18" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/XPHI5IJO.vwaf" Visibility="true"/>
@@ -314,6 +317,7 @@
             </InternalSceneGraphNode>
           </InternalSceneGraphNode>
         </InternalSceneGraphNode>
+        <InternalSceneGraphNode Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step 2.2.10()" StepNumber="10" StepUUID="a465bd25-5db8-4f50-97d5-26e01c37f218" Transparency="0.0" Visibility="false"/>
       </InternalSceneGraphNode>
       <InternalSceneGraphNode Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 2.3(Wells)" StepNumber="3" StepUUID="6e675d62-59cb-4428-8b1c-af2605c30a54" Transparency="0.0" Visibility="false">
         <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/S79DM8G6.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.3.1(DEP Screen Oxide)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 2 44 14nmFinFET-Output/Default Zone/S79DM8G6.iwaf 44 14nmFinFET-Output/Default Zone/FMLEJV1H.vwaf&#xA;" StepNumber="1" StepUUID="506b6685-53b4-4a58-b2c1-b05212a536c5" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/FMLEJV1H.vwaf" Visibility="false">
@@ -454,6 +458,7 @@
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/D46WI52S.iwaf" Material="/Oxides/SiO2_HDP" MaterialID="13" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_HDP" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/UO42YAXR.vwaf" Visibility="true"/>
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/D46WI52S.iwaf" Material="/Silicon/Si_Xtal" MaterialID="23" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/UO42YAXR.vwaf" Visibility="true"/>
         </InternalSceneGraphNode>
+        <InternalSceneGraphNode Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step 2.5.2()" StepNumber="2" StepUUID="9dd22b62-26f4-4d4b-b723-b046d44f19d0" Transparency="0.0" Visibility="false"/>
         <InternalSceneGraphNode Comments="" IWAFFilename="14nmFinFET-Output/Default Zone/D46WI52S.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2.5.3(DEP SacGate)" RestartWafers="22 serialization::archive 17 1 1 6 Wafer1 1 1 44 14nmFinFET-Output/Default Zone/INPR7ZKT.vwaf&#xA;" StepNumber="3" StepUUID="6653345c-e0d2-4a10-8422-0cf930bafb74" Transparency="0.0" VWAFFilename="14nmFinFET-Output/Default Zone/INPR7ZKT.vwaf" Visibility="false">
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/D46WI52S.iwaf" Material="/Oxides/SiO2_HTO" MaterialID="14" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_HTO" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/INPR7ZKT.vwaf" Visibility="true"/>
           <LeafSceneGraphNode Filename="" IWAFFilename="14nmFinFET-Output/Default Zone/D46WI52S.iwaf" Material="/Silicon/Si_Amorph" MaterialID="22" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="14nmFinFET-Output/Default Zone/INPR7ZKT.vwaf" Visibility="true"/>
